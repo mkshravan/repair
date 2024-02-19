@@ -13,7 +13,7 @@ class Index extends CI_Controller{
 
     function index()
     {
-        echo "home page";
+        $this->load->view('index');
         
     }
 }
