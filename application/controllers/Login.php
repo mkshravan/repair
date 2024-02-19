@@ -19,7 +19,7 @@ class Login extends CI_Controller{
     {
         if($this->isUserLoggedIn){ 
             $data['users'] = $this->Login_model->get_all_users();        
-            redirect('/dashboard'); 
+            redirect('admin/dashboard'); 
             $this->load->view('layouts/main',$data);
         }else{ 
             $this->load->view('login');
@@ -57,7 +57,7 @@ class Login extends CI_Controller{
                     $this->session->set_userdata('name', $checkLogin['name']);
                     $this->session->set_userdata('username', $checkLogin['username']);
                     $this->session->set_userdata('roles', $checkLogin['roles']);
-                    redirect('/dashboard'); 
+                    redirect('admin//dashboard'); 
                 }else{ 
                     $data['error_msg'] = 'Wrong email or password, please try again.'; 
                 } 
@@ -68,9 +68,9 @@ class Login extends CI_Controller{
         // Load view 
         
         if($this->isUserLoggedIn){         
-            redirect('dashboard');
+            redirect('admin/dashboard');
         }else{ 
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }  
     }
 
@@ -79,6 +79,6 @@ class Login extends CI_Controller{
         $this->session->unset_userdata('isUserLoggedIn'); 
         $this->session->unset_userdata('userId'); 
         $this->session->sess_destroy(); 
-        redirect('login/index/'); 
+        redirect('admin/login/index/'); 
     } 
 }

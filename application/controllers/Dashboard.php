@@ -28,7 +28,7 @@ class Dashboard extends CI_Controller{
             $data['_view'] = 'dashboard';
             $this->load->view('layouts/main',$data);
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
     }

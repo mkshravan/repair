@@ -9,7 +9,6 @@ class Index extends CI_Controller{
     {
         parent::__construct();
 
-      
     }
 
     function index()

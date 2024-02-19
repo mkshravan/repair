@@ -24,7 +24,7 @@ class User extends CI_Controller{
         $data['_view'] = 'user/index';
         $this->load->view('layouts/main',$data);
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
     }
@@ -50,7 +50,7 @@ class User extends CI_Controller{
             
             $User_id = $this->User_model->add_User($params);
 			$this->session->set_flashdata('response',"User Created Successfully");
-            redirect('user/index');
+            redirect('admin/user/index');
         }
         else
         {            
@@ -58,7 +58,7 @@ class User extends CI_Controller{
             $this->load->view('layouts/main',$data);
         }
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
     }  
@@ -88,7 +88,7 @@ class User extends CI_Controller{
 
                 $this->User_model->update_User($id,$params);  
 				$this->session->set_flashdata('response',"User Modified Successfully");
-                redirect('user/index');
+                redirect('admin/user/index');
             }
             else
             {
@@ -99,7 +99,7 @@ class User extends CI_Controller{
         else
             show_error('The User you are trying to edit does not exist.');
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
     } 
@@ -118,12 +118,12 @@ class User extends CI_Controller{
         {
             $this->User_model->delete_User($id);
 			$this->session->set_flashdata('response',"User Deleted Successfully");
-            redirect('User/index');
+            redirect('admin/user/index');
         }
         else
             show_error('The User you are trying to delete does not exist.');
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
     }

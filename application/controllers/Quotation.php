@@ -24,7 +24,7 @@ class Quotation extends CI_Controller{
             $data['_view'] = 'quotation/index';
             $this->load->view('layouts/main',$data);
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
 
         
@@ -38,7 +38,7 @@ class Quotation extends CI_Controller{
             $data['_view'] = 'quotation/printQuotation';
             $this->load->view('layouts/mainprint',$data);
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
 
         
@@ -52,7 +52,7 @@ class Quotation extends CI_Controller{
         $data['_view'] = 'quotation/printQuotationApproval';
         $this->load->view('layouts/mainprint',$data);
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
     }
@@ -65,7 +65,7 @@ class Quotation extends CI_Controller{
         $data['_view'] = 'quotation/approvalList';
         $this->load->view('layouts/main',$data);
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
     }
@@ -168,7 +168,7 @@ class Quotation extends CI_Controller{
         }
 
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
     }  
@@ -295,7 +295,7 @@ class Quotation extends CI_Controller{
             $this->load->view('layouts/main',$data);
         }
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
     }
@@ -345,7 +345,7 @@ class Quotation extends CI_Controller{
             $this->load->view('layouts/main',$data);
         }
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
     } 
@@ -431,7 +431,7 @@ class Quotation extends CI_Controller{
            show_error('The quotation you are trying to edit does not exist.');
        }
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
             
     } 
@@ -479,7 +479,7 @@ class Quotation extends CI_Controller{
                 );
 
                 $this->Quotation_model->update_quotation_approval($id,$params);            
-                redirect('quotation/addApproval');
+                redirect('admin/quotation/addApproval');
             }
             else
             {
@@ -491,7 +491,7 @@ class Quotation extends CI_Controller{
         else
             show_error('The quotation you are trying to edit does not exist.');
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
     } 
@@ -508,12 +508,12 @@ class Quotation extends CI_Controller{
         if(isset($quotation['id']))
         {
             $this->Quotation_model->delete_quotation($id);
-            redirect('quotation/index');
+            redirect('admin/quotation/index');
         }
         else
             show_error('The quotation you are trying to delete does not exist.');
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
         

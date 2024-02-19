@@ -26,7 +26,7 @@ class Report extends CI_Controller{
         $data['_view'] = 'report/quotation';
         $this->load->view('layouts/main',$data);
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
     }
@@ -39,7 +39,7 @@ class Report extends CI_Controller{
         $data['_view'] = 'report/quotation';
         $this->load->view('layouts/main',$data);
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
     }
@@ -67,7 +67,7 @@ class Report extends CI_Controller{
             $this->load->view('layouts/main',$data);
         }
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
     }
@@ -80,7 +80,7 @@ class Report extends CI_Controller{
         $data['_view'] = 'report/tax_invoice';
         $this->load->view('layouts/main',$data);
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
     }
@@ -108,7 +108,7 @@ class Report extends CI_Controller{
             $this->load->view('layouts/main',$data);
         }
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
     }
@@ -121,7 +121,7 @@ class Report extends CI_Controller{
         $data['_view'] = 'report/tax_invoice_due';
         $this->load->view('layouts/main',$data);
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
     }
@@ -134,7 +134,7 @@ class Report extends CI_Controller{
         $data['_view'] = 'report/total_received_amount';
         $this->load->view('layouts/main',$data);
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
     }
@@ -166,7 +166,7 @@ class Report extends CI_Controller{
         // $data['_view'] = 'report/date_to_date_received_amount';
         // $this->load->view('layouts/main',$data);
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
     }
@@ -180,7 +180,7 @@ class Report extends CI_Controller{
         $data['_view'] = 'report/cancel_quotation';
         $this->load->view('layouts/main',$data);
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
     }
@@ -194,7 +194,7 @@ class Report extends CI_Controller{
         $data['_view'] = 'quotation/approvalList';
         $this->load->view('layouts/main',$data);
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
     }

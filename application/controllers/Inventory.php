@@ -27,7 +27,7 @@ class Inventory extends CI_Controller{
         $data['_view'] = 'inventory/index';
         $this->load->view('layouts/main',$data);
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
     }
@@ -56,12 +56,12 @@ class Inventory extends CI_Controller{
 
             if($invoice_id>0){
                     $this->session->set_flashdata('response',"Inventory Created Successfully");
-                redirect('inventory/index'); 
+                redirect('admin/inventory/index'); 
                 
             }
             else{
                 $this->session->set_flashdata('response',"Error: Inventory Not Created");
-                redirect('inventory/index'); 
+                redirect('admin/inventory/index'); 
             }
               
         }
@@ -71,7 +71,7 @@ class Inventory extends CI_Controller{
             $this->load->view('layouts/main',$data);
         }
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
     }  
@@ -96,7 +96,7 @@ class Inventory extends CI_Controller{
 
                 $this->Inventory_model->update_inventory($id,$params);  
                 $this->session->set_flashdata('response',"Inventory Updated Successfully");          
-                redirect('inventory/index');
+                redirect('admin/inventory/index');
             }
             else
             {
@@ -107,7 +107,7 @@ class Inventory extends CI_Controller{
         else
             show_error('The invoice you are trying to edit does not exist.');
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
 
         // check if the invoice exists before trying to edit it

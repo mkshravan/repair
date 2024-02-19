@@ -25,7 +25,7 @@ class Invoice extends CI_Controller{
         $data['_view'] = 'invoice/index';
         $this->load->view('layouts/main',$data);
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
     }
@@ -40,7 +40,7 @@ class Invoice extends CI_Controller{
         $data['_view'] = 'invoice/printInvoice';
         $this->load->view('layouts/mainprint',$data);
         }else{
-            redirect('login/index'); 
+            redirect('adminlogin/index'); 
         }
         
     }
@@ -70,7 +70,7 @@ class Invoice extends CI_Controller{
                 $this->load->view('layouts/main',$data); 
             }
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
             
@@ -140,7 +140,7 @@ class Invoice extends CI_Controller{
             $this->load->view('layouts/main',$data);
         }
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
     }  
@@ -164,7 +164,7 @@ class Invoice extends CI_Controller{
                 );
 
                 $this->Invoice_model->update_invoice($id,$params);            
-                redirect('invoice/index');
+                redirect('admin/invoice/index');
             }
             else
             {
@@ -175,7 +175,7 @@ class Invoice extends CI_Controller{
         else
             show_error('The invoice you are trying to edit does not exist.');
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
 
         // check if the invoice exists before trying to edit it
@@ -195,12 +195,12 @@ class Invoice extends CI_Controller{
         if(isset($invoice['id']))
         {
             $this->Invoice_model->delete_invoice($id);
-            redirect('invoice/index');
+            redirect('admin/invoice/index');
         }
         else
             show_error('The invoice you are trying to delete does not exist.');
         }else{
-            redirect('login/index'); 
+            redirect('admin/login/index'); 
         }
         
     }

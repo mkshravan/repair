@@ -75,7 +75,7 @@
                                             <a href="#" class="btn btn-default btn-flat">Profile</a>
                                         </div>
                                         <div class="pull-right">
-                                            <a href="<?php echo site_url('login/logout');?>" class="btn btn-default btn-flat">Sign out</a>
+                                            <a href="<?php echo site_url('admin/login/logout');?>" class="btn btn-default btn-flat">Sign out</a>
                                         </div>
                                     </li>
                                 </ul>
@@ -112,10 +112,10 @@
                             </a>
                             <ul class="treeview-menu">
                                 <li>
-                                    <a href="<?php echo site_url('quotation/index');?>"><i class="fa fa-list-ul"></i> Listing</a>
+                                    <a href="<?php echo site_url('admin/quotation/index');?>"><i class="fa fa-list-ul"></i> Listing</a>
                                 </li>
 								<li class="active">
-                                    <a href="<?php echo site_url('quotation/add');?>"><i class="fa fa-plus"></i> Add</a>
+                                    <a href="<?php echo site_url('admin/quotation/add');?>"><i class="fa fa-plus"></i> Add</a>
                                 </li>
 								
 							</ul>
@@ -126,10 +126,10 @@
                             </a>
                             <ul class="treeview-menu">
                                 <li>
-                                    <a href="<?php echo site_url('quotation/quotationApprovalList');?>"><i class="fa fa-list-ul"></i> Listing</a>
+                                    <a href="<?php echo site_url('admin/quotation/quotationApprovalList');?>"><i class="fa fa-list-ul"></i> Listing</a>
                                 </li>
 								<li class="active">
-                                    <a href="<?php echo site_url('quotation/quotationApprovalAdd');?>"><i class="fa fa-plus"></i> Add</a>
+                                    <a href="<?php echo site_url('admin/quotation/quotationApprovalAdd');?>"><i class="fa fa-plus"></i> Add</a>
                                 </li>
 								
 							</ul>
@@ -141,10 +141,10 @@
                             </a>
                             <ul class="treeview-menu">
                                 <li>
-                                    <a href="<?php echo site_url('invoice/index');?>"><i class="fa fa-list-ul"></i> Listing</a>
+                                    <a href="<?php echo site_url('admin/invoice/index');?>"><i class="fa fa-list-ul"></i> Listing</a>
                                 </li>
 								<li class="active">
-                                    <a href="<?php echo site_url('invoice/add');?>"><i class="fa fa-plus"></i> Add</a>
+                                    <a href="<?php echo site_url('admin/invoice/add');?>"><i class="fa fa-plus"></i> Add</a>
                                 </li>
 								
 							</ul>
@@ -158,13 +158,13 @@
                                     <a href="<?php //echo site_url('report/quotation');?>"><i class="fa fa-list-ul"></i> Quotation</a>
                                 </li> -->
 								<li>
-                                    <a href="<?php echo site_url('report/date_to_date_quotation');?>"><i class="fa fa-list-ul"></i> Date to Date Quotation</a>
+                                    <a href="<?php echo site_url('admin/report/date_to_date_quotation');?>"><i class="fa fa-list-ul"></i> Date to Date Quotation</a>
                                 </li>
                                 <!-- <li>
                                     <a href="<?php //echo site_url('report/tax_invoice');?>"><i class="fa fa-list-ul"></i> Tax Invoice</a>
                                 </li> -->
                                 <li>
-                                    <a href="<?php echo site_url('report/date_to_date_tax_invoice');?>"><i class="fa fa-list-ul"></i> Date to Date Tax Invoice</a>
+                                    <a href="<?php echo site_url('admin/report/date_to_date_tax_invoice');?>"><i class="fa fa-list-ul"></i> Date to Date Tax Invoice</a>
                                 </li>
                                 <!-- <li>
                                     <a href="<?php //echo site_url('report/tax_invoice_due');?>"><i class="fa fa-list-ul"></i> Tax Invoice Due</a>
@@ -176,14 +176,14 @@
                                     <a href="<?php //echo site_url('report/date_to_date_received_amount');?>"><i class="fa fa-list-ul"></i> Date to Date Received Amount</a>
                                 </li> -->
                                 <li>
-                                    <a href="<?php echo site_url('report/cancel_quotation');?>"><i class="fa fa-list-ul"></i> Cancel Quotation</a>
+                                    <a href="<?php echo site_url('admin/report/cancel_quotation');?>"><i class="fa fa-list-ul"></i> Cancel Quotation</a>
                                 </li>
 							</ul>
                         </li>
                         <?php
                             if($this->session->userdata('roles') == ADMIN){ ?>
                         <li>
-                            <a href="<?php echo site_url('user/index');?>">
+                            <a href="<?php echo site_url('admin/user/index');?>">
                                 <i class="fa fa-user"></i> <span>Users</span>
                             </a>
                         </li>
@@ -192,7 +192,7 @@
 						<?php
                             if($this->session->userdata('roles') == ADMIN){ ?>
                         <li>
-                            <a href="<?php echo site_url('inventory/index');?>">
+                            <a href="<?php echo site_url('admin/inventory/index');?>">
                                 <i class="fa fa-user"></i> <span>Inventory</span>
                             </a>
                         </li>
