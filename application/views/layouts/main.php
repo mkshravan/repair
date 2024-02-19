@@ -75,7 +75,7 @@
                                             <a href="#" class="btn btn-default btn-flat">Profile</a>
                                         </div>
                                         <div class="pull-right">
-                                            <a href="<?php echo site_url('admin/login/logout');?>" class="btn btn-default btn-flat">Sign out</a>
+                                            <a href="<?php echo site_url('admin/logout');?>" class="btn btn-default btn-flat">Sign out</a>
                                         </div>
                                     </li>
                                 </ul>
@@ -103,7 +103,7 @@
                     <!-- sidebar menu: : style can be found in sidebar.less -->
                     <ul class="sidebar-menu">
                         <li>
-                            <a href="<?php echo site_url();?>">
+                            <a href="<?php echo site_url('admin/dashboard');?>">
                                 <i class="fa fa-dashboard"></i> <span>Dashboard</span>
                             </a>
                             <li>

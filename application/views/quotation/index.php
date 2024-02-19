@@ -4,7 +4,7 @@
             <div class="box-header">
                 <h3 class="box-title">Quotation Listing</h3>
             	<div class="box-tools">
-                    <a href="<?php echo site_url('quotation/add'); ?>" class="btn btn-success btn-sm"><i class="fa fa-plus"></i> Add New</a>
+                    <a href="<?php echo site_url('admin/quotation/add'); ?>" class="btn btn-success btn-sm"><i class="fa fa-plus"></i> Add New</a>
                 </div>
             </div>
             <div class="box-body">
@@ -35,8 +35,8 @@
 						<td><?php echo $q['quotation_amount']; ?></td>
 						<td style="display: none;"><?php echo $q['approval_status']; ?></td>
 						<td>
-                            <a href="<?php echo site_url('quotation/edit/'.$q['id']); ?>" class="btn btn-info btn-xs" target="_blank"><span class="fa fa-pencil" ></span></a> 
-                            <a href="<?php echo site_url('quotation/printQuotation/'.$q['quotation_no']); ?>" class="btn btn-default btn-xs"  target="_blank"><span class="fa fa-print"></span></a>
+                            <a href="<?php echo site_url('admin/quotation/edit/'.$q['id']); ?>" class="btn btn-info btn-xs" target=""><span class="fa fa-pencil" ></span></a> 
+                            <a href="<?php echo site_url('admin/quotation/printQuotation/'.$q['quotation_no']); ?>" class="btn btn-default btn-xs"  target="_blank"><span class="fa fa-print"></span></a>
                         </td>
 					</tr>
 					<?php $slno++; } ?>

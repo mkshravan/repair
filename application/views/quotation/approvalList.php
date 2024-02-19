@@ -4,7 +4,7 @@
             <div class="box-header">
                 <h3 class="box-title">Quotation Approval</h3>
             	<div class="box-tools">
-                    <a href="<?php echo site_url('quotation/quotationApprovalAdd'); ?>" class="btn btn-success btn-sm"><i class="fa fa-plus"></i> Add New</a>
+                    <a href="<?php echo site_url('admin/quotation/quotationApprovalAdd'); ?>" class="btn btn-success btn-sm"><i class="fa fa-plus"></i> Add New</a>
                 </div>
             </div>
             <div class="box-body">
@@ -38,9 +38,9 @@
 						<td><?php echo $q['total']; ?></td>
 						<td style="display: none"><?php echo $q['invoice_generated']; ?></td>
 						<td>
-							<a href="<?php echo site_url('quotation/editApproval/'.$q['id']); ?>" class="btn btn-primary btn-xs" target="_blank" style="display: none" ><span class="fa fa-edit"></span></a>
-                            <a href="<?php echo site_url('quotation/printQuotationApproval/'.$q['quotation_no']); ?>" class="btn btn-default btn-xs" target="_blank" ><span class="fa fa-print"></span></a>
-                            <a href="<?php echo site_url('invoice/printInvoice/'.$q['quotation_no'].'?tax_invoice=11xSweQwoiyuTY'); ?>" class="btn btn-default btn-xs" target="_blank"><span class="fa fa-print"></span></a>
+							<a href="<?php echo site_url('admin/quotation/editApproval/'.$q['id']); ?>" class="btn btn-primary btn-xs" target="_blank" style="display: none" ><span class="fa fa-edit"></span></a>
+                            <a href="<?php echo site_url('admin/quotation/printQuotationApproval/'.$q['quotation_no']); ?>" class="btn btn-default btn-xs" target="_blank" ><span class="fa fa-print"></span></a>
+                            <a href="<?php echo site_url('admin/invoice/printInvoice/'.$q['quotation_no'].'?tax_invoice=11xSweQwoiyuTY'); ?>" class="btn btn-default btn-xs" target="_blank"><span class="fa fa-print"></span></a>
                         </td>
 					</tr>
 					<tbody>

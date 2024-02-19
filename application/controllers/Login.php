@@ -57,7 +57,7 @@ class Login extends CI_Controller{
                     $this->session->set_userdata('name', $checkLogin['name']);
                     $this->session->set_userdata('username', $checkLogin['username']);
                     $this->session->set_userdata('roles', $checkLogin['roles']);
-                    redirect('admin//dashboard'); 
+                    redirect('admin/dashboard'); 
                 }else{ 
                     $data['error_msg'] = 'Wrong email or password, please try again.'; 
                 } 
@@ -79,6 +79,6 @@ class Login extends CI_Controller{
         $this->session->unset_userdata('isUserLoggedIn'); 
         $this->session->unset_userdata('userId'); 
         $this->session->sess_destroy(); 
-        redirect('admin/login/index/'); 
+        redirect('admin'); 
     } 
 }

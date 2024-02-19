@@ -4,7 +4,7 @@
             <div class="box-header">
                 <h3 class="box-title">User Listing</h3>
             	<div class="box-tools">
-                    <a href="<?php echo site_url('user/add'); ?>" class="btn btn-success btn-sm"><i class="fa fa-plus"></i> Add New</a>
+                    <a href="<?php echo site_url('admin/user/add'); ?>" class="btn btn-success btn-sm"><i class="fa fa-plus"></i> Add New</a>
                 </div>
             </div>
             <h4 class="text-center text-success"><b><?php echo $this->session->flashdata('response'); ?></b></h4>
@@ -28,8 +28,8 @@
                         <td><?php echo $i['emp_id']; ?></td>
                         <td><?php echo $i['status']; ?></td>
 						<td>
-                            <a href="<?php echo site_url('user/edit/'.$i['id']); ?>" class="btn btn-info btn-xs"><span class="fa fa-pencil"></span> Edit</a> 
-                            <a href="<?php echo site_url('user/remove/'.$i['id']); ?>" class="btn btn-danger btn-xs"><span class="fa fa-trash"></span> Delete</a>
+                            <a href="<?php echo site_url('admin/user/edit/'.$i['id']); ?>" class="btn btn-info btn-xs"><span class="fa fa-pencil"></span> Edit</a> 
+                            <a href="<?php echo site_url('admin/user/remove/'.$i['id']); ?>" class="btn btn-danger btn-xs"><span class="fa fa-trash"></span> Delete</a>
                         </td>
                     </tr>
                     <?php } ?>

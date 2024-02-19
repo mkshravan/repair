@@ -17,7 +17,7 @@
             <div class="box-header">
                 <h3 class="box-title">Inventory Listing</h3>
             	<div class="box-tools">
-                    <a href="<?php echo site_url('inventory/add'); ?>" class="btn btn-success btn-sm"><i class="fa fa-plus"></i> Add New</a> 
+                    <a href="<?php echo site_url('admin/inventory/add'); ?>" class="btn btn-success btn-sm"><i class="fa fa-plus"></i> Add New</a> 
                 </div>
 				
 				<div class="row clearfix">
@@ -73,7 +73,7 @@
 							<td><?php echo ($i['rate'])-($i['amount']); ?></td>
                             <td><?php echo $i['payment_mode']; ?></td>
                         <td>
-                            <a href="<?php echo site_url('inventory/edit/'.$i['id']); ?>" class="btn btn-default btn-xs" target="_blank"><span class="fa fa-pencil"></span></a>
+                            <a href="<?php echo site_url('admin/inventory/edit/'.$i['id']); ?>" class="btn btn-default btn-xs" target="_blank"><span class="fa fa-pencil"></span></a>
                         </td>
                         </tr>
                     <?php } ?>

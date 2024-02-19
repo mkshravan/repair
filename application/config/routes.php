@@ -7,6 +7,7 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['admin'] = 'login/index';
+$route['admin/logout'] = 'login/logout';
 
 $route['admin/dashboard'] = 'dashboard';
 
@@ -25,8 +26,8 @@ $route['admin/quotation/quotationApprovalAdd'] = 'quotation/quotationApprovalAdd
 $route['admin/quotation/printQuotationApproval/(:any)'] = 'quotation/printQuotationApproval/$1';
 
 $route['admin/invoice/index'] = 'invoice/index';
-
 $route['admin/invoice/add'] = 'invoice/add';
+$route['admin/invoice/printInvoice/(:any)'] = 'invoice/printInvoice/$1';
 
 $route['admin/report/date_to_date_quotation'] = 'report/date_to_date_quotation';
 

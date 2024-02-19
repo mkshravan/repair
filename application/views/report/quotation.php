@@ -34,8 +34,8 @@
 						<td><?php echo $q['email']; ?></td>
 						<td><?php echo $q['total']; ?></td>
 						<td>
-                            <a href="<?php echo site_url('quotation/edit/'.$q['id']); ?>" class="btn btn-info btn-xs"><span class="fa fa-pencil"></span> Edit</a> 
-                            <a href="<?php echo site_url('quotation/remove/'.$q['id']); ?>" class="btn btn-danger btn-xs"><span class="fa fa-trash"></span> Delete</a>
+                            <a href="<?php echo site_url('admin/quotation/edit/'.$q['id']); ?>" class="btn btn-info btn-xs"><span class="fa fa-pencil"></span> Edit</a> 
+                            <a href="<?php echo site_url('admin/quotation/remove/'.$q['id']); ?>" class="btn btn-danger btn-xs"><span class="fa fa-trash"></span> Delete</a>
                         </td>
 					</tr>
 					<tbody>

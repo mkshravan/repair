@@ -4,7 +4,7 @@
             <div class="box-header">
                 <h3 class="box-title">Invoice Listing</h3>
             	<div class="box-tools">
-                    <a href="<?php echo site_url('invoice/add'); ?>" class="btn btn-success btn-sm"><i class="fa fa-plus"></i> Add New</a> 
+                    <a href="<?php echo site_url('admin/invoice/add'); ?>" class="btn btn-success btn-sm"><i class="fa fa-plus"></i> Add New</a> 
                 </div>
             </div>
             <h4 class="text-center text-success"><b><?php echo $this->session->flashdata('response'); ?></b></h4>
@@ -30,7 +30,7 @@
                         <td><?php echo $i['customer_name']; ?></td>
                         <td><?php echo $i['total']; ?></td>
 						<td>
-                            <a href="<?php echo site_url('invoice/printInvoice/'.$i['quotation_no']); ?>" class="btn btn-default btn-xs" target="_blank"><span class="fa fa-print"></span></a>
+                            <a href="<?php echo site_url('admin/invoice/printInvoice/'.$i['quotation_no']); ?>" class="btn btn-default btn-xs" target="_blank"><span class="fa fa-print"></span></a>
                         </td>
                     </tr>
                     <?php $sl_no++; } ?>

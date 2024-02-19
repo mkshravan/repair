@@ -94,7 +94,7 @@
             <div class="icon">
               <i class="fa fa-rupee"></i>
             </div>
-            <a href="<?php echo site_url('report/total_received_amount');?>" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="<?php echo site_url('admin/report/total_received_amount');?>" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div> -->
         <!-- ./col -->
