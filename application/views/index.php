@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <title>Home V.2 - Repairon - Multi Repair Services HTML Template</title>
+  <title> Home Refix - Best Computer Repair in Ranchi, Laptop Repair in Ranchi, Printer Repair in Ranchi</title>
   <link rel="shortcut icon" href="resources/frontend/images//favourite_icon_2.png">
 
   <!-- Fraimwork - CSS Include -->
@@ -75,7 +75,7 @@
     <header class="header_section header_secondary">
       <div class="header_bottom">
         <div class="site_logo">
-          <a href="index.html">
+          <a href="/">
             <img src="resources/frontend/images//logo_2_white.png" srcset="resources/frontend/images//logo_2_white_2x.png 2x" alt="logo_not_found">
           </a>
         </div>
@@ -105,7 +105,7 @@
           </div>
 
           <ul class="header_btns_group ul_li">
-            <li>
+            <!-- <li>
               <button type="button" class="search_btn">
                 <svg xmlns="http://www.w3.org/2000/svg" width="19.667" height="19.666" viewBox="0 0 19.667 19.666">
                   <g transform="translate(0 -0.035)">
@@ -113,7 +113,7 @@
                   </g>
                 </svg>
               </button>
-            </li>
+            </li> -->
             <li>
               <button type="button" class="offcanvas_btn">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24.978" height="16.745" viewBox="0 0 24.978 16.745">
@@ -697,47 +697,16 @@
                   <input type="text" name="name" placeholder="Your Name">
                 </div>
               </div>
-              <div class="col col-lg-3 col-md-4 col-sm-6">
-                <div class="form_item">
-                  <input type="email" name="email" placeholder="Email">
-                </div>
-              </div>
+             
               <div class="col col-lg-3 col-md-4 col-sm-6">
                 <div class="form_item">
                   <input type="tel" name="phone" placeholder="Phone">
                 </div>
               </div>
-              <div class="col col-lg-3 col-md-4 col-sm-6">
-                <div class="form_item">
-                  <input type="text" name="location" placeholder="Location">
-                </div>
-              </div>
 
-              <div class="col col-lg-3 col-md-4 col-sm-6">
-                <div class="select_option clearfix">
-                  <select>
-                    <option data-display="Select Brand">Select Your Option</option>
-                    <option value="1">BMW</option>
-                    <option value="2">Toyota</option>
-                    <option value="3" disabled="">Mitsubishi</option>
-                    <option value="4">Honda</option>
-                  </select>
-                </div>
-              </div>
-              <div class="col col-lg-3 col-md-4 col-sm-6">
-                <div class="select_option clearfix">
-                  <select>
-                    <option data-display="Select Problem">Select Your Option</option>
-                    <option value="1">BMW 228i 4-Door Coupe</option>
-                    <option value="2">Toyota C-HR Consumer</option>
-                    <option value="3" disabled="">Mitsubishi Triton / L200</option>
-                    <option value="4">Honda Accord</option>
-                  </select>
-                </div>
-              </div>
               <div class="col col-lg-6">
                 <div class="form_item">
-                  <input type="text" name="comment" placeholder="Write Note (Optional)">
+                  <input type="text" name="problem" placeholder="Write your problem">
                 </div>
               </div>
             </div>
@@ -758,7 +727,7 @@
 
       <!-- Product Section - Start
         ================================================== -->
-      <section class="product_section section_space">
+      <!--  <section class="product_section section_space">
         <div class="container">
           <div class="row">
             <div class="col col-lg-5">
@@ -1274,7 +1243,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- Product Section - End
         ================================================== -->
 
@@ -1528,7 +1497,7 @@
 
       <!-- Blog Section - Start
         ================================================== -->
-      <section class="blog_section section_space">
+      <!-- <section class="blog_section section_space">
         <div class="container">
           <div class="row align-items-center">
 
@@ -1707,7 +1676,7 @@
 
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- Blog Section - End
         ================================================== -->
 
@@ -1828,7 +1797,7 @@
       </div>
       <div class="footer_bottom">
         <div class="container content_wrap">
-          <p class="copyright_text">Copyright ©2022 <a target="_blank" href="https://themeforest.net/user/bdevs">BDevs</a>. All Rights Reserved</p>
+          <p class="copyright_text">Copyright ©2022 <a target="_blank" href="https://webdadz.com">Webdadz</a>. All Rights Reserved</p>
           <div class="payment_method d-flex align-items-center">
             <img src="resources/frontend/images//payment.png" alt="Payment Method">
             <div class="payment_getway bg_green">
