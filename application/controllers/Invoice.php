@@ -25,7 +25,7 @@ class Invoice extends CI_Controller{
         $data['_view'] = 'invoice/index';
         $this->load->view('layouts/main',$data);
         }else{
-            redirect('admin/login/index'); 
+            redirect('admin/'); 
         }
         
     }
@@ -40,7 +40,7 @@ class Invoice extends CI_Controller{
         $data['_view'] = 'invoice/printInvoice';
         $this->load->view('layouts/mainprint',$data);
         }else{
-            redirect('adminlogin/index'); 
+            redirect('admin/'); 
         }
         
     }
@@ -70,7 +70,7 @@ class Invoice extends CI_Controller{
                 $this->load->view('layouts/main',$data); 
             }
         }else{
-            redirect('admin/login/index'); 
+            redirect('admin/'); 
         }
         
             
@@ -140,7 +140,7 @@ class Invoice extends CI_Controller{
             $this->load->view('layouts/main',$data);
         }
         }else{
-            redirect('admin/login/index'); 
+            redirect('admin/'); 
         }
         
     }  
@@ -175,7 +175,7 @@ class Invoice extends CI_Controller{
         else
             show_error('The invoice you are trying to edit does not exist.');
         }else{
-            redirect('admin/login/index'); 
+            redirect('admin/'); 
         }
 
         // check if the invoice exists before trying to edit it
@@ -200,7 +200,7 @@ class Invoice extends CI_Controller{
         else
             show_error('The invoice you are trying to delete does not exist.');
         }else{
-            redirect('admin/login/index'); 
+            redirect('admin/'); 
         }
         
     }

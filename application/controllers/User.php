@@ -24,7 +24,7 @@ class User extends CI_Controller{
         $data['_view'] = 'user/index';
         $this->load->view('layouts/main',$data);
         }else{
-            redirect('admin/login/index'); 
+            redirect('admin/'); 
         }
         
     }
@@ -58,7 +58,7 @@ class User extends CI_Controller{
             $this->load->view('layouts/main',$data);
         }
         }else{
-            redirect('admin/login/index'); 
+            redirect('admin/'); 
         }
         
     }  
@@ -99,7 +99,7 @@ class User extends CI_Controller{
         else
             show_error('The User you are trying to edit does not exist.');
         }else{
-            redirect('admin/login/index'); 
+            redirect('admin/'); 
         }
         
     } 
@@ -123,7 +123,7 @@ class User extends CI_Controller{
         else
             show_error('The User you are trying to delete does not exist.');
         }else{
-            redirect('admin/login/index'); 
+            redirect('admin/'); 
         }
         
     }

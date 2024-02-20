@@ -70,7 +70,7 @@ class Login extends CI_Controller{
         if($this->isUserLoggedIn){         
             redirect('admin/dashboard');
         }else{ 
-            redirect('admin/login/index'); 
+            redirect('admin/'); 
         }  
     }
 

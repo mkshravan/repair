@@ -114,7 +114,7 @@
                 </svg>
               </button>
             </li> -->
-            <li>
+            <!-- <li>
               <button type="button" class="offcanvas_btn">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24.978" height="16.745" viewBox="0 0 24.978 16.745">
                   <g transform="translate(-53.001 0)">
@@ -122,7 +122,7 @@
                   </g>
                 </svg>
               </button>
-            </li>
+            </li> -->
             <!-- <li>
               <a class="btn btn_success btn_rounded" href="shop.html">Build custom PC</a>
             </li> -->
@@ -161,7 +161,7 @@
       <!-- Off Canvas Sidebar - Start
         ================================================== -->
       <div class="sidebar-menu-wrapper">
-        <div class="about_sidebar">
+        <!-- <div class="about_sidebar">
           <button type="button" class="about_close_btn"><i class="fal fa-times"></i></button>
           <div class="site_logo">
             <a href="index.html">
@@ -204,7 +204,7 @@
             <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
           </ul>
         </div>
-        <div class="about_sidebar_overlay"></div>
+        <div class="about_sidebar_overlay"></div> -->
 
         <div class="cart_sidebar">
           <button type="button" class="cart_close_btn"><i class="fal fa-times"></i></button>

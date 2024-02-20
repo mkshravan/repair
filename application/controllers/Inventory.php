@@ -27,7 +27,7 @@ class Inventory extends CI_Controller{
         $data['_view'] = 'inventory/index';
         $this->load->view('layouts/main',$data);
         }else{
-            redirect('admin/login/index'); 
+            redirect('admin/'); 
         }
         
     }
@@ -71,7 +71,7 @@ class Inventory extends CI_Controller{
             $this->load->view('layouts/main',$data);
         }
         }else{
-            redirect('admin/login/index'); 
+            redirect('admin/'); 
         }
         
     }  
@@ -107,7 +107,7 @@ class Inventory extends CI_Controller{
         else
             show_error('The invoice you are trying to edit does not exist.');
         }else{
-            redirect('admin/login/index'); 
+            redirect('admin/'); 
         }
 
         // check if the invoice exists before trying to edit it

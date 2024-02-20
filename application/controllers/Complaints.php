@@ -4,25 +4,25 @@
  * www.crudigniter.com
  */
  
-class Quotation extends CI_Controller{
+class Complaints extends CI_Controller{
     function __construct()
     {
         parent::__construct();
-        $this->load->model('Quotation_model');
+        $this->load->model('complaints_model');
         $this->load->library('session');
         $this->isUserLoggedIn = $this->session->userdata('isUserLoggedIn');
     } 
 
     /*
-     * Listing of quotation
+     * Listing of complaints
      */
 
     function index()
     {
         if($this->isUserLoggedIn){ 
-            $data['quotation'] = $this->Quotation_model->get_all_quotation();        
-            $data['_view'] = 'quotation/index';
-            $this->load->view('layouts/main',$data);
+            $data['complaints'] = $this->complaints_model->get_all_complaints();        
+            $data['_view'] = 'complaints/index';
+            $this->load->view('layouts/main', $data);
         }else{
             redirect('admin/'); 
         }
@@ -30,12 +30,12 @@ class Quotation extends CI_Controller{
         
     }
 
-    function printQuotation($quotation_no)
+    function printcomplaints($complaints_no)
     {
         if($this->isUserLoggedIn){ 
-            $data['quotation'] = $this->Quotation_model->get_quotation_print($quotation_no);
-            $data['item'] = $this->Quotation_model->get_item_print($quotation_no);
-            $data['_view'] = 'quotation/printQuotation';
+            $data['complaints'] = $this->complaints_model->get_complaints_print($complaints_no);
+            $data['item'] = $this->complaints_model->get_item_print($complaints_no);
+            $data['_view'] = 'complaints/printcomplaints';
             $this->load->view('layouts/mainprint',$data);
         }else{
             redirect('admin/'); 
@@ -44,12 +44,12 @@ class Quotation extends CI_Controller{
         
     }
 
-    function printQuotationApproval($quotation_no)
+    function printcomplaintsApproval($complaints_no)
     {
         if($this->isUserLoggedIn){ 
-            $data['quotation'] = $this->Quotation_model->get_quotation_Approval_print($quotation_no);
-         $data['item'] = $this->Quotation_model->get_item_print($quotation_no);
-        $data['_view'] = 'quotation/printQuotationApproval';
+            $data['complaints'] = $this->complaints_model->get_complaints_Approval_print($complaints_no);
+         $data['item'] = $this->complaints_model->get_item_print($complaints_no);
+        $data['_view'] = 'complaints/printcomplaintsApproval';
         $this->load->view('layouts/mainprint',$data);
         }else{
             redirect('admin/'); 
@@ -57,12 +57,12 @@ class Quotation extends CI_Controller{
         
     }
 
-    function quotationApprovalList()
+    function complaintsApprovalList()
     {
         if($this->isUserLoggedIn){ 
-            $data['quotation'] = $this->Quotation_model->get_approved_quotation();
+            $data['complaints'] = $this->complaints_model->get_approved_complaints();
         
-        $data['_view'] = 'quotation/approvalList';
+        $data['_view'] = 'complaints/approvalList';
         $this->load->view('layouts/main',$data);
         }else{
             redirect('admin/'); 
@@ -73,10 +73,10 @@ class Quotation extends CI_Controller{
 
 
     /* 
-     * Adding a new quotation
+     * Adding a new complaints
      */
 
-   /* function addQuotation(){
+   /* function addcomplaints(){
 
        $postData = $this->input->post("company_gst");
         
@@ -97,7 +97,7 @@ class Quotation extends CI_Controller{
 				'company_gst' => $this->input->post('company_gst'),
 				'ref_no' => $this->input->post('ref_no'),
 				'quote_date' => $this->input->post('quote_date'),
-				'quotation_no' => $this->input->post('quotation_no'),
+				'complaints_no' => $this->input->post('complaints_no'),
 				'case_id' => $this->input->post('case_id'),
 				'make_model' => $this->input->post('make_model'),
 				'sl_no' => $this->input->post('sl_no'),
@@ -113,20 +113,20 @@ class Quotation extends CI_Controller{
 				'mob_no' => $this->input->post('mob_no'),
 				'customer_gst' => $this->input->post('customer_gst'),
                 'created_by' => $username,
-                'quotation_amount' => $this->input->post('quotation_amount'),
+                'complaints_amount' => $this->input->post('complaints_amount'),
 				'approval_status' => $approval_status,
 				'approval_date' => $approval_date,
 				'customer_remarks' => $customer_remarks,
                 'invoice_generated' => "",
             );
 
-            $quotation_id = $this->Quotation_model->add_quotation($params);
+            $complaints_id = $this->complaints_model->add_complaints($params);
             $it=$this->input->post('items');
             
 			$item_id=0;
             foreach ($it as $item){
                $items = array(
-                'quotation_no' => $this->input->post('quotation_no'),
+                'complaints_no' => $this->input->post('complaints_no'),
                 'sl_no' => $item["SL"],
                 'hsn_sac' => $item["HSN/SAC"],
                 'goods_service_desc' => $item["DescriptionofGoods/Services"],
@@ -139,7 +139,7 @@ class Quotation extends CI_Controller{
                 'total' => $item["Total"]
                 );
 
-                $item_id = $this->Quotation_model->add_items($items);
+                $item_id = $this->complaints_model->add_items($items);
                 //echo  $items;
             }
 
@@ -147,23 +147,23 @@ class Quotation extends CI_Controller{
             
             /*$it=$this->input->post('items');
             print_r($it);*/
-			if( $quotation_id>0 &&  $item_id>0){
-             $this->session->set_flashdata('response',"Quotation Created Successfully");  
+			if( $complaints_id>0 &&  $item_id>0){
+             $this->session->set_flashdata('response',"complaints Created Successfully");  
               echo '1'; 
             }
             
             else{
-                $this->session->set_flashdata('response',"Quotation Error");  
+                $this->session->set_flashdata('response',"complaints Error");  
               echo '0'; 
             }
-            //redirect('quotation/index');
+            //redirect('complaints/index');
             
         }
         else
         {       
                  
-             $data['lastquotation'] =$this->Quotation_model->get_last_quotation();
-            $data['_view'] = 'quotation/add';
+             $data['lastcomplaints'] =$this->complaints_model->get_last_complaints();
+            $data['_view'] = 'complaints/add';
             $this->load->view('layouts/main',$data);
         }
 
@@ -176,9 +176,9 @@ class Quotation extends CI_Controller{
 
 
     /*
-     * Adding a quotation approval
+     * Adding a complaints approval
      */
-    function quotationApprovalAdd()
+    function complaintsApprovalAdd()
     {   
         if($this->isUserLoggedIn){ 
 
@@ -202,13 +202,13 @@ class Quotation extends CI_Controller{
                     'invoice_generated' => 'yes'
                 );
             
-                $quotation_no = $this->input->post('quotation_no');
-                $quotation_id = $this->Quotation_model->add_quotation_approval($quotation_no,$params);
+                $complaints_no = $this->input->post('complaints_no');
+                $complaints_id = $this->complaints_model->add_complaints_approval($complaints_no,$params);
 
                 /* Add tax Invoice*/
                 $username = $this->session->userdata('username');
                 $new_invoice_no="";
-                 $last_inv_no['invoice_no']  = $this->Quotation_model->get_last_invoice_no();
+                 $last_inv_no['invoice_no']  = $this->complaints_model->get_last_invoice_no();
                 if($last_inv_no['invoice_no']){
                     $invoice_no= $last_inv_no['invoice_no'] ;
                     
@@ -221,7 +221,7 @@ class Quotation extends CI_Controller{
                     $new_invoice_no='LSCINV_RAN1';
                 }
 				
-				$last_trans_no['transaction_no'] = $this->Quotation_model->get_last_trans_no();
+				$last_trans_no['transaction_no'] = $this->complaints_model->get_last_trans_no();
 
                 if($last_trans_no['transaction_no']){
                     $trans_no=$last_trans_no['transaction_no'];
@@ -238,21 +238,21 @@ class Quotation extends CI_Controller{
                 $tax_invoice = array(
                     'invoice_no' =>  $new_invoice_no,
                     'invoice_date' => $this->input->post('approval_date'),
-                    'quotation_no' => $this->input->post('quotation_no'),
+                    'complaints_no' => $this->input->post('complaints_no'),
                     'created_by' => $username,
                     'total_payment' => $this->input->post('approval_amount'),
                     'any_advance' => "no",
 					'transaction_no'=>$new_trans_no
                 );
             
-                $invoice_id = $this->Quotation_model->add_invoice($tax_invoice);
+                $invoice_id = $this->complaints_model->add_invoice($tax_invoice);
 
                 if( $invoice_id>0){
-                     $this->session->set_flashdata('response',"Quotation Approved & Tax Invoice generated Successfully");
+                     $this->session->set_flashdata('response',"complaints Approved & Tax Invoice generated Successfully");
                     echo '1';
                 }
                 else{
-                    $this->session->set_flashdata('response',"Error: Quotation Not Approved ");
+                    $this->session->set_flashdata('response',"Error: complaints Not Approved ");
                     echo '0';
                 }
             }
@@ -272,15 +272,15 @@ class Quotation extends CI_Controller{
                     'transaction_details' => $this->input->post('transaction_details')
                 );
             
-                $quotation_no = $this->input->post('quotation_no');
-                $quotation_id = $this->Quotation_model->add_quotation_approval($quotation_no,$params);
+                $complaints_no = $this->input->post('complaints_no');
+                $complaints_id = $this->complaints_model->add_complaints_approval($complaints_no,$params);
 
-                if($quotation_id>0){
-                     $this->session->set_flashdata('response',"Quotation Approved Successfully");
+                if($complaints_id>0){
+                     $this->session->set_flashdata('response',"complaints Approved Successfully");
                     echo '1';
                 }
                 else{
-                    $this->session->set_flashdata('response',"Error: Quotation Approval Not Saved");
+                    $this->session->set_flashdata('response',"Error: complaints Approval Not Saved");
                     echo '0';
                 }
             }
@@ -290,8 +290,8 @@ class Quotation extends CI_Controller{
         }
         else
         {       
-            $data['quotation_no'] =$this->Quotation_model->get_quotation_no();     
-            $data['_view'] = 'quotation/addApproval';
+            $data['complaints_no'] =$this->complaints_model->get_complaints_no();     
+            $data['_view'] = 'complaints/addApproval';
             $this->load->view('layouts/main',$data);
         }
         }else{
@@ -303,9 +303,9 @@ class Quotation extends CI_Controller{
 
 
     /*
-     * Update Quotation approval
+     * Update complaints approval
      */
-    function quotationApprovalUpdate()
+    function complaintsApprovalUpdate()
     {   
         if($this->isUserLoggedIn){ 
 
@@ -325,23 +325,23 @@ class Quotation extends CI_Controller{
                 'transaction_details' => $this->input->post('transaction_details')
             );
         
-            $quotation_no = $this->input->post('quotation_no');
-            $quotation_id = $this->Quotation_model->update_quotation_approval($quotation_no,$params);
+            $complaints_no = $this->input->post('complaints_no');
+            $complaints_id = $this->complaints_model->update_complaints_approval($complaints_no,$params);
 
-            if($quotation_id>0){
-                 $this->session->set_flashdata('response',"Quotation Updated Successfully");
+            if($complaints_id>0){
+                 $this->session->set_flashdata('response',"complaints Updated Successfully");
                 echo '1';
             }
             else{
-                $this->session->set_flashdata('response',"Error: Quotation  Not Updated");
+                $this->session->set_flashdata('response',"Error: complaints  Not Updated");
                 echo '0';
             }
            
         }
         else
         {       
-            $data['quotation_no'] =$this->Quotation_model->get_quotation_no();     
-            $data['_view'] = 'quotation/addApproval';
+            $data['complaints_no'] =$this->complaints_model->get_complaints_no();     
+            $data['_view'] = 'complaints/addApproval';
             $this->load->view('layouts/main',$data);
         }
         }else{
@@ -352,20 +352,20 @@ class Quotation extends CI_Controller{
     
 
     /*
-     * Editing a quotation
+     * Editing a complaints
      */
     function edit($id)
     {   
         if($this->isUserLoggedIn){ 
 
 
-        // check if the quotation exists before trying to edit it
-        $data['quotation'] = $this->Quotation_model->get_quotation($id);
-        $data['item'] = $this->Quotation_model->get_items($id);
+        // check if the complaints exists before trying to edit it
+        $data['complaints'] = $this->complaints_model->get_complaints($id);
+        $data['item'] = $this->complaints_model->get_items($id);
 
         $username = $this->session->userdata('username');
        
-       if(isset($data['quotation']['id']))
+       if(isset($data['complaints']['id']))
        {
            if(isset($_POST) && count($_POST) > 0)     
            {   
@@ -390,7 +390,7 @@ class Quotation extends CI_Controller{
                     'created_by' => $username
                );
 
-               $quotation_id = $this->Quotation_model->update_quotation($this->input->post('quotation_no'),$params);
+               $complaints_id = $this->complaints_model->update_complaints($this->input->post('complaints_no'),$params);
                $it=$this->input->post('items');
            
                foreach ($it as $item){
@@ -407,28 +407,28 @@ class Quotation extends CI_Controller{
                    'total' => $item["Total"]
                    );
 
-                   $item_id = $this->Quotation_model->update_item($this->input->post('quotation_no'),$items);
+                   $item_id = $this->complaints_model->update_item($this->input->post('complaints_no'),$items);
                }
 
                
-               if( $quotation_id>0 &&  $item_id >0){
-                   $this->session->set_flashdata('response',"Quotation Updated Successfully");
+               if( $complaints_id>0 &&  $item_id >0){
+                   $this->session->set_flashdata('response',"complaints Updated Successfully");
                    echo '1';
                }
                else{
-                   $this->session->set_flashdata('response',"Error: Quotation Not Updated");
+                   $this->session->set_flashdata('response',"Error: complaints Not Updated");
                    echo '0'; 
                }
                
            }
            else
            {
-               $data['_view'] = 'quotation/edit';
+               $data['_view'] = 'complaints/edit';
                $this->load->view('layouts/main',$data);
            }
        }
        else{
-           show_error('The quotation you are trying to edit does not exist.');
+           show_error('The complaints you are trying to edit does not exist.');
        }
         }else{
             redirect('admin/'); 
@@ -440,17 +440,17 @@ class Quotation extends CI_Controller{
 
 
     /*
-     * Editing a quotation Approval
+     * Editing a complaints Approval
      */
     function editApproval($id)
     {   
         if($this->isUserLoggedIn){ 
 
-        // check if the quotation exists before trying to edit it
-        $data['quotation'] = $this->Quotation_model->get_quotation($id);
-        $data['item'] = $this->Quotation_model->get_items($id);
+        // check if the complaints exists before trying to edit it
+        $data['complaints'] = $this->complaints_model->get_complaints($id);
+        $data['item'] = $this->complaints_model->get_items($id);
         
-        if(isset($data['quotation']['id']))
+        if(isset($data['complaints']['id']))
         {
             if(isset($_POST) && count($_POST) > 0)     
             {   
@@ -458,7 +458,7 @@ class Quotation extends CI_Controller{
                     'company_gst' => $this->input->post('company_gst'),
                     'ref_no' => $this->input->post('ref_no'),
                     'quote_date' => $this->input->post('quote_date'),
-                    'quotation_no' => $this->input->post('quotation_no'),
+                    'complaints_no' => $this->input->post('complaints_no'),
                     'case_id' => $this->input->post('case_id'),
                     'make_model' => $this->input->post('make_model'),
                     'sl_no' => $this->input->post('sl_no'),
@@ -478,18 +478,18 @@ class Quotation extends CI_Controller{
                     'customer_remarks' => $this->input->post('customer_remarks'),
                 );
 
-                $this->Quotation_model->update_quotation_approval($id,$params);            
-                redirect('admin/quotation/addApproval');
+                $this->complaints_model->update_complaints_approval($id,$params);            
+                redirect('admin/complaints/addApproval');
             }
             else
             {
 
-                $data['_view'] = 'quotation/editApproval';
+                $data['_view'] = 'complaints/editApproval';
                 $this->load->view('layouts/main',$data);
             }
         }
         else
-            show_error('The quotation you are trying to edit does not exist.');
+            show_error('The complaints you are trying to edit does not exist.');
         }else{
             redirect('admin/'); 
         }
@@ -497,21 +497,21 @@ class Quotation extends CI_Controller{
     } 
 
     /*
-     * Deleting quotation
+     * Deleting complaints
      */
     function remove($id)
     {
         if($this->isUserLoggedIn){ 
-            $quotation = $this->Quotation_model->get_quotation($id);
+            $complaints = $this->complaints_model->get_complaints($id);
 
-        // check if the quotation exists before trying to delete it
-        if(isset($quotation['id']))
+        // check if the complaints exists before trying to delete it
+        if(isset($complaints['id']))
         {
-            $this->Quotation_model->delete_quotation($id);
-            redirect('admin/quotation/index');
+            $this->complaints_model->delete_complaints($id);
+            redirect('admin/complaints/index');
         }
         else
-            show_error('The quotation you are trying to delete does not exist.');
+            show_error('The complaints you are trying to delete does not exist.');
         }else{
             redirect('admin/'); 
         }

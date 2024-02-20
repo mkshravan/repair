@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 $route['default_controller'] = 'index';
 
@@ -10,6 +10,10 @@ $route['admin'] = 'login/index';
 $route['admin/logout'] = 'login/logout';
 
 $route['admin/dashboard'] = 'dashboard';
+
+$route['admin/complaints/index'] = 'complaints/index';
+$route['admin/complaints/add'] = 'complaints/add';
+$route['admin/complaints/edit/(:num)'] = 'complaints/edit/$1';
 
 $route['admin/quotation/index'] = 'quotation/index';
 
