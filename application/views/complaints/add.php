@@ -7,14 +7,22 @@
            
           	<div class="box-body" autocomplete="on">
           		<div class="row clearfix">
-					<div class="col-md-3">
-						<label for="company_gst" class="control-label">Company GST</label>
+				  <div class="col-md-3">
+						<label for="quotation_no" class="control-label">Complaint No</label>
 						<div class="form-group">
-							<input type="text" name="company_gst" value="20AAHFL6254A1ZW" readonly="" class="form-control" id="company_gst" />
+							<input type="text" autocomplete="on" name="quotation_no" value="<?php 
+
+								if($lastcomplaints){
+									echo $lastcomplaints->complaint_no;
+								} 
+								else{
+									echo "LSCQ_RAN0";
+								}
+								?>" readonly class="form-control" id="quotation_no" />
 						</div>
 					</div>
 					<div class="col-md-3">
-						<label for="ref_no" class="control-label">Ref No</label>
+						<label for="ref_no" class="control-label">Write Your Problem</label>
 						<div class="form-group">
 							<input type="text" name="ref_no" autocomplete="on" value="<?php echo $this->input->post('ref_no'); ?>" class="form-control" id="ref_no" />
 						</div>
@@ -23,20 +31,6 @@
 						<label for="quote_date" class="control-label">Quote Date</label>
 						<div class="form-group">
 							<input type="date" autocomplete="on" name="quote_date" value="<?php echo date("Y-m-d"); ?>" class="form-control" readonly id="quote_date" />
-						</div>
-					</div>
-					<div class="col-md-3">
-						<label for="quotation_no" class="control-label">Quotation No</label>
-						<div class="form-group">
-							<input type="text" autocomplete="on" name="quotation_no" value="<?php 
-
-								if($lastquotation){
-									echo $lastquotation->quotation_no;
-								} 
-								else{
-									echo "LSCQ_RAN0";
-								}
-								?>" readonly class="form-control" id="quotation_no" />
 						</div>
 					</div>
 					<div class="col-md-3">
@@ -78,139 +72,11 @@
 					<div class="col-md-3">
 						<label for="state_code" class="control-label">State Code</label>
 						<div class="form-group">
-							<input type="text" readonly autocomplete="on" value="20" name="state_code" value="<?php echo $this->input->post('state_code'); ?>" class="form-control" id="state_code" />
+							<input type="text" readonly autocomplete="on" value="20" name="state_code" class="form-control" id="state_code" />
 						</div>
-					</div>
-
-					
-				</div>
-				<div class="box-header with-border">
-              		<h3 class="box-title">Customer Details</h3>
-            	</div>
-				<div class="row">
-					<div class="col-md-3">
-						<label for="customer_name" class="control-label">Customer Name</label>
-						<div class="form-group">
-							<input type="text" autocomplete="on" name="customer_name" value="<?php echo $this->input->post('customer_name'); ?>" class="form-control" id="customer_name" />
-						</div>
-					</div>
-					<div class="col-md-3">
-						<label for="bill_address" class="control-label">Bill Address</label>
-						<div class="form-group">
-							<input type="text" autocomplete="on" name="bill_address" value="<?php echo $this->input->post('bill_address'); ?>" class="form-control" id="bill_address" />
-						</div>
-					</div>
-					<div class="col-md-3">
-						<label for="delivery_address" class="control-label">Delivery Address</label>
-						<div class="form-group">
-							<input type="text" autocomplete="on" name="delivery_address" value="<?php echo $this->input->post('delivery_address'); ?>" class="form-control" id="delivery_address" />
-						</div>
-					</div>
-					<div class="col-md-3">
-						<label for="contact_person_name" class="control-label">Contact Person Name</label>
-						<div class="form-group">
-							<input type="text" autocomplete="on" name="contact_person_name" value="<?php echo $this->input->post('contact_person_name'); ?>" class="form-control" id="contact_person_name" />
-						</div>
-					</div>
-					<div class="col-md-3">
-						<label for="email" class="control-label">Email</label>
-						<div class="form-group">
-							<input type="text" autocomplete="on" name="email" value="<?php echo $this->input->post('email'); ?>" class="form-control" id="email" />
-						</div>
-					</div>
-					<div class="col-md-3">
-						<label for="mob_no" class="control-label">Mob No</label>
-						<div class="form-group">
-							<input type="text" autocomplete="on" name="mob_no" value="<?php echo $this->input->post('mob_no'); ?>" class="form-control" id="mob_no" />
-						</div>
-					</div>
-					<div class="col-md-3">
-						<label for="customer_gst" class="control-label">Customer GST</label>
-						<div class="form-group">
-							<input type="text" autocomplete="on" name="customer_gst" value="<?php echo $this->input->post('customer_gst'); ?>" class="form-control" id="customer_gst" />
-						</div>
-					</div>
+					</div>					
 				</div>
 
-				<div class="box-header with-border">
-              		<h3 class="box-title">Goods/Services List</h3>
-            	</div>
-				<div class="row">
-					<div class="col-md-3">
-						<label for="hsnSac" class="control-label">HSN/SAC*</label>
-						<div class="form-group">
-							<input type="text" autocomplete="on" name="hsnSac" value="" class="form-control" id="hsnSac" />
-						</div>
-					</div>
-					<div class="col-md-4">
-						<label for="itemDesc" class="control-label">Description</label>
-						<div class="form-group">
-							<input type="text" autocomplete="on" name="itemDesc" value="" class="form-control" id="itemDesc" />
-						</div>
-					</div>
-					<div class="col-md-1">
-						<label for="itemQty" class="control-label">Qty</label>
-						<div class="form-group">
-							<input type="number" autocomplete="on" name="itemQty" value="" class="form-control" id="itemQty" />
-						</div>
-					</div>
-					<div class="col-md-2">
-						<label for="itemUnitPrice" class="control-label">Unit Price</label>
-						<div class="form-group">
-							<input type="number" autocomplete="on" name="itemUnitPrice" value="" class="form-control" id="itemUnitPrice" />
-						</div>
-					</div>
-					<div class="col-md-1">
-						<label for="itemGst" class="control-label">GST</label>
-						<div class="form-group">
-							<select id="itemGst" class="form-control">
-								<option val="0">0</option>
-								<option val="5">5%</option>
-								<option val="9">9%</option>
-								<option val="18">18%</option>
-								<option val="28">28%</option>
-							</select>
-						</div>
-					</div>
-					<div class="col-md-1" style="margin-top: 24px;">
-						<div class="form-group">
-							<input type="button" id="addItemBtn" class="btn btn-primary" value="Add"/>
-						</div>
-					</div>
-				</div>
-
-				<!-- Item row-->
-					<div class="row">
-						<div class="col-md-12">
-							<table id="itemTableId" class="table table-bordered table-striped">
-                                    <thead>
-                                        <tr>
-                                            <th>SL #</th>
-                                            <th>HSN/SAC</th>
-                                            <th>Description of Goods / Services</th>
-                                            <th style="text-align:right">Quantity</th>
-                                            <th style="text-align:right">Unit Price</th>
-                                            <th style="text-align:right">CGST %</th>
-                                            <th style="text-align:right">CGST Value</th>
-                                            <th style="text-align:right">SGST %</th>
-                                            <th style="text-align:right">SGST Value</th>
-                                            <th>Total</th>
-                                            <th>Action</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody id="itemBodyId">
-                                    </tbody>
-                                    <tfoot>
-                                    	<tr>
-                                    		<td style="text-align:right" colspan="9"><b>Estimated Total Cost</b></td>
-                                    		<td><b id="grand_total"></b></td>
-                                    	</tr>
-                                    </tfoot>
-                                </table>
-						</div>
-					
-				</div>
-				<!-- item row -->
 
 			</div>
           	<div class="box-footer">
@@ -231,7 +97,7 @@ $(document).ready(function(){
 	
 	var num=parseInt($("#quotation_no").val().replace(/[^0-9]/g,''));
 	num++;
-	$("#quotation_no").val('LSCQ_RAN'+num);
+	$("#quotation_no").val(num);
 	
 	
 	$("#addItemBtn").attr('disabled',true);
