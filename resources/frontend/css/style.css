@@ -2988,7 +2988,7 @@ blockquote .quote_icon {
 }
 .banner_2 p {
   font-size: 16px;
-  max-width: 630px;
+  /* max-width: 630px; */
   margin-bottom: 45px;
 }
 

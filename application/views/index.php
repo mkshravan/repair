@@ -123,9 +123,9 @@
                 </svg>
               </button>
             </li>
-            <li>
+            <!-- <li>
               <a class="btn btn_success btn_rounded" href="shop.html">Build custom PC</a>
-            </li>
+            </li> -->
             <li>
               <div class="header_hotline">
                 Call us for any question
@@ -282,16 +282,15 @@
       <section class="banner_section banner_2 parallaxie" style="background-image: url(resources/frontend/images//bg_3.jpg);">
         <div class="container">
           <div class="row">
-            <div class="col col-lg-8 col-md-8">
+            <div class="col col-lg-10 col-md-10">
               <div class="banner_content">
-                <h1>
-                  Computer Repairing Center Near You
-                </h1>
-                <p>
-                  All kinds of laptop, desktop computer servicing center forIt is a long established fact that a reader
-                  will be distracted by the readable computer disk.
+                <h2>
+                Best Laptop Service Centre in Ranchi | Computer Repairing Center in Ranchi | Printer Service Centre in Ranchi
+                </h2>
+                <p class="text-dark">
+                Unlock unparalleled convenience and expertise with the Best Laptop Service Centre in Ranchi, where cutting-edge solutions meet affordability. Our commitment extends to being the Best Computer Repairing Center in Ranchi, ensuring your devices receive top-notch care without breaking the bank. Experience the epitome of reliability at our center, renowned as the Best Printer Service Centre in Ranchi, where quality meets affordability seamlessly. What sets us apart is our dedication to providing hassle-free home services at an affordable cost, bringing expert technicians right to your doorstep. Embrace a new era of technology support that prioritizes both excellence and your budget. Trust us to deliver not just repairs, but a seamless experience that reflects our commitment to unmatched service without compromising affordability. Your devices, your convenience, our expertise – experience it all at the forefront of technology care in Ranchi.
                 </p>
-                <a class="btn btn_success btn_rounded" href="service.html">Repair Computer</a>
+                <!-- <a class="btn btn_success btn_rounded" href="service.html">Repair Computer</a> -->
               </div>
             </div>
           </div>
@@ -309,7 +308,7 @@
               <div class="item_icon">
                 <i class="flaticon-support"></i>
               </div>
-              <h3 class="item_title">Repairing Service</h3>
+              <h3 class="item_title">Laptop Repair in Ranchi</h3>
               <p>
                 Computer repair when an unknown printer took a galley of type and scrambled computer
               </p>
@@ -344,6 +343,7 @@
                 Computer repair when an unknown printer took a galley of type and scrambled computer
               </p>
             </div>
+            
           </div>
         </div>
       </div>
