@@ -2,233 +2,185 @@
     <div class="col-md-12">
       	<div class="box box-info">
             <div class="box-header with-border">
-              	<h3 class="box-title">Modify Quotation</h3>
+              	<h3 class="box-title">Complain Modify</h3>
             </div>
-			<div class="box-body">
-				<div class="row clearfix">
-					<div class="col-md-3" style="display: none;">
-						<label for="id" class="control-label">ID</label>
-						<div class="form-group">
-							<input type="text" name="id" value="<?php echo ($this->input->post('quotation_no') ? $this->input->post('id') : $quotation['id']); ?>" class="form-control" disabled id="id" />
+			<form action="<?php echo site_url('admin/complaints/add'); ?>" method="POST">
+				<div class="box-body" autocomplete="on">
+					<div class="row clearfix">
+						<div class="col-md-3">
+							<label for="complaint_no" class="control-label">Complaint No</label>
+							<div class="form-group">
+								<input type="text" autocomplete="on" name="complaint_no" value="<?php echo ($this->input->post('complaint_no') ? $this->input->post('id') : $complaints['complaint_no']); ?>" readonly class="form-control" id="complaint_no" />
+							</div>
+						</div>
+						<div class="col-md-3 hidden">
+							<label for="complain_entry_date" class="control-label">Complain Entry Date</label>
+							<div class="form-group">
+								<input type="text" name="complain_entry_date" autocomplete="on"
+									value="<?php echo $this->input->post('complain_entry_date'); ?>"
+									class="form-control" id="complain_entry_date" />
+							</div>
+						</div>
+						<div class="col-md-3">
+							<label for="client_name" class="control-label">Customer Name</label>
+							<div class="form-group">
+								<input type="text" autocomplete="on" name="client_name"
+									value="<?php echo $this->input->post('client_name'); ?>" class="form-control"
+									id="client_name" />
+							</div>
+						</div>
+						<div class="col-md-3">
+							<label for="client_phone" class="control-label">Customer Phone Number</label>
+							<div class="form-group">
+								<input type="text" autocomplete="on" name="client_phone"
+									value="<?php echo $this->input->post('client_phone'); ?>" class="form-control"
+									id="client_phone" />
+							</div>
+						</div>
+						<div class="col-md-3">
+							<label for="address" class="control-label">Address</label>
+							<div class="form-group">
+								<input type="text" autocomplete="on" name="address"
+									value="<?php echo $this->input->post('address'); ?>" class="form-control"
+									id="address" />
+							</div>
+						</div>
+						<div class="col-md-3">
+							<label for="pin_code" class="control-label">Pin Code</label>
+							<div class="form-group">
+								<input type="text" autocomplete="on" name="pin_code"
+									value="<?php echo $this->input->post('pin_code'); ?>" class="form-control"
+									id="pin_code" />
+							</div>
+						</div>
+						<div class="col-md-3">
+							<label for="service_engineer" class="control-label">Service Engineer</label>
+							<div class="form-group">
+								<input type="text" autocomplete="on" name="service_engineer"
+									value="<?php echo $this->input->post('service_engineer'); ?>" class="form-control"
+									id="service_engineer" />
+							</div>
+						</div>
+						<div class="col-md-3">
+							<label for="region" class="control-label">Region</label>
+							<div class="form-group">
+								<input type="text" autocomplete="on" name="region"
+									value="<?php echo $this->input->post('region'); ?>" class="form-control"
+									id="region" />
+							</div>
+						</div>
+						<div class="col-md-3">
+							<label for="LRO" class="control-label">LRO</label>
+							<div class="form-group">
+								<input type="text" autocomplete="on" name="LRO"
+									value="<?php echo $this->input->post('LRO'); ?>" class="form-control" id="LRO" />
+							</div>
+						</div>
+						<div class="col-md-3">
+							<label for="outsourced" class="control-label">Outsourced</label>
+							<div class="form-group">
+								<input type="text" autocomplete="on" name="outsourced"
+									value="<?php echo $this->input->post('outsourced'); ?>" class="form-control"
+									id="outsourced" />
+							</div>
+						</div>
+						<div class="col-md-3">
+							<label for="dealer_name" class="control-label">Dealer Name</label>
+							<div class="form-group">
+								<input type="text" autocomplete="on"
+									value="<?php echo $this->input->post('dealer_name'); ?>" name="dealer_name"
+									class="form-control" id="dealer_name" />
+							</div>
+						</div>
+						<div class="col-md-3">
+							<label for="dealer_price" class="control-label">Dealer Price</label>
+							<div class="form-group">
+								<input type="text" autocomplete="on"
+									value="<?php echo $this->input->post('dealer_price'); ?>" name="dealer_price"
+									class="form-control" id="dealer_price" />
+							</div>
+						</div>
+						<div class="col-md-3">
+							<label for="dealer_contact_no" class="control-label">Dealer Contact No</label>
+							<div class="form-group">
+								<input type="text" autocomplete="on"
+									value="<?php echo $this->input->post('dealer_contact_no'); ?>"
+									name="dealer_contact_no" class="form-control" id="dealer_contact_no" />
+							</div>
+						</div>
+						<div class="col-md-3">
+							<label for="product" class="control-label">Product</label>
+							<div class="form-group">
+								<input type="text" autocomplete="on"
+									value="<?php echo $this->input->post('product'); ?>" name="product"
+									class="form-control" id="product" />
+							</div>
+						</div>
+						<div class="col-md-3">
+							<label for="product_serial_no" class="control-label">Product Serial No</label>
+							<div class="form-group">
+								<input type="text" autocomplete="on"
+									value="<?php echo $this->input->post('product_serial_no'); ?>"
+									name="product_serial_no" class="form-control" id="product_serial_no" />
+							</div>
+						</div>
+						<div class="col-md-3">
+							<label for="service_tag" class="control-label">Service Tag</label>
+							<div class="form-group">
+								<input type="text" autocomplete="on"
+									value="<?php echo $this->input->post('service_tag'); ?>" name="service_tag"
+									class="form-control" id="service_tag" />
+							</div>
+						</div>
+						<div class="col-md-3">
+							<label for="complain_closed" class="control-label">Complain Closed</label>
+							<div class="form-group">
+								<select name="complain_closed" id="complain_closed" class="form-control">
+									<option value="0">No</option>
+									<option value="1">Yes</option>
+								</select>
+								<!-- <input type="text" autocomplete="on" value="<?php echo $this->input->post('complain_closed'); ?>" name="complain_closed" class="form-control" id="complain_closed" /> -->
+							</div>
+						</div>
+						<div class="col-md-3">
+							<label for="complain_closed_date" class="control-label">Complain Closed Date</label>
+							<div class="form-group">
+								<input type="date" autocomplete="on" value="<?php echo date('d-m-Y'); ?>"
+									name="complain_closed_date" class="form-control" id="complain_closed_date" />
+							</div>
+						</div>
+						<div class="col-md-3">
+							<label for="complian_text" class="control-label">Write Your Problem</label>
+							<div class="form-group">
+								<textarea name="complian_text" autocomplete="on" id="complian_text" class="form-control"
+									cols="30" rows="10"><?php echo $this->input->post('complian_text'); ?></textarea>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<label for="work_done_till_date" class="control-label">Work Done Till Date</label>
+							<div class="form-group">
+								<textarea name="work_done_till_date" autocomplete="on" id="work_done_till_date"
+									class="form-control" cols="30"
+									rows="10"><?php echo $this->input->post('work_done_till_date'); ?></textarea>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<label for="solution" class="control-label">Solution</label>
+							<div class="form-group">
+								<textarea name="solution" autocomplete="on" id="solution" class="form-control" cols="30"
+									rows="10"><?php echo $this->input->post('solution'); ?></textarea>
+							</div>
 						</div>
 					</div>
-					<div class="col-md-3">
-						<label for="quotation_no" class="control-label">Quotation No</label>
-						<div class="form-group">
-							<input type="text" name="quotation_no" value="<?php echo ($this->input->post('quotation_no') ? $this->input->post('quotation_no') : $quotation['quotation_no']); ?>" class="form-control" disabled id="quotation_no" />
-						</div>
-					</div>
-					<div class="col-md-3">
-						<label for="quote_date" class="control-label">Quote Date</label>
-						<div class="form-group">
-							<input type="text" name="quote_date" value="<?php echo ($this->input->post('quote_date') ? $this->input->post('quote_date') : $quotation['quote_date']); ?>" class="form-control" disabled id="quote_date" />
-						</div>
-					</div>
-					<div class="col-md-3">
-						<label for="company_gst" class="control-label">Company Gst</label>
-						<div class="form-group">
-							<input type="text" name="company_gst" value="<?php echo ($this->input->post('company_gst') ? $this->input->post('company_gst') : $quotation['company_gst']); ?>" class="form-control" disabled id="company_gst" />
-						</div>
-					</div>
-					<div class="col-md-3">
-						<label for="ref_no" class="control-label">Ref No</label>
-						<div class="form-group">
-							<input type="text" name="ref_no" value="<?php echo ($this->input->post('ref_no') ? $this->input->post('ref_no') : $quotation['ref_no']); ?>" class="form-control" id="ref_no" />
-						</div>
-					</div>
-					
-					<div class="col-md-3">
-						<label for="case_id" class="control-label">Case Id</label>
-						<div class="form-group">
-							<input type="text" name="case_id" value="<?php echo ($this->input->post('case_id') ? $this->input->post('case_id') : $quotation['case_id']); ?>" class="form-control" id="case_id" />
-						</div>
-					</div>
-					<div class="col-md-3">
-						<label for="make_model" class="control-label">Make Model</label>
-						<div class="form-group">
-							<input type="text" name="make_model" value="<?php echo ($this->input->post('make_model') ? $this->input->post('make_model') : $quotation['make_model']); ?>" class="form-control" id="make_model" />
-						</div>
-					</div>
-					<div class="col-md-3">
-						<label for="sl_no" class="control-label">Sl No</label>
-						<div class="form-group">
-							<input type="text" name="sl_no" value="<?php echo ($this->input->post('sl_no') ? $this->input->post('sl_no') : $quotation['sl_no']); ?>" class="form-control" id="sl_no" />
-						</div>
-					</div>
-					<div class="col-md-3">
-						<label for="product_no" class="control-label">Product No</label>
-						<div class="form-group">
-							<input type="text" name="product_no" value="<?php echo ($this->input->post('product_no') ? $this->input->post('product_no') : $quotation['product_no']); ?>" class="form-control" id="product_no" />
-						</div>
-					</div>
-					<div class="col-md-3">
-						<label for="description" class="control-label">Description</label>
-						<div class="form-group">
-							<input type="text" name="description" value="<?php echo ($this->input->post('description') ? $this->input->post('description') : $quotation['description']); ?>" class="form-control" id="description" />
-						</div>
-					</div>
-					<div class="col-md-3">
-						<label for="place_of_supply" class="control-label">Place Of Supply</label>
-						<div class="form-group">
-							<input type="text" name="place_of_supply" value="<?php echo ($this->input->post('place_of_supply') ? $this->input->post('place_of_supply') : $quotation['place_of_supply']); ?>" class="form-control" id="place_of_supply" />
-						</div>
-					</div>
-					<div class="col-md-3">
-						<label for="state_code" class="control-label">State Code</label>
-						<div class="form-group">
-							<input type="text" name="state_code" value="<?php echo ($this->input->post('state_code') ? $this->input->post('state_code') : $quotation['state_code']); ?>" class="form-control" id="state_code" />
-						</div>
-					</div>
-					<div class="col-md-3">
-						<label for="customer_name" class="control-label">Customer Name</label>
-						<div class="form-group">
-							<input type="text" name="customer_name" value="<?php echo ($this->input->post('customer_name') ? $this->input->post('customer_name') : $quotation['customer_name']); ?>" class="form-control" id="customer_name" />
-						</div>
-					</div>
-					<div class="col-md-3">
-						<label for="bill_address" class="control-label">Bill Address</label>
-						<div class="form-group">
-							<input type="text" name="bill_address" value="<?php echo ($this->input->post('bill_address') ? $this->input->post('bill_address') : $quotation['bill_address']); ?>" class="form-control" id="bill_address" />
-						</div>
-					</div>
-					<div class="col-md-3">
-						<label for="delivery_address" class="control-label">Delivery Address</label>
-						<div class="form-group">
-							<input type="text" name="delivery_address" value="<?php echo ($this->input->post('delivery_address') ? $this->input->post('delivery_address') : $quotation['delivery_address']); ?>" class="form-control" id="delivery_address" />
-						</div>
-					</div>
-					<div class="col-md-3">
-						<label for="contact_person_name" class="control-label">Contact Person Name</label>
-						<div class="form-group">
-							<input type="text" name="contact_person_name" value="<?php echo ($this->input->post('contact_person_name') ? $this->input->post('contact_person_name') : $quotation['contact_person_name']); ?>" class="form-control" id="contact_person_name" />
-						</div>
-					</div>
-					<div class="col-md-3">
-						<label for="email" class="control-label">Email</label>
-						<div class="form-group">
-							<input type="text" name="email" value="<?php echo ($this->input->post('email') ? $this->input->post('email') : $quotation['email']); ?>" class="form-control" id="email" />
-						</div>
-					</div>
-					<div class="col-md-3">
-						<label for="mob_no" class="control-label">Mob No</label>
-						<div class="form-group">
-							<input type="text" name="mob_no" value="<?php echo ($this->input->post('mob_no') ? $this->input->post('mob_no') : $quotation['mob_no']); ?>" class="form-control" id="mob_no" />
-						</div>
-					</div>
-					<div class="col-md-3">
-						<label for="customer_gst" class="control-label">Customer Gst</label>
-						<div class="form-group">
-							<input type="text" name="customer_gst" value="<?php echo ($this->input->post('customer_gst') ? $this->input->post('customer_gst') : $quotation['customer_gst']); ?>" class="form-control" id="customer_gst" />
-						</div>
-					</div>
+
+
 				</div>
-
-				<div class="box-header with-border">
-              		<h3 class="box-title">Goods/Services List</h3>
-            	</div>
-
-            	<div class="row">
-					<div class="col-md-3">
-						<label for="hsnSac" class="control-label">HSN/SAC*</label>
-						<div class="form-group">
-							<input type="text" name="hsnSac" value="" class="form-control" id="hsnSac" />
-						</div>
-					</div>
-					<div class="col-md-4">
-						<label for="itemDesc" class="control-label">Description</label>
-						<div class="form-group">
-							<input type="text" name="itemDesc" value="" class="form-control" id="itemDesc" />
-						</div>
-					</div>
-					<div class="col-md-1">
-						<label for="itemQty" class="control-label">Qty</label>
-						<div class="form-group">
-							<input type="number" name="itemQty" value="" class="form-control" id="itemQty" />
-						</div>
-					</div>
-					<div class="col-md-2">
-						<label for="itemUnitPrice" class="control-label">Unit Price</label>
-						<div class="form-group">
-							<input type="number" name="itemUnitPrice" value="" class="form-control" id="itemUnitPrice" />
-						</div>
-					</div>
-					<div class="col-md-1">
-						<label for="itemGst" class="control-label">GST</label>
-						<div class="form-group">
-							<select id="itemGst" class="form-control">
-								<option val="0">0</option>
-								<option val="5">5%</option>
-								<option val="9">9%</option>
-								<option val="18">18%</option>
-								<option val="28">28%</option>
-							</select>
-						</div>
-					</div>
-					<div class="col-md-1" style="margin-top: 24px;">
-						<div class="form-group">
-							<input type="button" id="addItemBtn" class="btn btn-primary" value="Add"/>
-						</div>
-					</div>
+				<div class="box-footer">
+					<button type="submit" id="submitFormBtn" class="btn btn-success">
+						<i class="fa fa-save"></i> Update
+					</button>
 				</div>
-
-				<!-- Item row-->
-					<div class="row">
-						<div class="col-md-12">
-							<table id="itemTableId" class="table table-bordered table-striped">
-                                    <thead>
-                                        <tr>
-                                            <th>SL #</th>
-                                            <th>HSN/SAC</th>
-                                            <th>Description of Goods / Services</th>
-                                            <th >Quantity</th>
-                                            <th>Unit Price</th>
-                                            <th>CGST %</th>
-                                            <th>CGST Value</th>
-                                            <th>SGST %</th>
-                                            <th>SGST Value</th>
-                                            <th>Total</th>
-                                            <th>Action</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody id="itemBodyId">
-                                    	<?php foreach($item as $i){ ?>
-                                    		<tr>
-                                    			<td><?php echo $i['sl_no']; ?></td>
-                                    			<td><?php echo $i['hsn_sac']; ?></td>
-                                    			<td><?php echo $i['goods_service_desc']; ?></td>
-                                    			<td><?php echo $i['qty']; ?></td>
-                                    			<td><?php echo $i['unit_price']; ?></td>
-                                    			<td><?php echo $i['cgst']; ?></td>
-                                    			<td><?php echo $i['cgst_value']; ?></td>
-                                    			<td><?php echo $i['sgst']; ?></td>
-                                    			<td><?php echo $i['sgst_value']; ?></td>
-                                    			<td><?php echo $i['total']; ?></td>
-                                    			<td>
-                                    				<a class="btn btn-xs btn-info itemEditBtn" href="javascript:void(0)"><i class="ace-icon fa fa-pencil bigger-120"></i></a><a title="Delete" class="btn btn-xs btn-danger itemDelBtn" href="javascript:void(0)"><i class="ace-icon fa fa-trash-o bigger-120"></i></a>
-
-                                    			</td>
-                                    		</tr>
-                                    	<?php } ?>
-                                    </tbody>
-                                    <!-- <tfoot>
-                                    	<tr>
-                                    		<td style="text-align:right" colspan="9"><b>Grand Total</b></td>
-                                    		<td><b id="grand_total"></b></td>
-                                    	</tr>
-                                    </tfoot> -->
-                                </table>
-						</div>
-					
-					</div>
-				<!-- item row -->
-
-
-			</div>
-			<div class="box-footer">
-            	<button type="submit" class="btn btn-success" id="submitFormBtn">
-					<i class="fa fa-check"></i> Update
-				</button>
-	        </div>				
+			</form>			
 		</div>
     </div>
 </div>
