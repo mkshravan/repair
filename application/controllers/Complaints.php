@@ -338,30 +338,35 @@ class Complaints extends CI_Controller{
        
        if(isset($data['complaints']['id']))
        {
-           if(isset($_POST) && count($_POST) > 0)     
+           if(isset($_POST) && count($_POST) > 0)   
            {   
                $params = array(
-                   'company_gst' => $this->input->post('company_gst'),
-                   'ref_no' => $this->input->post('ref_no'),
-                   'quote_date' => $this->input->post('quote_date'),
-                   'case_id' => $this->input->post('case_id'),
-                   'make_model' => $this->input->post('make_model'),
-                   'sl_no' => $this->input->post('sl_no'),
-                   'product_no' => $this->input->post('product_no'),
-                   'description' => $this->input->post('description'),
-                   'place_of_supply' => $this->input->post('place_of_supply'),
-                   'state_code' => $this->input->post('state_code'),
-                   'customer_name' => $this->input->post('customer_name'),
-                   'bill_address' => $this->input->post('bill_address'),
-                   'delivery_address' => $this->input->post('delivery_address'),
-                   'contact_person_name' => $this->input->post('contact_person_name'),
-                   'email' => $this->input->post('email'),
-                   'mob_no' => $this->input->post('mob_no'),
-                   'customer_gst' => $this->input->post('customer_gst'),
-                    'created_by' => $username
+                'complaint_no' => $this->input->post('complaint_no'),
+				'complain_entry_date' => $this->input->post('complain_entry_date'),
+				'client_name' => $this->input->post('client_name'),
+				'client_phone' => $this->input->post('client_phone'),
+				'address' => $this->input->post('address'),
+				'pin_code' => $this->input->post('pin_code'),
+				'service_engineer' => $this->input->post('service_engineer'),
+				'region' => $this->input->post('region'),
+				'LRO' => $this->input->post('LRO'),
+				'outsourced' => $this->input->post('outsourced'),
+				'dealer_name' => $this->input->post('dealer_name'),
+				'dealer_price' => $this->input->post('dealer_price'),
+				'dealer_contact_no' => $this->input->post('dealer_contact_no'),
+				'product' => $this->input->post('product'),
+				'product_serial_no' => $this->input->post('product_serial_no'),
+				'service_tag' => $this->input->post('service_tag'),
+				'complain_closed' => $this->input->post('complain_closed'),
+                'created_by' => $username,
+                'complain_closed_date' => $this->input->post('complain_closed_date'),
+                'complain_text' => $this->input->post('complain_text'),
+                'work_done_till_date' => $this->input->post('work_done_till_date'),
+                'solution' => $this->input->post('solution'),
+                'updated_by' => $username
                );
 
-               $complaints_id = $this->complaints_model->update_complaints($this->input->post('complaints_no'),$params);
+               $complaints_id = $this->complaints_model->update_complaints($this->input->post('id'),$params);
             //    $it=$this->input->post('items');
            
             //    foreach ($it as $item){
@@ -383,12 +388,12 @@ class Complaints extends CI_Controller{
 
                
                if( $complaints_id>0){
-                   $this->session->set_flashdata('response',"complaints Updated Successfully");
-                   redirect("admin/complaint");
+                   $this->session->set_flashdata('response',"Complaints Updated Successfully");
+                   redirect("admin/complaints/index");
                }
                else{
-                   $this->session->set_flashdata('response',"Error: complaints Not Updated");
-                   redirect("admin/complaint");
+                   $this->session->set_flashdata('response',"Error: Complaints Not Updated");
+                   redirect("admin/complaints/index");
                }
                
            }

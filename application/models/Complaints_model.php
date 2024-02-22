@@ -265,9 +265,9 @@ class Complaints_model extends CI_Model
     /*
      * function to update complaints
      */
-    function update_complaints($complaint_no,$params)
+    function update_complaints($id,$params)
     {
-        $this->db->where('complaint_no',$complaint_no);
+        $this->db->where('id',$id);
         return $this->db->update('complaints',$params);
     }
 
