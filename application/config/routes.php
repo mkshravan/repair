@@ -13,6 +13,7 @@ $route['admin/dashboard'] = 'dashboard';
 
 $route['admin/complaints/index'] = 'complaints/index';
 $route['admin/complaints/add'] = 'complaints/add';
+$route['admin/complaints/closed'] = 'complaints/closed';
 $route['admin/complaints/edit/(:num)'] = 'complaints/edit/$1';
 
 $route['admin/quotation/index'] = 'quotation/index';

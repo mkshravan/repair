@@ -20,14 +20,22 @@ class Complaints extends CI_Controller{
     function index()
     {
         if($this->isUserLoggedIn){ 
-            $data['complaints'] = $this->complaints_model->get_all_complaints();        
+            $data['complaints'] = $this->complaints_model->get_all_pending_complaints();        
             $data['_view'] = 'complaints/index';
             $this->load->view('layouts/main', $data);
         }else{
             redirect('admin/'); 
-        }
-
-        
+        }        
+    }
+    function closed()
+    {
+        if($this->isUserLoggedIn){ 
+            $data['complaints'] = $this->complaints_model->get_all_closed_complaints();        
+            $data['_view'] = 'complaints/index';
+            $this->load->view('layouts/main', $data);
+        }else{
+            redirect('admin/'); 
+        }        
     }
 
     function printcomplaints($complaints_no)
@@ -388,11 +396,11 @@ class Complaints extends CI_Controller{
 
                
                if( $complaints_id>0){
-                   $this->session->set_flashdata('response',"Complaints Updated Successfully");
+                   $this->session->set_flashdata('response',"Complaints updated successfully");
                    redirect("admin/complaints/index");
                }
                else{
-                   $this->session->set_flashdata('response',"Error: Complaints Not Updated");
+                   $this->session->set_flashdata('response',"Error: Complaints not updated");
                    redirect("admin/complaints/index");
                }
                

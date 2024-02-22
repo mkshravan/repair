@@ -93,7 +93,7 @@ class Complaints_model extends CI_Model
     /*
      * Get all complaints
      */
-    function get_all_complaints()
+    function get_all_pending_complaints()
     {
         /*$this->db->order_by('id', 'desc');
         $this->db->select('complaints.id, complaints.complaint_no,complaints.quote_date,complaints.customer_name,complaints.complaints_amount')
@@ -111,12 +111,17 @@ class Complaints_model extends CI_Model
         //   $this->db->distinct();
         // return $this->db->get()->result_array();
         $this->db->select('*')
-         ->from('complaints');
+        ->from('complaints')
+        ->where('complaints.complain_closed', 0);
         //  ->join('item_service_list', 'item_service_list.complaint_no=complaints.complaint_no','left')
 		// ->where('complaints.invoice_generated !="yes" order by id desc');
         return $this->db->get()->result_array();
-
-
+    }
+    function get_all_closed_complaints(){
+        $this->db->select('*')
+        ->from('complaints')
+        ->where('complaints.complain_closed', 1);
+       return $this->db->get()->result_array();
     }
 	
 	 function get_cancel_complaints()

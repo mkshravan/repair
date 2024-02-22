@@ -129,6 +129,10 @@
                                 <a href="<?php echo site_url('admin/complaints/add'); ?>"><i class="fa fa-plus"></i>
                                     Add</a>
                             </li>
+                            <li>
+                                <a href="<?php echo site_url('admin/complaints/closed'); ?>"><i class="fa fa-close"></i>
+                                    Completed</a>
+                            </li>
 
                         </ul>
                     </li>
