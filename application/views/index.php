@@ -1,4 +1,7 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -76,12 +79,15 @@
       <div class="header_bottom">
         <div class="site_logo">
           <a href="/">
-            <img src="resources/frontend/images//logo_2_white.png" srcset="resources/frontend/images//logo_2_white_2x.png 2x" alt="logo_not_found">
+            <img src="resources/frontend/images//logo_2_white.png"
+              srcset="resources/frontend/images//logo_2_white_2x.png 2x" alt="logo_not_found">
           </a>
         </div>
 
         <nav class="main_menu navbar navbar-expand-lg">
-          <button class="mobile_menu_btn navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_menu_dropdown" aria-controls="main_menu_dropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="mobile_menu_btn navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#main_menu_dropdown" aria-controls="main_menu_dropdown" aria-expanded="false"
+            aria-label="Toggle navigation">
             <i class="fal fa-bars"></i>
           </button>
           <div class="main_menu_inner collapse navbar-collapse" id="main_menu_dropdown">
@@ -91,7 +97,7 @@
               </li>
               <li><a href="about.html">About</a></li>
               <li class="dropdown">
-                <a class="nav-link" href="service.html" id="service_submenu" role="button" aria-expanded="false">
+                <a class="nav-link" href="javascript:void(0)" id="service_submenu" role="button" aria-expanded="false">
                   Services
                 </a>
                 <ul class="submenu dropdown-menu" aria-labelledby="service_submenu">
@@ -279,16 +285,27 @@
 
       <!-- Banner Section - Start
         ================================================== -->
-      <section class="banner_section banner_2 parallaxie" style="background-image: url(resources/frontend/images//bg_3.jpg);">
+      <section class="banner_section banner_2 parallaxie"
+        style="background-image: url(resources/frontend/images//bg_3.jpg);">
         <div class="container">
           <div class="row">
             <div class="col col-lg-10 col-md-10">
               <div class="banner_content">
                 <h2>
-                Best Laptop Service Centre in Ranchi | Computer Repairing Center in Ranchi | Printer Service Centre in Ranchi, Jharkhand
+                  Best Laptop Service Centre in Ranchi | Computer Repairing Center in Ranchi | Printer Service Centre in
+                  Ranchi, Jharkhand
                 </h2>
                 <p class="text-dark">
-                Unlock unparalleled convenience and expertise with the Best Laptop Service Centre in Ranchi, where cutting-edge solutions meet affordability. Our commitment extends to being the Best Computer Repairing Center in Ranchi, ensuring your devices receive top-notch care without breaking the bank. Experience the epitome of reliability at our center, renowned as the Best Printer Service Centre in Ranchi, where quality meets affordability seamlessly. What sets us apart is our dedication to providing hassle-free home services at an affordable cost, bringing expert technicians right to your doorstep. Embrace a new era of technology support that prioritizes both excellence and your budget. Trust us to deliver not just repairs, but a seamless experience that reflects our commitment to unmatched service without compromising affordability. Your devices, your convenience, our expertise – experience it all at the forefront of technology care in Ranchi.
+                  Unlock unparalleled convenience and expertise with the Best Laptop Service Centre in Ranchi, where
+                  cutting-edge solutions meet affordability. Our commitment extends to being the Best Computer Repairing
+                  Center in Ranchi, ensuring your devices receive top-notch care without breaking the bank. Experience
+                  the epitome of reliability at our center, renowned as the Best Printer Service Centre in Ranchi, where
+                  quality meets affordability seamlessly. What sets us apart is our dedication to providing hassle-free
+                  home services at an affordable cost, bringing expert technicians right to your doorstep. Embrace a new
+                  era of technology support that prioritizes both excellence and your budget. Trust us to deliver not
+                  just repairs, but a seamless experience that reflects our commitment to unmatched service without
+                  compromising affordability. Your devices, your convenience, our expertise – experience it all at the
+                  forefront of technology care in Ranchi.
                 </p>
                 <!-- <a class="btn btn_success btn_rounded" href="service.html">Repair Computer</a> -->
               </div>
@@ -318,7 +335,7 @@
               <div class="item_icon">
                 <i class="flaticon-sales"></i>
               </div>
-              <h3 class="item_title">Accessories Sales</h3>
+              <h3 class="item_title">Computer Repair in Ranchi</h3>
               <p>
                 Computer repair when an unknown printer took a galley of type and scrambled computer
               </p>
@@ -328,7 +345,7 @@
               <div class="item_icon">
                 <i class="flaticon-customer-support"></i>
               </div>
-              <h3 class="item_title">Customer Support</h3>
+              <h3 class="item_title">Printer Repair in Ranchi</h3>
               <p>
                 Computer repair when an unknown printer took a galley of type and scrambled computer
               </p>
@@ -338,12 +355,48 @@
               <div class="item_icon">
                 <i class="flaticon-protection-shield-with-a-check-mark"></i>
               </div>
-              <h3 class="item_title">Money Back Guarantee</h3>
+              <h3 class="item_title">Software Installation</h3>
               <p>
                 Computer repair when an unknown printer took a galley of type and scrambled computer
               </p>
             </div>
-            
+            <div class="policy_item_3">
+              <div class="item_icon">
+                <i class="flaticon-protection-shield-with-a-check-mark"></i>
+              </div>
+              <h3 class="item_title">Data Recovery</h3>
+              <p>
+                Computer repair when an unknown printer took a galley of type and scrambled computer
+              </p>
+            </div>
+            <div class="policy_item_3">
+              <div class="item_icon">
+                <i class="flaticon-protection-shield-with-a-check-mark"></i>
+              </div>
+              <h3 class="item_title">Virus Removal</h3>
+              <p>
+                Computer repair when an unknown printer took a galley of type and scrambled computer
+              </p>
+            </div>
+            <div class="policy_item_3">
+              <div class="item_icon">
+                <i class="flaticon-protection-shield-with-a-check-mark"></i>
+              </div>
+              <h3 class="item_title">Chip Level Repair</h3>
+              <p>
+                Computer repair when an unknown printer took a galley of type and scrambled computer
+              </p>
+            </div>
+            <div class="policy_item_3" style="background-color: #74c138; color: #ffffff;">
+              <div class="item_icon">
+                <i class="flaticon-protection-shield-with-a-check-mark"></i>
+              </div>
+              <h3 class="item_title">Repair at Home</h3>
+              <p>
+                Computer repair when an unknown printer took a galley of type and scrambled computer
+              </p>
+            </div>
+
           </div>
         </div>
       </div>
@@ -431,213 +484,52 @@
               </div>
             </div>
           </div>
+          <p>We, at Device Refix, have been exclusively dedicated to laptop repairing since our inception, establishing
+            a stellar reputation for providing top-notch laptop repair services to our clients. Whether you're dealing
+            with a sluggish laptop or a sudden breakdown, our laptop repair at home service is here to cater to your
+            needs. Our onboard team of experts boasts several years of experience in repairing laptops, making them
+            proficient in handling issues for all laptop brands.
+
+            In many cases, individuals either lack the time or neglect laptop maintenance, leading to slowdowns and
+            frequent technical problems. Instead of investing a substantial amount in a replacement, we recommend opting
+            for our laptop repair at home service, backed by a three-month warranty. Even if you consider yourself a
+            tech-savvy user, having technical laptop repair experts is crucial to enhancing performance and extending
+            the lifespan of your device.
+
+            A notable advantage of our laptop repair service at home is the 24/7 accessibility we offer. For busy
+            professionals with limited time for secondary activities, our 'laptop repair near me' service is available
+            round the clock. In terms of repair costs, we follow a policy of not charging until the laptop is properly
+            repaired, with only a reasonable home visit fee.
+
+            Upon contacting us, our representatives will record your query, along with your name and address.
+            Subsequently, they will confirm a convenient time for our laptop experts to visit and address your issue.
+            Our laptop experts are flexible and can accommodate visits at any time of the day. Once a suitable time is
+            confirmed, we will dispatch the laptop expert nearest to your location. Prior to the visit, our experts will
+            give you a call to confirm your address and ensure a seamless repair experience.</p>
         </div>
       </div>
       <!-- About Section - End
         ================================================== -->
 
-      <!-- Service Section - Start
-        ================================================== -->
-      <div class="service_section section_space bg_gray">
-        <div class="container">
-
-          <div class="row justify-content-center">
-            <div class="col col-lg-5">
-              <div class="section_title text-center">
-                <h2 class="sub_title" data-text-color="#74C138">
-                  Featured Services
-                  <span class="icon">
-                    <img src="resources/frontend/images//favourite_icon_3.png" alt="Logo Icon">
-                  </span>
-                </h2>
-                <h3 class="title_text mb-0">
-                  All in One Repairing Service For You
-                </h3>
-              </div>
-            </div>
-          </div>
-
-          <div class="featured_services_carousel carousel_style_2">
-            <div class="row common_carousel_3col" data-slick="{" arrows":="" false}"="">
-              <div class="col carousel_item">
-                <div class="service_card_layout style_2">
-                  <div class="item_image">
-                    <a class="image_wrap" href="service_details.html">
-                      <img src="resources/frontend/images//service_img_7.jpg" alt="Service Image">
-                    </a>
-                    <div class="price_wrap">
-                      <span>Start From</span>
-                      <strong>$55.00</strong>
-                    </div>
-                  </div>
-                  <div class="item_content">
-                    <h4 class="item_title">Hardware Maintenance</h4>
-                    <p>
-                      Computer hardware when an unknown printer took a galley of type and scrambled computer of the last
-                      expert engineers.
-                    </p>
-                    <a class="btn success_border btn_rounded" href="service_details.html">Read More</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col carousel_item">
-                <div class="service_card_layout style_2">
-                  <div class="item_image">
-                    <a class="image_wrap" href="service_details.html">
-                      <img src="resources/frontend/images//service_img_8.jpg" alt="Service Image">
-                    </a>
-                    <div class="price_wrap">
-                      <span>Start From</span>
-                      <strong>$23.00</strong>
-                    </div>
-                  </div>
-                  <div class="item_content">
-                    <h4 class="item_title">Software Installation</h4>
-                    <p>
-                      Software installation when an unknown printer took a galley of type and scrambled computer of the
-                      last expert engineers.
-                    </p>
-                    <a class="btn success_border btn_rounded" href="service_details.html">Read More</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col carousel_item">
-                <div class="service_card_layout style_2">
-                  <div class="item_image">
-                    <a class="image_wrap" href="service_details.html">
-                      <img src="resources/frontend/images//service_img_9.jpg" alt="Service Image">
-                    </a>
-                    <div class="price_wrap">
-                      <span>Start From</span>
-                      <strong>$36.00</strong>
-                    </div>
-                  </div>
-                  <div class="item_content">
-                    <h4 class="item_title">Networking Solution</h4>
-                    <p>
-                      Computer networking when an unknown printer took a galley of type and scrambled computer of the
-                      last expert engineers.
-                    </p>
-                    <a class="btn success_border btn_rounded" href="service_details.html">Read More</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col carousel_item">
-                <div class="service_card_layout style_2">
-                  <div class="item_image">
-                    <a class="image_wrap" href="service_details.html">
-                      <img src="resources/frontend/images//service_img_7.jpg" alt="Service Image">
-                    </a>
-                    <div class="price_wrap">
-                      <span>Start From</span>
-                      <strong>$55.00</strong>
-                    </div>
-                  </div>
-                  <div class="item_content">
-                    <h4 class="item_title">Hardware Maintenance</h4>
-                    <p>
-                      Computer hardware when an unknown printer took a galley of type and scrambled computer of the last
-                      expert engineers.
-                    </p>
-                    <a class="btn success_border btn_rounded" href="service_details.html">Read More</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col carousel_item">
-                <div class="service_card_layout style_2">
-                  <div class="item_image">
-                    <a class="image_wrap" href="service_details.html">
-                      <img src="resources/frontend/images//service_img_8.jpg" alt="Service Image">
-                    </a>
-                    <div class="price_wrap">
-                      <span>Start From</span>
-                      <strong>$23.00</strong>
-                    </div>
-                  </div>
-                  <div class="item_content">
-                    <h4 class="item_title">Software Installation</h4>
-                    <p>
-                      Software installation when an unknown printer took a galley of type and scrambled computer of the
-                      last expert engineers.
-                    </p>
-                    <a class="btn success_border btn_rounded" href="service_details.html">Read More</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col carousel_item">
-                <div class="service_card_layout style_2">
-                  <div class="item_image">
-                    <a class="image_wrap" href="service_details.html">
-                      <img src="resources/frontend/images//service_img_9.jpg" alt="Service Image">
-                    </a>
-                    <div class="price_wrap">
-                      <span>Start From</span>
-                      <strong>$36.00</strong>
-                    </div>
-                  </div>
-                  <div class="item_content">
-                    <h4 class="item_title">Networking Solution</h4>
-                    <p>
-                      Computer networking when an unknown printer took a galley of type and scrambled computer of the
-                      last expert engineers.
-                    </p>
-                    <a class="btn success_border btn_rounded" href="service_details.html">Read More</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col carousel_item">
-                <div class="service_card_layout style_2">
-                  <div class="item_image">
-                    <a class="image_wrap" href="service_details.html">
-                      <img src="resources/frontend/images//service_img_8.jpg" alt="Service Image">
-                    </a>
-                    <div class="price_wrap">
-                      <span>Start From</span>
-                      <strong>$23.00</strong>
-                    </div>
-                  </div>
-                  <div class="item_content">
-                    <h4 class="item_title">Software Installation</h4>
-                    <p>
-                      Software installation when an unknown printer took a galley of type and scrambled computer of the
-                      last expert engineers.
-                    </p>
-                    <a class="btn success_border btn_rounded" href="service_details.html">Read More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-      <!-- Service Section - End
-        ================================================== -->
 
       <!-- About Section - Start
         ================================================== -->
       <div class="about_section section_space">
         <div class="container">
           <div class="row align-items-center">
-            <div class="col col-lg-6 order-last col-md-8">
+            <div class="col col-lg-4 order-last col-md-8">
               <div class="about_image_2 decoration_wrap">
                 <div class="big_image">
-                  <img src="resources/frontend/images//about_img_2.jpg" alt="Worker Image">
+                  <img src="resources/frontend/images/about_img_2.jpg" alt="Worker Image">
                 </div>
                 <div class="small_image">
-                  <img src="resources/frontend/images//about_img_3.jpg" alt="Worker Image">
+                  <img src="resources/frontend/images/about_img_3.jpg" alt="Worker Image">
                 </div>
                 <div class="deco_item shape_1">
-                  <img src="resources/frontend/images//shape_2.png" alt="Dots Shape Image">
+                  <img src="resources/frontend/images/shape_2.png" alt="Dots Shape Image">
                 </div>
                 <div class="deco_item shape_2">
-                  <img src="resources/frontend/images//shape_3.png" alt="Border Circle Image">
+                  <img src="resources/frontend/images/shape_3.png" alt="Border Circle Image">
                 </div>
                 <div class="year_text">
                   <strong>10+</strong>
@@ -649,7 +541,7 @@
               </div>
             </div>
 
-            <div class="col col-lg-6">
+            <div class="col col-lg-8">
               <div class="about_content">
                 <div class="section_title">
                   <h2 class="sub_title" data-text-color="#74C138">
@@ -658,17 +550,55 @@
                       <img src="resources/frontend/images//favourite_icon_3.png" alt="Logo Icon">
                     </span>
                   </h2>
-                  <h3 class="title_text">
-                    Achieved a Milestone In Repairing Services
+                  <h3>
+                    Welcome to Device Refix – Your Trusted Technology Partner in Ranchi, Jharkhand!
                   </h3>
                   <p class="mb-0">
-                    All kinds of laptop, desktop computer servicing center forIt is a long established fact that a
-                    reader will be distracted by the readable computer disk. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Ut elit tellus, luctus nec
+                    At Device Refix, we take pride in being the premier destination for comprehensive computer repair,
+                    laptop repair, and printer repair services in Ranchi, Jharkhand. With a commitment to excellence and
+                    a team of highly skilled technicians, we strive to deliver top-notch solutions to meet all your
+                    technology needs.
                   </p>
+
+                  <h6>Our Mission:</h6>
+                  Our mission at Device Refix is to provide reliable and efficient repair services that empower our
+                  clients to make the most of their technology investments. We understand the critical role that
+                  computers, laptops, and printers play in your personal and professional life, and we are dedicated to
+                  ensuring they function seamlessly.
+
+                  <h6>Expertise and Experience:</h6>
+                  With years of experience in the industry, our team of expert technicians possesses in-depth knowledge
+                  and skills to handle a wide range of issues across various brands and models. Whether it's a
+                  malfunctioning computer, a sluggish laptop, or a problematic printer, we have the expertise to
+                  diagnose and resolve issues promptly.
+
+                  <h6>Client-Centric Approach:</h6>
+                  At Device Refix, we prioritize our clients' satisfaction. Our client-centric approach is reflected in
+                  our commitment to delivering timely, cost-effective, and reliable solutions. We understand the urgency
+                  of your repair needs and work diligently to minimize downtime, ensuring that your devices are back in
+                  optimal condition as quickly as possible.
+
+                  <h6>Convenient Location in Ranchi, Jharkhand:</h6>
+                  Conveniently located in Ranchi, Jharkhand, our service center is easily accessible, making it
+                  hassle-free for our clients to drop off their devices for repair. We also offer on-site services for
+                  added convenience, bringing our expertise directly to your doorstep.
+
+                  <h6>Transparent and Affordable Pricing:</h6>
+                  Device Refix believes in transparency when it comes to pricing. Our upfront and affordable pricing
+                  ensures that you know exactly what to expect, with no hidden costs. We offer competitive rates for our
+                  computer repair, laptop repair, and printer repair services without compromising on quality.
+
+                  <h6>Get in Touch:</h6>
+                  Whether you're a business professional, a student, or a home user, Device Refix is here to address all
+                  your technology-related concerns. Trust us for reliable, efficient, and affordable computer, laptop,
+                  and printer repair services in Ranchi, Jharkhand.
                 </div>
-                <a class="btn btn_success btn_rounded" href="service.html">Repair Computer</a>
               </div>
+            </div>
+          </div>
+          <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="btn btn_success btn_rounded" style="margin: 0;">
+              <h4 class="">Choose Device Refix – Where Technology Meets Expertise!</h4>
             </div>
           </div>
         </div>
@@ -678,7 +608,8 @@
 
       <!-- Advance Section - Start
         ================================================== -->
-      <div class="advance_search_section advance_search_2 section_space decoration_wrap parallaxie" style="background-image: url(resources/frontend/images//bg_4.jpg);">
+      <div class="advance_search_section advance_search_2 section_space decoration_wrap parallaxie"
+        style="background-image: url(resources/frontend/images//bg_4.jpg);">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col col-lg-8">
@@ -697,7 +628,7 @@
                   <input type="text" name="name" placeholder="Your Name">
                 </div>
               </div>
-             
+
               <div class="col col-lg-3 col-md-4 col-sm-6">
                 <div class="form_item">
                   <input type="tel" name="phone" placeholder="Phone">
@@ -1263,16 +1194,17 @@
                   </span>
                 </h2>
                 <h3 class="title_text">
-                  Some Positive Feedback From Our Clients
+                  Some Feedback From Our Clients
                 </h3>
               </div>
             </div>
           </div>
 
           <div class="testimonial_carousel_2 carousel_style_2">
-            <div class="row common_carousel_2col" data-slick="{" arrows":="" false}"="">
+            <div class="row common_carousel_2col">
               <div class="col carousel_item">
-                <div class="testimonial_item_2" style="background-image: url('resources/frontend/images//shape_4.png');">
+                <div class="testimonial_item_2"
+                  style="background-image: url('resources/frontend/images//shape_4.png');">
                   <div class="quote_icon text-end">
                     <span>
                       <i class="flaticon-quotation-right-mark"></i>
@@ -1301,7 +1233,8 @@
               </div>
 
               <div class="col carousel_item">
-                <div class="testimonial_item_2" style="background-image: url('resources/frontend/images//shape_4.png');">
+                <div class="testimonial_item_2"
+                  style="background-image: url('resources/frontend/images//shape_4.png');">
                   <div class="quote_icon text-end">
                     <span>
                       <i class="flaticon-quotation-right-mark"></i>
@@ -1330,7 +1263,8 @@
               </div>
 
               <div class="col carousel_item">
-                <div class="testimonial_item_2" style="background-image: url('resources/frontend/images//shape_4.png');">
+                <div class="testimonial_item_2"
+                  style="background-image: url('resources/frontend/images//shape_4.png');">
                   <div class="quote_icon text-end">
                     <span>
                       <i class="flaticon-quotation-right-mark"></i>
@@ -1359,7 +1293,8 @@
               </div>
 
               <div class="col carousel_item">
-                <div class="testimonial_item_2" style="background-image: url('resources/frontend/images//shape_4.png');">
+                <div class="testimonial_item_2"
+                  style="background-image: url('resources/frontend/images//shape_4.png');">
                   <div class="quote_icon text-end">
                     <span>
                       <i class="flaticon-quotation-right-mark"></i>
@@ -1388,7 +1323,8 @@
               </div>
 
               <div class="col carousel_item">
-                <div class="testimonial_item_2" style="background-image: url('resources/frontend/images//shape_4.png');">
+                <div class="testimonial_item_2"
+                  style="background-image: url('resources/frontend/images//shape_4.png');">
                   <div class="quote_icon text-end">
                     <span>
                       <i class="flaticon-quotation-right-mark"></i>
@@ -1417,7 +1353,8 @@
               </div>
 
               <div class="col carousel_item">
-                <div class="testimonial_item_2" style="background-image: url('resources/frontend/images//shape_4.png');">
+                <div class="testimonial_item_2"
+                  style="background-image: url('resources/frontend/images//shape_4.png');">
                   <div class="quote_icon text-end">
                     <span>
                       <i class="flaticon-quotation-right-mark"></i>
@@ -1454,7 +1391,8 @@
 
       <!-- Counter Section - Start
         ================================================== -->
-      <section class="counter_section_2 section_space decoration_wrap" data-bg-color="#000323" style="background-image: url('resources/frontend/images//pattern_2.png');">
+      <section class="counter_section_2 section_space decoration_wrap" data-bg-color="#000323"
+        style="background-image: url('resources/frontend/images//pattern_2.png');">
         <div class="overlay" data-bg-color="#000323"></div>
         <div class="container">
           <div class="counter_items_wrap">
@@ -1462,7 +1400,7 @@
               <div class="item_icon text-white">
                 <i class="flaticon-support"></i>
               </div>
-              <div class="counter_text text-white"><span class="counter">1200</span>+</div>
+              <div class="counter_text text-white"><span class="counter">12000</span>+</div>
               <h3 class="item_title text-white">Repairing Cases Solved</h3>
             </div>
 
@@ -1470,7 +1408,7 @@
               <div class="item_icon text-white">
                 <i class="flaticon-customer-satisfaction"></i>
               </div>
-              <div class="counter_text text-white"><span class="counter">500</span>+</div>
+              <div class="counter_text text-white"><span class="counter">1000</span>+</div>
               <h3 class="item_title text-white">Happy Customers</h3>
             </div>
 
@@ -1682,13 +1620,86 @@
 
       <!-- Advertisement Section - Start
         ================================================== -->
-      <section class="advertisement_section section_space pb-0">
+      <!-- <section class="advertisement_section section_space pb-0">
         <div class="container">
-          <div class="advertisement_layout_1 decoration_wrap" data-bg-color="#74C138" style="background-image: url('resources/frontend/images//pattern_3.png');">
+          <div class="advertisement_layout_1 decoration_wrap" data-bg-color="#74C138"
+            style="background-image: url('resources/frontend/images//pattern_3.png');">
             <div class="overlay" data-bg-color="#74C138"></div>
             <h2 class="text-white">Sale Second Hand Computer Through Repairon</h2>
             <img src="resources/frontend/images//advertisement_img_1.png" alt="Computer Image">
             <a class="btn btn_white btn_rounded" href="product_upload.html">Sale Computer</a>
+          </div>
+        </div>
+      </section> -->
+      <section class="advertisement_section section_space pb-0">
+        <div class="container">
+          <h3>We offer a full range of Laptop Repair, Printer Repair and computer AMC services for offices by
+            experienced and specialised team</h3>
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="icon-tab-0" data-bs-toggle="tab" href="#icon-tabpanel-0" role="tab"
+                aria-controls="icon-tabpanel-0" aria-selected="true"><i class="fa fa-laptop"></i> Laptop Repair in
+                Ranchi</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="icon-tab-1" data-bs-toggle="tab" href="#icon-tabpanel-1" role="tab"
+                aria-controls="icon-tabpanel-1" aria-selected="false"><i class="fa fa-desktop"></i> Computer Repair in
+                Ranchi</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="icon-tab-2" data-bs-toggle="tab" href="#icon-tabpanel-2" role="tab"
+                aria-controls="icon-tabpanel-2" aria-selected="false"><i class="fa fa-print"></i> Printer Repair in
+                Ranchi</a>
+            </li>
+          </ul>
+          <div class="tab-content pt-2" id="tab-content">
+            <div class="tab-pane active" id="icon-tabpanel-0" role="tabpanel" aria-labelledby="icon-tab-0">
+              <ul>
+                <li>Laptop Screen Replacement</li>
+                <li>RAM Replacement</li>
+                <li>SSD Upgrade and Replacement</li>
+                <li>Hard Disk Replacement</li>
+                <li>Laptop Slowness Issues</li>
+                <li>Laptop Overheating Solutions</li>
+                <li>Battery Won’t Hold Charge</li>
+                <li>Blank Screen Laptop Repair</li>
+                <li>Blue Screen Laptop Windows Error</li>
+                <li>Liquid spill & Liquid Damage Laptop Repair</li>
+                <li>Water Damage Laptop Won’t Turn On</li>
+                <li>Laptop Touchpad Repair</li>
+                <li>Laptop Battery Replacement</li>
+                <li>Laptop Hinge Repair</li>
+              </ul>
+            </div>
+            <div class="tab-pane" id="icon-tabpanel-1" role="tabpanel" aria-labelledby="icon-tab-1">
+              <ul>
+                <li>Computer Repair at Home</li>
+                <li>Computer keeps restarting</li>
+                <li>Computer Motherboard Repair</li>
+                <li>Windows Won’t Boot</li>
+                <li>The Computer Won’t Start</li>
+                <li>The Screen is Blank</li>
+                <li>PC blue screen of death</li>
+              </ul>
+            </div>
+            <div class="tab-pane" id="icon-tabpanel-2" role="tabpanel" aria-labelledby="icon-tab-2">
+              <ul>
+                <li>Paper Jams</li>
+                <li>Poor Print Quality</li>
+                <li>Printer Not Responding</li>
+                <li>Slow Printing</li>
+                <li>Connectivity Issues</li>
+                <li>Driver Problems</li>
+                <li>Ink or Toner Cartridge Issues</li>
+                <li>Print Spooler Errors</li>
+                <li>Wireless Printing Problems</li>
+                <li>Print Head Alignment Issues</li>
+                <li>Printer Offline</li>
+                <li>Ghosting</li>
+                <li>Error Codes</li>
+                <li>Blank Pages</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
@@ -1702,15 +1713,17 @@
     <!-- Footer Section - Start
       ================================================== -->
     <footer class="footer_section footer_2">
-      <div class="footer_widget_area section_space decoration_wrap parallaxie" data-bg-color="#000323" style="background-image: url('resources/frontend/images//bg_5.jpg');">
+      <div class="footer_widget_area section_space decoration_wrap parallaxie" data-bg-color="#000323"
+        style="background-image: url('resources/frontend/images//bg_5.jpg');">
         <div class="overlay" data-bg-color="#000323"></div>
         <div class="container">
           <div class="row justify-content-lg-between">
-            <div class="col col-lg-3 col-md-4 col-sm-6">
+            <div class="col col-lg-4 col-md-4 col-sm-6">
               <div class="footer_widget footer_about">
                 <div class="site_logo">
                   <a class="site_link" href="index.html">
-                    <img src="resources/frontend/images//logo_3_white.png" srcset="resources/frontend/images//logo_3_white_2x.png 2x" alt="Site Logo">
+                    <img src="resources/frontend/images//logo_3_white.png"
+                      srcset="resources/frontend/images//logo_3_white_2x.png 2x" alt="Site Logo">
                   </a>
                 </div>
                 <p>
@@ -1726,7 +1739,7 @@
               </div>
             </div>
 
-            <div class="col col-lg-2 col-md-4 col-sm-6">
+            <div class="col col-lg-4 col-md-4 col-sm-6">
               <div class="footer_widget useful_links">
                 <h3 class="footer_widget_title text-white">About Company</h3>
                 <ul class="ul_li_block">
@@ -1739,20 +1752,7 @@
               </div>
             </div>
 
-            <div class="col col-lg-3 col-md-4 col-sm-6">
-              <div class="footer_widget newsletter_area_2">
-                <h3 class="footer_widget_title text-white">Newsletter</h3>
-                <form action="#">
-                  <div class="form_item form_rounded">
-                    <label for="newsletter_email"><i class="flaticon-email"></i></label>
-                    <input id="newsletter_email" type="email" name="email" placeholder="Your Email">
-                  </div>
-                  <button type="submit" class="btn btn_success btn_rounded">Subscribe <i class="flaticon-paper-plane"></i></button>
-                </form>
-              </div>
-            </div>
-
-            <div class="col col-lg-3 col-md-4 col-sm-6">
+            <div class="col col-lg-4 col-md-4 col-sm-6">
               <div class="footer_widget contact_info_block">
                 <h3 class="footer_widget_title text-white">Get in Touch</h3>
                 <ul class="ul_li_block">
@@ -1775,7 +1775,9 @@
                     </div>
                     <div class="item_content">
                       <span>
-                        <a href="/cdn-cgi/l/email-protection#572422272738252317303a363e3b7934383a"><span class="__cf_email__" data-cfemail="fd8e888d8d928f89bd9a909c9491d39e9290">[email�&nbsp;protected]</span></a>
+                        <a href="/cdn-cgi/l/email-protection#572422272738252317303a363e3b7934383a"><span
+                            class="__cf_email__"
+                            data-cfemail="fd8e888d8d928f89bd9a909c9491d39e9290">[email�&nbsp;protected]</span></a>
                       </span>
                     </div>
                   </li>
@@ -1797,7 +1799,8 @@
       </div>
       <div class="footer_bottom">
         <div class="container content_wrap">
-          <p class="copyright_text">Copyright ©2022 <a target="_blank" href="https://webdadz.com">Webdadz</a>. All Rights Reserved</p>
+          <p class="copyright_text">Copyright ©2022 <a target="_blank" href="https://webdadz.com">Webdadz</a>. All
+            Rights Reserved</p>
           <div class="payment_method d-flex align-items-center">
             <img src="resources/frontend/images//payment.png" alt="Payment Method">
             <div class="payment_getway bg_green">
@@ -1815,7 +1818,8 @@
   <!-- Body Wrap - End -->
 
   <!-- Fraimwork - Jquery Include -->
-  <script data-cfasync="false" src="resources/frontend/js/email-decode.min.js"></script><script src="resources/frontend/js/jquery.min.js"></script>
+  <script data-cfasync="false" src="resources/frontend/js/email-decode.min.js"></script>
+  <script src="resources/frontend/js/jquery.min.js"></script>
   <script src="resources/frontend/js/popper.min.js"></script>
   <script src="resources/frontend/js/bootstrap.min.js"></script>
   <script src="resources/frontend/js/bootstrap-dropdown-ml-hack.js"></script>
@@ -1850,4 +1854,6 @@
 
 
 
-</body></html>
+</body>
+
+</html>
