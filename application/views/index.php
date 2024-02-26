@@ -1177,12 +1177,9 @@
                     </span>
                   </div>
                   <div class="content_wrap">
-                    <h3 class="hero_name">Nirob Shen Aronno</h3>
-                    <span class="hero_designation">CEO, Codexpand</span>
+                    <h3 class="hero_name">Amit Kumar Singh</h3>
                     <p>
-                      There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                      alteration in some form injected humour, or randomised words which don't look even slightly. If
-                      you are going to use a passage of Lorem Ipsum,
+                    The computer repair service in Ranchi exceeded expectations. Their skilled technicians quickly diagnosed and resolved my issues, providing a seamless and cost-effective solution. Professionalism, efficiency, and reliability make them my go-to for all tech-related concerns. Highly recommended!
                     </p>
                     <ul class="reting_star ul_li">
                       <li class="active"><i class="flaticon-star"></i></li>
@@ -1207,12 +1204,9 @@
                     </span>
                   </div>
                   <div class="content_wrap">
-                    <h3 class="hero_name">Daniel Brown Costa</h3>
-                    <span class="hero_designation">Manager, Probidya</span>
+                    <h3 class="hero_name">Suman Shekhar</h3>
                     <p>
-                      There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                      alteration in some form injected humour, or randomised words which don't look even slightly. If
-                      you are going to use a passage of Lorem Ipsum,
+                    I recently utilized a computer repair service in Ranchi, and I am highly impressed. The technicians were prompt, skilled, and efficiently resolved my issues. Excellent service, reasonable prices, and a seamless experience. Highly recommended for anyone in need of computer repairs in Ranchi!
                     </p>
                     <ul class="reting_star ul_li">
                       <li class="active"><i class="flaticon-star"></i></li>
@@ -1237,12 +1231,9 @@
                     </span>
                   </div>
                   <div class="content_wrap">
-                    <h3 class="hero_name">Nirob Shen Aronno</h3>
-                    <span class="hero_designation">CEO, Codexpand</span>
+                    <h3 class="hero_name">Abhishek Kushwaha</h3>
                     <p>
-                      There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                      alteration in some form injected humour, or randomised words which don't look even slightly. If
-                      you are going to use a passage of Lorem Ipsum,
+                    Outstanding printer repair service in Ranchi! Prompt response, skilled technicians, and affordable prices. They swiftly diagnosed and fixed my printer issues, ensuring optimal performance. Highly recommended for reliable and efficient repairs.
                     </p>
                     <ul class="reting_star ul_li">
                       <li class="active"><i class="flaticon-star"></i></li>
@@ -1267,12 +1258,9 @@
                     </span>
                   </div>
                   <div class="content_wrap">
-                    <h3 class="hero_name">Daniel Brown Costa</h3>
-                    <span class="hero_designation">Manager, Probidya</span>
+                    <h3 class="hero_name">Rahul Pandit</h3>
                     <p>
-                      There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                      alteration in some form injected humour, or randomised words which don't look even slightly. If
-                      you are going to use a passage of Lorem Ipsum,
+                    The printer repair service in Ranchi exceeded my expectations. The technicians were prompt, knowledgeable, and fixed my printer efficiently. I highly recommend their services for anyone facing printer issues in the area.
                     </p>
                     <ul class="reting_star ul_li">
                       <li class="active"><i class="flaticon-star"></i></li>
@@ -1297,12 +1285,9 @@
                     </span>
                   </div>
                   <div class="content_wrap">
-                    <h3 class="hero_name">Nirob Shen Aronno</h3>
-                    <span class="hero_designation">CEO, Codexpand</span>
+                    <h3 class="hero_name">Laxmi Kumari</h3>
                     <p>
-                      There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                      alteration in some form injected humour, or randomised words which don't look even slightly. If
-                      you are going to use a passage of Lorem Ipsum,
+                    The laptop repair service in Ranchi exceeded my expectations. Quick turnaround, professional staff, and affordable prices. They diagnosed and fixed my laptop issues promptly, ensuring it functions like new. Highly recommended for reliable and efficient laptop repairs in the area.
                     </p>
                     <ul class="reting_star ul_li">
                       <li class="active"><i class="flaticon-star"></i></li>
@@ -1327,12 +1312,9 @@
                     </span>
                   </div>
                   <div class="content_wrap">
-                    <h3 class="hero_name">Daniel Brown Costa</h3>
-                    <span class="hero_designation">Manager, Probidya</span>
+                    <h3 class="hero_name">Shivam Kumar Sahu</h3>
                     <p>
-                      There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                      alteration in some form injected humour, or randomised words which don't look even slightly. If
-                      you are going to use a passage of Lorem Ipsum,
+                    I had an outstanding experience with the laptop repair service in Ranchi. The technicians were highly skilled, providing prompt and efficient solutions. My laptop works like new, and I appreciate the professionalism and expertise of the service. Highly recommended for reliable laptop repairs!
                     </p>
                     <ul class="reting_star ul_li">
                       <li class="active"><i class="flaticon-star"></i></li>
@@ -1602,20 +1584,17 @@
           <h3>We offer a full range of Laptop Repair, Printer Repair and computer AMC services for offices by
             experienced and specialised team</h3>
           <ul class="nav nav-tabs" role="tablist">
-            <li class="nav-item" role="presentation">
+            <li class="nav-item col-lg-4 col-md-4 col-sm-12" role="presentation">
               <a class="nav-link active" id="icon-tab-0" data-bs-toggle="tab" href="#icon-tabpanel-0" role="tab"
-                aria-controls="icon-tabpanel-0" aria-selected="true"><i class="fa fa-laptop"></i> Laptop Repair in
-                Ranchi</a>
+                aria-controls="icon-tabpanel-0" aria-selected="true"><i class="fa fa-laptop"></i> Best Laptop Repair in Ranchi</a>
             </li>
-            <li class="nav-item" role="presentation">
+            <li class="nav-item col-lg-4 col-md-4 col-sm-12" role="presentation">
               <a class="nav-link" id="icon-tab-1" data-bs-toggle="tab" href="#icon-tabpanel-1" role="tab"
-                aria-controls="icon-tabpanel-1" aria-selected="false"><i class="fa fa-desktop"></i> Computer Repair in
-                Ranchi</a>
+                aria-controls="icon-tabpanel-1" aria-selected="false"><i class="fa fa-desktop"></i> Best Computer Repair in Ranchi</a>
             </li>
-            <li class="nav-item" role="presentation">
+            <li class="nav-item col-lg-4 col-md-4 col-sm-12" role="presentation">
               <a class="nav-link" id="icon-tab-2" data-bs-toggle="tab" href="#icon-tabpanel-2" role="tab"
-                aria-controls="icon-tabpanel-2" aria-selected="false"><i class="fa fa-print"></i> Printer Repair in
-                Ranchi</a>
+                aria-controls="icon-tabpanel-2" aria-selected="false"><i class="fa fa-print"></i> Best Printer Repair in Ranchi</a>
             </li>
           </ul>
           <div class="tab-content pt-2" id="tab-content">
@@ -1646,6 +1625,13 @@
                 <li>The Computer Won’t Start</li>
                 <li>The Screen is Blank</li>
                 <li>PC blue screen of death</li>
+                <li>Slow Performance</li>
+                <li>Malware and Viruses Removal</li>
+                <li>Hardware Failures</li>
+                <li>Overheating</li>
+                <li>Data Loss</li>
+                <li>Power Supply Issues</li>
+                <li>Crashing and Freezing</li>
               </ul>
             </div>
             <div class="tab-pane" id="icon-tabpanel-2" role="tabpanel" aria-labelledby="icon-tab-2">
