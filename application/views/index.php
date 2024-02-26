@@ -1584,15 +1584,15 @@
           <h3>We offer a full range of Laptop Repair, Printer Repair and computer AMC services for offices by
             experienced and specialised team</h3>
           <ul class="nav nav-tabs" role="tablist">
-            <li class="nav-item col-lg-4 col-md-4 col-sm-12" role="presentation">
+            <li class="nav-item col-sm-12 col-md-12 col-lg-4" role="presentation">
               <a class="nav-link active" id="icon-tab-0" data-bs-toggle="tab" href="#icon-tabpanel-0" role="tab"
                 aria-controls="icon-tabpanel-0" aria-selected="true"><i class="fa fa-laptop"></i> Best Laptop Repair in Ranchi</a>
             </li>
-            <li class="nav-item col-lg-4 col-md-4 col-sm-12" role="presentation">
+            <li class="nav-item col-sm-12 col-md-12 col-lg-4" role="presentation">
               <a class="nav-link" id="icon-tab-1" data-bs-toggle="tab" href="#icon-tabpanel-1" role="tab"
                 aria-controls="icon-tabpanel-1" aria-selected="false"><i class="fa fa-desktop"></i> Best Computer Repair in Ranchi</a>
             </li>
-            <li class="nav-item col-lg-4 col-md-4 col-sm-12" role="presentation">
+            <li class="nav-item col-sm-12 col-md-12 col-lg-4" role="presentation">
               <a class="nav-link" id="icon-tab-2" data-bs-toggle="tab" href="#icon-tabpanel-2" role="tab"
                 aria-controls="icon-tabpanel-2" aria-selected="false"><i class="fa fa-print"></i> Best Printer Repair in Ranchi</a>
             </li>
