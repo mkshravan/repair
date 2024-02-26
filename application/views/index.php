@@ -8,7 +8,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
   <title> Home Refix - Best Computer Repair in Ranchi, Laptop Repair in Ranchi, Printer Repair in Ranchi</title>
-  <link rel="shortcut icon" href="resources/frontend/images//favourite_icon_2.png">
+  <link rel="shortcut icon" href="resources/frontend/images/favourite_icon_2.png">
 
   <!-- Fraimwork - CSS Include -->
   <link rel="stylesheet" type="text/css" href="resources/frontend/css/bootstrap.min.css">
@@ -79,8 +79,8 @@
       <div class="header_bottom">
         <div class="site_logo">
           <a href="/">
-            <img src="resources/frontend/images//logo_2_white.png"
-              srcset="resources/frontend/images//logo_2_white_2x.png 2x" alt="logo_not_found">
+            <img src="resources/frontend/images/logo_2_white.png"
+              srcset="resources/frontend/images/logo_2_white_2x.png 2x" alt="logo_not_found">
           </a>
         </div>
 
@@ -93,27 +93,27 @@
           <div class="main_menu_inner collapse navbar-collapse" id="main_menu_dropdown">
             <ul class="main_menu_list ul_li text-uppercase">
               <li class="">
-                <a class="nav-link" href="index_1.html" id="home_submenu" role="button" aria-expanded="false">Home</a>
+                <a class="nav-link" href="/" id="home_submenu" role="button" aria-expanded="false">Home</a>
               </li>
-              <li><a href="about.html">About</a></li>
+              <li><a href="about-us">About</a></li>
               <li class="dropdown">
                 <a class="nav-link" href="javascript:void(0)" id="service_submenu" role="button" aria-expanded="false">
                   Services
                 </a>
                 <ul class="submenu dropdown-menu" aria-labelledby="service_submenu">
-                  <li><a href="service.html">Computer Repair</a></li>
-                  <li><a href="service_details.html">Laptop Repair</a></li>
-                  <li><a href="service_details.html">Printer Repair</a></li>
+                  <li><a href="computer-repair-in-ranchi">Computer Repair</a></li>
+                  <li><a href="laptop-repair-in-ranchi">Laptop Repair</a></li>
+                  <li><a href="printer-repair-in-ranchi">Printer Repair</a></li>
                 </ul>
               </li>
-              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="contact-us">Contact Us</a></li>
             </ul>
           </div>
 
           <ul class="header_btns_group ul_li">
             <!-- <li>
               <button type="button" class="search_btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="19.667" height="19.666" viewBox="0 0 19.667 19.666">
+                <svg xmlns="http:/www.w3.org/2000/svg" width="19.667" height="19.666" viewBox="0 0 19.667 19.666">
                   <g transform="translate(0 -0.035)">
                     <path d="M8.216,16.459a8.2,8.2,0,0,0,5.037-1.73l4.684,4.686a1.021,1.021,0,0,0,1.444-1.444L14.7,13.285a8.212,8.212,0,1,0-6.481,3.174ZM3.853,3.885a6.171,6.171,0,1,1,0,8.727h0a6.149,6.149,0,0,1-.032-8.7l.032-.032Z" transform="translate(0 0)" fill="#000323"></path>
                   </g>
@@ -122,7 +122,7 @@
             </li> -->
             <!-- <li>
               <button type="button" class="offcanvas_btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24.978" height="16.745" viewBox="0 0 24.978 16.745">
+                <svg xmlns="http:/www.w3.org/2000/svg" width="24.978" height="16.745" viewBox="0 0 24.978 16.745">
                   <g transform="translate(-53.001 0)">
                     <path d="M-1008.175-479.255a.893.893,0,0,1-.847-.93.893.893,0,0,1,.847-.931h23.285a.894.894,0,0,1,.846.931.894.894,0,0,1-.846.93ZM-998-486.7a.933.933,0,0,1-.931-.93.933.933,0,0,1,.931-.931h13.024a.933.933,0,0,1,.931.931.933.933,0,0,1-.931.93Zm-10.176-7.442a.893.893,0,0,1-.847-.93.893.893,0,0,1,.847-.931h23.285a.894.894,0,0,1,.846.931.894.894,0,0,1-.846.93Z" transform="translate(1062.022 496)" fill="#000323"></path>
                   </g>
@@ -171,7 +171,7 @@
           <button type="button" class="about_close_btn"><i class="fal fa-times"></i></button>
           <div class="site_logo">
             <a href="index.html">
-              <img src="resources/frontend/images//logo_4_black_1x.png" srcset="resources/frontend/images//logo_4_black_2x.png 2x" alt="logo_not_found">
+              <img src="resources/frontend/images/logo_4_black_1x.png" srcset="resources/frontend/images/logo_4_black_2x.png 2x" alt="logo_not_found">
             </a>
           </div>
 
@@ -214,69 +214,35 @@
 
         <div class="cart_sidebar">
           <button type="button" class="cart_close_btn"><i class="fal fa-times"></i></button>
-          <h3 class="heading_title text-uppercase">Cart Items - <span class="cart_counter">4</span></h3>
+          <h3 class="heading_title text-uppercase">Send Your Problems</h3>
 
           <div class="cart_items_list">
-            <div class="cart_item">
-              <div class="item_image">
-                <img src="resources/frontend/images//product_img_35.png" alt="image_not_found">
+          <form action="#">
+            <div class="row">
+              <div class="col col-lg-12 col-md-12 col-sm-12">
+                <div class="form_item">
+                  <input type="text" name="name" placeholder="Your Name">
+                </div>
               </div>
-              <div class="item_content">
-                <h4 class="item_title">
-                  Rorem ipsum dolor sit amet sectetur.
-                </h4>
-                <span class="item_price">$19.00</span>
-                <button type="button" class="remove_btn"><i class="fal fa-times"></i></button>
+
+              <div class="col col-lg-12 col-md-12 col-sm-12">
+                <div class="form_item">
+                  <input type="tel" name="phone" placeholder="Phone">
+                </div>
+              </div>
+
+              <div class="col col-lg-12 col-md-12 col-sm-12">
+                <div class="form_item">
+                  <input type="text" name="problem" placeholder="Write your problem">
+                </div>
               </div>
             </div>
 
-            <div class="cart_item">
-              <div class="item_image">
-                <img src="resources/frontend/images//product_img_36.png" alt="image_not_found">
-              </div>
-              <div class="item_content">
-                <h4 class="item_title">
-                  Rorem ipsum dolor sit amet sectetur.
-                </h4>
-                <span class="item_price">$19.00</span>
-                <button type="button" class="remove_btn"><i class="fal fa-times"></i></button>
-              </div>
+            <div class="single_btn_wrap text-center p-0">
+              <button type="submit" class="btn btn_danger rounded-0">Submit Request</button>
             </div>
-
-            <div class="cart_item">
-              <div class="item_image">
-                <img src="resources/frontend/images//product_img_37.png" alt="image_not_found">
-              </div>
-              <div class="item_content">
-                <h4 class="item_title">
-                  Rorem ipsum dolor sit amet sectetur.
-                </h4>
-                <span class="item_price">$19.00</span>
-                <button type="button" class="remove_btn"><i class="fal fa-times"></i></button>
-              </div>
-            </div>
-
-            <div class="cart_item">
-              <div class="item_image">
-                <img src="resources/frontend/images//product_img_38.png" alt="image_not_found">
-              </div>
-              <div class="item_content">
-                <h4 class="item_title">
-                  Rorem ipsum dolor sit amet sectetur.
-                </h4>
-                <span class="item_price">$19.00</span>
-                <button type="button" class="remove_btn"><i class="fal fa-times"></i></button>
-              </div>
-            </div>
+          </form>
           </div>
-          <div class="total_price text-uppercase">
-            <span>Sub Total:</span>
-            <span>$76.00</span>
-          </div>
-          <ul class="btns_group ul_li">
-            <li><a href="#!" class="btn btn_danger rounded-0">View Cart</a></li>
-            <li><a href="#!" class="btn btn_secondary rounded-0">Checkout</a></li>
-          </ul>
         </div>
         <div class="cart_sidebar_overlay"></div>
       </div>
@@ -286,7 +252,7 @@
       <!-- Banner Section - Start
         ================================================== -->
       <section class="banner_section banner_2 parallaxie"
-        style="background-image: url(resources/frontend/images//bg_3.jpg);">
+        style="background-image: url(resources/frontend/images/bg_3.jpg);">
         <div class="container">
           <div class="row">
             <div class="col col-lg-10 col-md-10">
@@ -327,7 +293,7 @@
               </div>
               <h3 class="item_title">Laptop Repair in Ranchi</h3>
               <p>
-                Computer repair when an unknown printer took a galley of type and scrambled computer
+              Discover top-notch laptop repair services in Ranchi with skilled technicians ensuring swift and reliable solutions for you.
               </p>
             </div>
 
@@ -337,7 +303,7 @@
               </div>
               <h3 class="item_title">Computer Repair in Ranchi</h3>
               <p>
-                Computer repair when an unknown printer took a galley of type and scrambled computer
+              Experience top-notch computer repair services in Ranchi with our skilled technicians, ensuring swift and reliable solutions.
               </p>
             </div>
 
@@ -347,7 +313,7 @@
               </div>
               <h3 class="item_title">Printer Repair in Ranchi</h3>
               <p>
-                Computer repair when an unknown printer took a galley of type and scrambled computer
+              Expert printer repair services in Ranchi: Fast, reliable solutions for all printer issues, enhancing performance seamlessly.
               </p>
             </div>
 
@@ -357,7 +323,7 @@
               </div>
               <h3 class="item_title">Software Installation</h3>
               <p>
-                Computer repair when an unknown printer took a galley of type and scrambled computer
+              For top-notch software repair services in Ranchi, trust our expert technicians to swiftly diagnose and resolve issues.
               </p>
             </div>
             <div class="policy_item_3">
@@ -366,7 +332,7 @@
               </div>
               <h3 class="item_title">Data Recovery</h3>
               <p>
-                Computer repair when an unknown printer took a galley of type and scrambled computer
+              Efficient data recovery services in Ranchi, ensuring swift and secure retrieval of lost information. Contact us now!
               </p>
             </div>
             <div class="policy_item_3">
@@ -375,7 +341,7 @@
               </div>
               <h3 class="item_title">Virus Removal</h3>
               <p>
-                Computer repair when an unknown printer took a galley of type and scrambled computer
+              For expert virus removal in Ranchi, trust our professional services to safeguard your devices and data in your own city.
               </p>
             </div>
             <div class="policy_item_3">
@@ -384,7 +350,7 @@
               </div>
               <h3 class="item_title">Chip Level Repair</h3>
               <p>
-                Computer repair when an unknown printer took a galley of type and scrambled computer
+              Get professional chip level repair services in Ranchi for reliable and efficient solutions for all electronic devices.
               </p>
             </div>
             <div class="policy_item_3" style="background-color: #74c138; color: #ffffff;">
@@ -393,7 +359,7 @@
               </div>
               <h3 class="item_title">Repair at Home</h3>
               <p>
-                Computer repair when an unknown printer took a galley of type and scrambled computer
+              Efficient computer, laptop, and printer repair services brought to your doorstep for hassle-free and reliable solutions.
               </p>
             </div>
 
@@ -410,7 +376,7 @@
           <div class="row align-items-center">
             <div class="col col-lg-6 col-md-8">
               <div class="about_image">
-                <img src="resources/frontend/images//about_img_1.png" alt="Laptop Repair resources/frontend/images/">
+                <img src="resources/frontend/images/about_img_1.png" alt="Laptop Repair resources/frontend/images/">
               </div>
             </div>
 
@@ -420,7 +386,7 @@
                   <h2 class="sub_title" data-text-color="#74C138">
                     Why Choose Us
                     <span class="icon">
-                      <img src="resources/frontend/images//favourite_icon_3.png" alt="Logo Icon">
+                      <img src="resources/frontend/images/favourite_icon_3.png" alt="Logo Icon">
                     </span>
                   </h2>
                   <h3 class="title_text mb-0">
@@ -436,7 +402,7 @@
                       <div class="item_content">
                         <h3 class="item_title">Skilled Technicians</h3>
                         <p class="mb-0" data-text-color="#828A9B">
-                          Vehicle Repair on the Spot in the Store or at Home/Office
+                        Rely on skilled technicians for proficient and reliable service solutions.
                         </p>
                       </div>
                     </div>
@@ -447,9 +413,9 @@
                         <i class="flaticon-chemical-reaction"></i>
                       </div>
                       <div class="item_content">
-                        <h3 class="item_title">10+ Years Experiences</h3>
+                        <h3 class="item_title">20+ Years Experiences</h3>
                         <p class="mb-0" data-text-color="#828A9B">
-                          Vehicle Repair on the Spot in the Store or at Home/Office
+                        Benefit from our unparalleled expertise with over 20 years of experience.
                         </p>
                       </div>
                     </div>
@@ -462,7 +428,7 @@
                       <div class="item_content">
                         <h3 class="item_title">Quality Guarantee</h3>
                         <p class="mb-0" data-text-color="#828A9B">
-                          Vehicle Repair on the Spot in the Store or at Home/Office
+                        Assure excellence with our quality guarantee, ensuring satisfaction and reliability.
                         </p>
                       </div>
                     </div>
@@ -475,7 +441,7 @@
                       <div class="item_content">
                         <h3 class="item_title">Trusted &amp; Recommended</h3>
                         <p class="mb-0" data-text-color="#828A9B">
-                          Vehicle Repair on the Spot in the Store or at Home/Office
+                        Highly trusted and recommended for reliable solutions and exceptional service.
                         </p>
                       </div>
                     </div>
@@ -547,7 +513,7 @@
                   <h2 class="sub_title" data-text-color="#74C138">
                     About Company
                     <span class="icon">
-                      <img src="resources/frontend/images//favourite_icon_3.png" alt="Logo Icon">
+                      <img src="resources/frontend/images/favourite_icon_3.png" alt="Logo Icon">
                     </span>
                   </h2>
                   <h3>
@@ -609,7 +575,7 @@
       <!-- Advance Section - Start
         ================================================== -->
       <div class="advance_search_section advance_search_2 section_space decoration_wrap parallaxie"
-        style="background-image: url(resources/frontend/images//bg_4.jpg);">
+        style="background-image: url(resources/frontend/images/bg_4.jpg);">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col col-lg-8">
@@ -643,7 +609,7 @@
             </div>
 
             <div class="single_btn_wrap text-center p-0">
-              <button type="submit" class="btn btn_success btn_rounded">Send a Request</button>
+              <button type="submit" class="btn btn_success btn_rounded">Submit Request</button>
             </div>
           </form>
         </div>
@@ -666,7 +632,7 @@
                 <h2 class="sub_title" data-text-color="#74C138">
                   Our Products
                   <span class="icon">
-                    <img src="resources/frontend/images//favourite_icon_3.png" alt="Logo Icon">
+                    <img src="resources/frontend/images/favourite_icon_3.png" alt="Logo Icon">
                   </span>
                 </h2>
                 <h3 class="title_text">
@@ -713,7 +679,7 @@
                   <div class="carousel_item">
                     <div class="product_grid_2">
                       <a class="item_image" href="shop_details.html">
-                        <img src="resources/frontend/images//product_img_9.png" alt="Shop Image">
+                        <img src="resources/frontend/images/product_img_9.png" alt="Shop Image">
                       </a>
                       <div class="item_content">
                         <h3 class="item_title">
@@ -741,7 +707,7 @@
 
                     <div class="product_grid_2">
                       <a class="item_image" href="shop_details.html">
-                        <img src="resources/frontend/images//product_img_13.png" alt="Shop Image">
+                        <img src="resources/frontend/images/product_img_13.png" alt="Shop Image">
                       </a>
                       <div class="item_content">
                         <h3 class="item_title">
@@ -770,7 +736,7 @@
                   <div class="carousel_item">
                     <div class="product_grid_2">
                       <a class="item_image" href="shop_details.html">
-                        <img src="resources/frontend/images//product_img_10.png" alt="Shop Image">
+                        <img src="resources/frontend/images/product_img_10.png" alt="Shop Image">
                       </a>
                       <div class="item_content">
                         <h3 class="item_title">
@@ -797,7 +763,7 @@
 
                     <div class="product_grid_2">
                       <a class="item_image" href="shop_details.html">
-                        <img src="resources/frontend/images//product_img_14.png" alt="Shop Image">
+                        <img src="resources/frontend/images/product_img_14.png" alt="Shop Image">
                       </a>
                       <div class="item_content">
                         <h3 class="item_title">
@@ -827,7 +793,7 @@
                   <div class="carousel_item">
                     <div class="product_grid_2">
                       <a class="item_image" href="shop_details.html">
-                        <img src="resources/frontend/images//product_img_11.png" alt="Shop Image">
+                        <img src="resources/frontend/images/product_img_11.png" alt="Shop Image">
                       </a>
                       <div class="item_content">
                         <h3 class="item_title">
@@ -855,7 +821,7 @@
 
                     <div class="product_grid_2">
                       <a class="item_image" href="shop_details.html">
-                        <img src="resources/frontend/images//product_img_15.png" alt="Shop Image">
+                        <img src="resources/frontend/images/product_img_15.png" alt="Shop Image">
                       </a>
                       <div class="item_content">
                         <h3 class="item_title">
@@ -884,7 +850,7 @@
                   <div class="carousel_item">
                     <div class="product_grid_2">
                       <a class="item_image" href="shop_details.html">
-                        <img src="resources/frontend/images//product_img_12.png" alt="Shop Image">
+                        <img src="resources/frontend/images/product_img_12.png" alt="Shop Image">
                       </a>
                       <div class="item_content">
                         <h3 class="item_title">
@@ -911,7 +877,7 @@
 
                     <div class="product_grid_2">
                       <a class="item_image" href="shop_details.html">
-                        <img src="resources/frontend/images//product_img_16.png" alt="Shop Image">
+                        <img src="resources/frontend/images/product_img_16.png" alt="Shop Image">
                       </a>
                       <div class="item_content">
                         <h3 class="item_title">
@@ -941,7 +907,7 @@
                   <div class="carousel_item">
                     <div class="product_grid_2">
                       <a class="item_image" href="shop_details.html">
-                        <img src="resources/frontend/images//product_img_9.png" alt="Shop Image">
+                        <img src="resources/frontend/images/product_img_9.png" alt="Shop Image">
                       </a>
                       <div class="item_content">
                         <h3 class="item_title">
@@ -969,7 +935,7 @@
 
                     <div class="product_grid_2">
                       <a class="item_image" href="shop_details.html">
-                        <img src="resources/frontend/images//product_img_13.png" alt="Shop Image">
+                        <img src="resources/frontend/images/product_img_13.png" alt="Shop Image">
                       </a>
                       <div class="item_content">
                         <h3 class="item_title">
@@ -998,7 +964,7 @@
                   <div class="carousel_item">
                     <div class="product_grid_2">
                       <a class="item_image" href="shop_details.html">
-                        <img src="resources/frontend/images//product_img_10.png" alt="Shop Image">
+                        <img src="resources/frontend/images/product_img_10.png" alt="Shop Image">
                       </a>
                       <div class="item_content">
                         <h3 class="item_title">
@@ -1025,7 +991,7 @@
 
                     <div class="product_grid_2">
                       <a class="item_image" href="shop_details.html">
-                        <img src="resources/frontend/images//product_img_14.png" alt="Shop Image">
+                        <img src="resources/frontend/images/product_img_14.png" alt="Shop Image">
                       </a>
                       <div class="item_content">
                         <h3 class="item_title">
@@ -1055,7 +1021,7 @@
                   <div class="carousel_item">
                     <div class="product_grid_2">
                       <a class="item_image" href="shop_details.html">
-                        <img src="resources/frontend/images//product_img_11.png" alt="Shop Image">
+                        <img src="resources/frontend/images/product_img_11.png" alt="Shop Image">
                       </a>
                       <div class="item_content">
                         <h3 class="item_title">
@@ -1083,7 +1049,7 @@
 
                     <div class="product_grid_2">
                       <a class="item_image" href="shop_details.html">
-                        <img src="resources/frontend/images//product_img_15.png" alt="Shop Image">
+                        <img src="resources/frontend/images/product_img_15.png" alt="Shop Image">
                       </a>
                       <div class="item_content">
                         <h3 class="item_title">
@@ -1112,7 +1078,7 @@
                   <div class="carousel_item">
                     <div class="product_grid_2">
                       <a class="item_image" href="shop_details.html">
-                        <img src="resources/frontend/images//product_img_12.png" alt="Shop Image">
+                        <img src="resources/frontend/images/product_img_12.png" alt="Shop Image">
                       </a>
                       <div class="item_content">
                         <h3 class="item_title">
@@ -1139,7 +1105,7 @@
 
                     <div class="product_grid_2">
                       <a class="item_image" href="shop_details.html">
-                        <img src="resources/frontend/images//product_img_16.png" alt="Shop Image">
+                        <img src="resources/frontend/images/product_img_16.png" alt="Shop Image">
                       </a>
                       <div class="item_content">
                         <h3 class="item_title">
@@ -1190,7 +1156,7 @@
                 <h2 class="sub_title" data-text-color="#74C138">
                   Testimonials
                   <span class="icon">
-                    <img src="resources/frontend/images//favourite_icon_3.png" alt="Logo Icon">
+                    <img src="resources/frontend/images/favourite_icon_3.png" alt="Logo Icon">
                   </span>
                 </h2>
                 <h3 class="title_text">
@@ -1204,7 +1170,7 @@
             <div class="row common_carousel_2col">
               <div class="col carousel_item">
                 <div class="testimonial_item_2"
-                  style="background-image: url('resources/frontend/images//shape_4.png');">
+                  style="background-image: url('resources/frontend/images/shape_4.png');">
                   <div class="quote_icon text-end">
                     <span>
                       <i class="flaticon-quotation-right-mark"></i>
@@ -1227,14 +1193,14 @@
                     </ul>
                   </div>
                   <div class="thumbnail_wrap">
-                    <img src="resources/frontend/images//thumbnail_2.png" alt="Avatar Image">
+                    <img src="resources/frontend/images/thumbnail_2.png" alt="Avatar Image">
                   </div>
                 </div>
               </div>
 
               <div class="col carousel_item">
                 <div class="testimonial_item_2"
-                  style="background-image: url('resources/frontend/images//shape_4.png');">
+                  style="background-image: url('resources/frontend/images/shape_4.png');">
                   <div class="quote_icon text-end">
                     <span>
                       <i class="flaticon-quotation-right-mark"></i>
@@ -1257,14 +1223,14 @@
                     </ul>
                   </div>
                   <div class="thumbnail_wrap">
-                    <img src="resources/frontend/images//thumbnail_3.png" alt="Avatar Image">
+                    <img src="resources/frontend/images/thumbnail_3.png" alt="Avatar Image">
                   </div>
                 </div>
               </div>
 
               <div class="col carousel_item">
                 <div class="testimonial_item_2"
-                  style="background-image: url('resources/frontend/images//shape_4.png');">
+                  style="background-image: url('resources/frontend/images/shape_4.png');">
                   <div class="quote_icon text-end">
                     <span>
                       <i class="flaticon-quotation-right-mark"></i>
@@ -1287,14 +1253,14 @@
                     </ul>
                   </div>
                   <div class="thumbnail_wrap">
-                    <img src="resources/frontend/images//thumbnail_2.png" alt="Avatar Image">
+                    <img src="resources/frontend/images/thumbnail_2.png" alt="Avatar Image">
                   </div>
                 </div>
               </div>
 
               <div class="col carousel_item">
                 <div class="testimonial_item_2"
-                  style="background-image: url('resources/frontend/images//shape_4.png');">
+                  style="background-image: url('resources/frontend/images/shape_4.png');">
                   <div class="quote_icon text-end">
                     <span>
                       <i class="flaticon-quotation-right-mark"></i>
@@ -1317,14 +1283,14 @@
                     </ul>
                   </div>
                   <div class="thumbnail_wrap">
-                    <img src="resources/frontend/images//thumbnail_3.png" alt="Avatar Image">
+                    <img src="resources/frontend/images/thumbnail_3.png" alt="Avatar Image">
                   </div>
                 </div>
               </div>
 
               <div class="col carousel_item">
                 <div class="testimonial_item_2"
-                  style="background-image: url('resources/frontend/images//shape_4.png');">
+                  style="background-image: url('resources/frontend/images/shape_4.png');">
                   <div class="quote_icon text-end">
                     <span>
                       <i class="flaticon-quotation-right-mark"></i>
@@ -1347,14 +1313,14 @@
                     </ul>
                   </div>
                   <div class="thumbnail_wrap">
-                    <img src="resources/frontend/images//thumbnail_2.png" alt="Avatar Image">
+                    <img src="resources/frontend/images/thumbnail_2.png" alt="Avatar Image">
                   </div>
                 </div>
               </div>
 
               <div class="col carousel_item">
                 <div class="testimonial_item_2"
-                  style="background-image: url('resources/frontend/images//shape_4.png');">
+                  style="background-image: url('resources/frontend/images/shape_4.png');">
                   <div class="quote_icon text-end">
                     <span>
                       <i class="flaticon-quotation-right-mark"></i>
@@ -1377,7 +1343,7 @@
                     </ul>
                   </div>
                   <div class="thumbnail_wrap">
-                    <img src="resources/frontend/images//thumbnail_3.png" alt="Avatar Image">
+                    <img src="resources/frontend/images/thumbnail_3.png" alt="Avatar Image">
                   </div>
                 </div>
               </div>
@@ -1392,7 +1358,7 @@
       <!-- Counter Section - Start
         ================================================== -->
       <section class="counter_section_2 section_space decoration_wrap" data-bg-color="#000323"
-        style="background-image: url('resources/frontend/images//pattern_2.png');">
+        style="background-image: url('resources/frontend/images/pattern_2.png');">
         <div class="overlay" data-bg-color="#000323"></div>
         <div class="container">
           <div class="counter_items_wrap">
@@ -1444,7 +1410,7 @@
                 <h2 class="sub_title" data-text-color="#74C138">
                   Recent Blog Post
                   <span class="icon">
-                    <img src="resources/frontend/images//favourite_icon_3.png" alt="Logo Icon">
+                    <img src="resources/frontend/images/favourite_icon_3.png" alt="Logo Icon">
                   </span>
                 </h2>
                 <h3 class="title_text mb-0">
@@ -1459,11 +1425,11 @@
             <div class="col col-lg-4 col-md-6 col-sm-6">
               <div class="blog_image_layout">
                 <a class="item_image" href="blog_details.html">
-                  <img src="resources/frontend/images//blog_img_6.jpg" alt="Blog Image">
+                  <img src="resources/frontend/images/blog_img_6.jpg" alt="Blog Image">
                 </a>
                 <div class="item_content">
                   <span class="post_date">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="13.875" height="13.875" viewBox="0 0 13.875 13.875">
+                    <svg xmlns="http:/www.w3.org/2000/svg" width="13.875" height="13.875" viewBox="0 0 13.875 13.875">
                       <g transform="translate(0 1.542)">
                         <g>
                           <path d="M12.338,42.667h0v1.542H10.792V42.667H6.167v1.542H4.625V42.667H1.538A1.54,1.54,0,0,0,0,44.21v9.247A1.54,1.54,0,0,0,1.538,55h10.8a1.54,1.54,0,0,0,1.538-1.543V44.21A1.54,1.54,0,0,0,12.338,42.667Zm-10.8,10.79q0-9.248,0-9.249l10.793,0q0,9.248,0,9.249Z" transform="translate(0 -42.667)" fill="#fff"></path>
@@ -1519,7 +1485,7 @@
                 <li>
                   <div class="recent_post_item">
                     <a class="item_image" href="blog_details.html">
-                      <img src="resources/frontend/images//blog_img_3.jpg" alt="Blog Image">
+                      <img src="resources/frontend/images/blog_img_3.jpg" alt="Blog Image">
                     </a>
                     <div class="item_content">
                       <div class="post_date"><i class="flaticon-calendar"></i> 21 Jan 2022</div>
@@ -1537,11 +1503,11 @@
             <div class="col col-lg-4 col-md col-sm-6">
               <div class="blog_image_layout">
                 <a class="item_image" href="blog_details.html">
-                  <img src="resources/frontend/images//blog_img_7.jpg" alt="Blog Image">
+                  <img src="resources/frontend/images/blog_img_7.jpg" alt="Blog Image">
                 </a>
                 <div class="item_content">
                   <span class="post_date">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="13.875" height="13.875" viewBox="0 0 13.875 13.875">
+                    <svg xmlns="http:/www.w3.org/2000/svg" width="13.875" height="13.875" viewBox="0 0 13.875 13.875">
                       <g transform="translate(0 1.542)">
                         <g>
                           <path d="M12.338,42.667h0v1.542H10.792V42.667H6.167v1.542H4.625V42.667H1.538A1.54,1.54,0,0,0,0,44.21v9.247A1.54,1.54,0,0,0,1.538,55h10.8a1.54,1.54,0,0,0,1.538-1.543V44.21A1.54,1.54,0,0,0,12.338,42.667Zm-10.8,10.79q0-9.248,0-9.249l10.793,0q0,9.248,0,9.249Z" transform="translate(0 -42.667)" fill="#fff"></path>
@@ -1597,7 +1563,7 @@
                 <li>
                   <div class="recent_post_item">
                     <a class="item_image" href="blog_details.html">
-                      <img src="resources/frontend/images//blog_img_8.jpg" alt="Blog Image">
+                      <img src="resources/frontend/images/blog_img_8.jpg" alt="Blog Image">
                     </a>
                     <div class="item_content">
                       <div class="post_date"><i class="flaticon-calendar"></i> 19 Jan 2022</div>
@@ -1623,10 +1589,10 @@
       <!-- <section class="advertisement_section section_space pb-0">
         <div class="container">
           <div class="advertisement_layout_1 decoration_wrap" data-bg-color="#74C138"
-            style="background-image: url('resources/frontend/images//pattern_3.png');">
+            style="background-image: url('resources/frontend/images/pattern_3.png');">
             <div class="overlay" data-bg-color="#74C138"></div>
             <h2 class="text-white">Sale Second Hand Computer Through Repairon</h2>
-            <img src="resources/frontend/images//advertisement_img_1.png" alt="Computer Image">
+            <img src="resources/frontend/images/advertisement_img_1.png" alt="Computer Image">
             <a class="btn btn_white btn_rounded" href="product_upload.html">Sale Computer</a>
           </div>
         </div>
@@ -1714,27 +1680,26 @@
       ================================================== -->
     <footer class="footer_section footer_2">
       <div class="footer_widget_area section_space decoration_wrap parallaxie" data-bg-color="#000323"
-        style="background-image: url('resources/frontend/images//bg_5.jpg');">
+        style="background-image: url('resources/frontend/images/bg_5.jpg');">
         <div class="overlay" data-bg-color="#000323"></div>
         <div class="container">
           <div class="row justify-content-lg-between">
             <div class="col col-lg-4 col-md-4 col-sm-6">
               <div class="footer_widget footer_about">
                 <div class="site_logo">
-                  <a class="site_link" href="index.html">
-                    <img src="resources/frontend/images//logo_3_white.png"
-                      srcset="resources/frontend/images//logo_3_white_2x.png 2x" alt="Site Logo">
+                  <a class="site_link" href="/">
+                    <img src="resources/frontend/images/logo_3_white.png"
+                      srcset="resources/frontend/images/logo_3_white_2x.png 2x" alt="Site Logo">
                   </a>
                 </div>
                 <p>
-                  We provide one-stop solutions for all IT items; your bliss is just a click away. Star Tech trusts in
-                  quality client
+                Device Refix offers exceptional tech solutions, specializing in efficient device repair and restoration for a seamless and reliable user experience.
                 </p>
                 <ul class="social_icon social_success social_round ul_li">
-                  <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
-                  <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
-                  <li><a href="#!"><i class="fab fa-instagram"></i></a></li>
-                  <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+                  <li><a href="#!" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#!" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#!" class="instagram"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="#!" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -1743,11 +1708,12 @@
               <div class="footer_widget useful_links">
                 <h3 class="footer_widget_title text-white">About Company</h3>
                 <ul class="ul_li_block">
-                  <li><a href="about.html">About Us</a></li>
-                  <li><a href="service.html">Services</a></li>
-                  <li><a href="portfolio.html">Portfolio</a></li>
-                  <li><a href="shop.html">Shop</a></li>
-                  <li><a href="team.html">Team Member</a></li>
+                  <li><a href="computer-repair-in-ranchi">Computer Repair in Ranchi</a></li>
+                  <li><a href="computer-repair-in-ranchi">Laptop Repair in Ranchi</a></li>
+                  <li><a href="computer-repair-in-ranchi">Printer Repair in Ranchi</a></li>
+                  <li><a href="about-us">About Us</a></li>
+                  <li><a href="contact-us">Contact Us</a></li>
+                  
                 </ul>
               </div>
             </div>
@@ -1765,7 +1731,7 @@
                         Call to Support
                       </span>
                       <span>
-                        <a class="hot_line text-white" href="tel:(555)734900734">(555) 734 900 734</a>
+                        <a class="hot_line text-white" href="tel:+91-8709004521">+91-8709004521</a>
                       </span>
                     </div>
                   </li>
@@ -1775,9 +1741,9 @@
                     </div>
                     <div class="item_content">
                       <span>
-                        <a href="/cdn-cgi/l/email-protection#572422272738252317303a363e3b7934383a"><span
+                        <a href="mailto:mkshravan836@gmail.com"><span
                             class="__cf_email__"
-                            data-cfemail="fd8e888d8d928f89bd9a909c9491d39e9290">[email�&nbsp;protected]</span></a>
+                            data-cfemail="">mkshravan836@gmail.com</span></a>
                       </span>
                     </div>
                   </li>
@@ -1787,7 +1753,7 @@
                     </div>
                     <div class="item_content">
                       <span>
-                        Repairon Tower, 250 Halderman Rd, West Alexandria, OH, 45381
+                        Ranchi,Jharkhand
                       </span>
                     </div>
                   </li>
@@ -1802,7 +1768,7 @@
           <p class="copyright_text">Copyright ©2022 <a target="_blank" href="https://webdadz.com">Webdadz</a>. All
             Rights Reserved</p>
           <div class="payment_method d-flex align-items-center">
-            <img src="resources/frontend/images//payment.png" alt="Payment Method">
+            <img src="resources/frontend/images/payment.png" alt="Payment Method">
             <div class="payment_getway bg_green">
               We Support
               <strong>Payment Gateway</strong>

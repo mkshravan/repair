@@ -1195,7 +1195,19 @@ blockquote .quote_icon {
   color: #d42222;
 }
 .social_round.social_success a:hover {
-  color: #74c138;
+  color: #ffffff;
+}
+.social_round.social_success li a.facebook:hover{
+  background-color: #316FF6;
+}
+.social_round.social_success li a.twitter:hover{
+  background-color: #1DA1F2;
+}
+.social_round.social_success li a.instagram:hover{
+  background-color: #4c68d7;
+}
+.social_round.social_success li a.linkedin:hover{
+  background-color: #0077b5;
 }
 
 /* Social Round - End */
