@@ -81,7 +81,7 @@
         <div class="site_logo">
           <a href="/">
             <img src="resources/frontend/images/logo_2_white.png"
-              srcset="resources/frontend/images/logo_2_white_2x.png 2x" alt="logo_not_found">
+              srcset="resources/frontend/images/logo_2_white.png 2x" alt="logo_not_found">
           </a>
         </div>
 
@@ -402,9 +402,9 @@
                 <div class="section_title mb-2">
                   <h2 class="sub_title" data-text-color="#74C138">
                     Why Choose Us
-                    <span class="icon">
-                      <img src="resources/frontend/images/favourite_icon_3.png" alt="Logo Icon">
-                    </span>
+                    <!-- <span class="icon">
+                      <img src="resources/frontend/images/favourite_icon_2.png" alt="Logo Icon">
+                    </span> -->
                   </h2>
                   <h3 class="title_text mb-0">
                     Bring More Happiness in Computer Using
@@ -529,9 +529,9 @@
                 <div class="section_title">
                   <h2 class="sub_title" data-text-color="#74C138">
                     About Company
-                    <span class="icon">
-                      <img src="resources/frontend/images/favourite_icon_3.png" alt="Logo Icon">
-                    </span>
+                    <!-- <span class="icon">
+                      <img src="resources/frontend/images/favourite_icon_2.png" alt="Logo Icon">
+                    </span> -->
                   </h2>
                   <h3>
                     Welcome to Device Refix – Your Trusted Technology Partner in Ranchi, Jharkhand!
@@ -649,7 +649,7 @@
                 <h2 class="sub_title" data-text-color="#74C138">
                   Our Products
                   <span class="icon">
-                    <img src="resources/frontend/images/favourite_icon_3.png" alt="Logo Icon">
+                    <img src="resources/frontend/images/favourite_icon_2.png" alt="Logo Icon">
                   </span>
                 </h2>
                 <h3 class="title_text">
@@ -1172,9 +1172,9 @@
               <div class="section_title text-center">
                 <h2 class="sub_title" data-text-color="#74C138">
                   Testimonials
-                  <span class="icon">
-                    <img src="resources/frontend/images/favourite_icon_3.png" alt="Logo Icon">
-                  </span>
+                  <!-- <span class="icon">
+                    <img src="resources/frontend/images/favourite_icon_2.png" alt="Logo Icon">
+                  </span> -->
                 </h2>
                 <h3 class="title_text">
                   Some Feedback From Our Clients
@@ -1418,7 +1418,7 @@
                 <h2 class="sub_title" data-text-color="#74C138">
                   Recent Blog Post
                   <span class="icon">
-                    <img src="resources/frontend/images/favourite_icon_3.png" alt="Logo Icon">
+                    <img src="resources/frontend/images/favourite_icon_2.png" alt="Logo Icon">
                   </span>
                 </h2>
                 <h3 class="title_text mb-0">
@@ -1704,7 +1704,7 @@
                 <div class="site_logo">
                   <a class="site_link" href="/">
                     <img src="resources/frontend/images/logo_2_white.png"
-                      srcset="resources/frontend/images/logo_2_white_2x.png 2x" alt="Site Logo">
+                      srcset="resources/frontend/images/logo_2_white.png 2x" alt="Site Logo">
                   </a>
                 </div>
                 <p>
