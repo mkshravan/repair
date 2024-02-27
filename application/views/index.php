@@ -61,7 +61,8 @@
       <li>
         <button type="button" class="cart_btn">
           <!-- <span>01</span> -->
-          <i class="fa fa-address-book"></i>
+          <!-- <i class="fa fa-address-book"></i> -->
+          <span>Ask Me</span>
         </button>
       </li>
       <!-- <li>
@@ -107,6 +108,7 @@
                 </ul>
               </li>
               <li><a href="contact-us">Contact Us</a></li>
+              <li class="cart_btn" style="background: #DB4437; padding:0px 5px; border-radius: 25px"><a href="javascript:void(0)">submit your problem</a></li>
             </ul>
           </div>
 
@@ -217,31 +219,31 @@
           <h3 class="heading_title text-uppercase">Send Your Problems</h3>
 
           <div class="cart_items_list">
-          <form action="#">
-            <div class="row">
-              <div class="col col-lg-12 col-md-12 col-sm-12">
-                <div class="form_item">
-                  <input type="text" name="name" placeholder="Your Name">
+            <form action="#">
+              <div class="row">
+                <div class="col col-lg-12 col-md-12 col-sm-12">
+                  <div class="form_item">
+                    <input type="text" name="name" placeholder="Your Name">
+                  </div>
+                </div>
+
+                <div class="col col-lg-12 col-md-12 col-sm-12">
+                  <div class="form_item">
+                    <input type="tel" name="phone" placeholder="Phone">
+                  </div>
+                </div>
+
+                <div class="col col-lg-12 col-md-12 col-sm-12">
+                  <div class="form_item">
+                    <input type="text" name="problem" placeholder="Write your problem">
+                  </div>
                 </div>
               </div>
 
-              <div class="col col-lg-12 col-md-12 col-sm-12">
-                <div class="form_item">
-                  <input type="tel" name="phone" placeholder="Phone">
-                </div>
+              <div class="single_btn_wrap text-center p-0">
+                <button type="submit" class="btn btn_danger rounded-0">Submit Request</button>
               </div>
-
-              <div class="col col-lg-12 col-md-12 col-sm-12">
-                <div class="form_item">
-                  <input type="text" name="problem" placeholder="Write your problem">
-                </div>
-              </div>
-            </div>
-
-            <div class="single_btn_wrap text-center p-0">
-              <button type="submit" class="btn btn_danger rounded-0">Submit Request</button>
-            </div>
-          </form>
+            </form>
           </div>
         </div>
         <div class="cart_sidebar_overlay"></div>
@@ -257,22 +259,12 @@
           <div class="row">
             <div class="col col-lg-10 col-md-10">
               <div class="banner_content">
-                <h2>
-                  Best Laptop Service Centre in Ranchi | Computer Repairing Center in Ranchi | Printer Service Centre in
+                <h1 class="first_text" >
+                  Best Laptop Service Center in Ranchi, Computer Repairing Center in Ranchi, Printer Service Center in
                   Ranchi, Jharkhand
-                </h2>
-                <p class="text-dark">
-                  Unlock unparalleled convenience and expertise with the Best Laptop Service Centre in Ranchi, where
-                  cutting-edge solutions meet affordability. Our commitment extends to being the Best Computer Repairing
-                  Center in Ranchi, ensuring your devices receive top-notch care without breaking the bank. Experience
-                  the epitome of reliability at our center, renowned as the Best Printer Service Centre in Ranchi, where
-                  quality meets affordability seamlessly. What sets us apart is our dedication to providing hassle-free
-                  home services at an affordable cost, bringing expert technicians right to your doorstep. Embrace a new
-                  era of technology support that prioritizes both excellence and your budget. Trust us to deliver not
-                  just repairs, but a seamless experience that reflects our commitment to unmatched service without
-                  compromising affordability. Your devices, your convenience, our expertise – experience it all at the
-                  forefront of technology care in Ranchi.
-                </p>
+                </h1>
+                <!-- <span class="cart_btn" style="padding: 7px;color: #ffffff; background: #74c138; border-radius: 10px; font-weight: normal; font-size: 15px">submit your query</span> -->
+                
                 <!-- <a class="btn btn_success btn_rounded" href="service.html">Repair Computer</a> -->
               </div>
             </div>
@@ -281,6 +273,23 @@
       </section>
       <!-- Banner Section - End
         ================================================== -->
+
+        <div class="policy_section">
+        <div class="container">
+          <p class="text-dark mt-5">
+                  Unlock unparalleled convenience and expertise with the Best Laptop Service Center in Ranchi, where
+                  cutting-edge solutions meet affordability. Our commitment extends to being the Best Computer Repairing
+                  Center in Ranchi, ensuring your devices receive top-notch care without breaking the bank. Experience
+                  the epitome of reliability at our center, renowned as the Best Printer Service Center in Ranchi, where
+                  quality meets affordability seamlessly. What sets us apart is our dedication to providing hassle-free
+                  home services at an affordable cost, bringing expert technicians right to your doorstep. Embrace a new
+                  era of technology support that prioritizes both excellence and your budget. Trust us to deliver not
+                  just repairs, but a seamless experience that reflects our commitment to unmatched service without
+                  compromising affordability. Your devices, your convenience, our expertise – experience it all at the
+                  forefront of technology care in Ranchi.
+                </p>
+        </div>
+      </div>
 
       <!-- Policy Section - Start
         ================================================== -->
@@ -293,7 +302,8 @@
               </div>
               <h3 class="item_title">Laptop Repair in Ranchi</h3>
               <p>
-              Discover top-notch laptop repair services in Ranchi with skilled technicians ensuring swift and reliable solutions for you.
+                Discover top-notch laptop repair services in Ranchi with skilled technicians ensuring swift and reliable
+                solutions for you.
               </p>
             </div>
 
@@ -303,7 +313,8 @@
               </div>
               <h3 class="item_title">Computer Repair in Ranchi</h3>
               <p>
-              Experience top-notch computer repair services in Ranchi with our skilled technicians, ensuring swift and reliable solutions.
+                Experience top-notch computer repair services in Ranchi with our skilled technicians, ensuring swift and
+                reliable solutions.
               </p>
             </div>
 
@@ -313,7 +324,8 @@
               </div>
               <h3 class="item_title">Printer Repair in Ranchi</h3>
               <p>
-              Expert printer repair services in Ranchi: Fast, reliable solutions for all printer issues, enhancing performance seamlessly.
+                Expert printer repair services in Ranchi: Fast, reliable solutions for all printer issues, enhancing
+                performance seamlessly.
               </p>
             </div>
 
@@ -323,7 +335,8 @@
               </div>
               <h3 class="item_title">Software Installation</h3>
               <p>
-              For top-notch software repair services in Ranchi, trust our expert technicians to swiftly diagnose and resolve issues.
+                For top-notch software repair services in Ranchi, trust our expert technicians to swiftly diagnose and
+                resolve issues.
               </p>
             </div>
             <div class="policy_item_3">
@@ -332,7 +345,8 @@
               </div>
               <h3 class="item_title">Data Recovery</h3>
               <p>
-              Efficient data recovery services in Ranchi, ensuring swift and secure retrieval of lost information. Contact us now!
+                Efficient data recovery services in Ranchi, ensuring swift and secure retrieval of lost information.
+                Contact us now!
               </p>
             </div>
             <div class="policy_item_3">
@@ -341,7 +355,8 @@
               </div>
               <h3 class="item_title">Virus Removal</h3>
               <p>
-              For expert virus removal in Ranchi, trust our professional services to safeguard your devices and data in your own city.
+                For expert virus removal in Ranchi, trust our professional services to safeguard your devices and data
+                in your own city.
               </p>
             </div>
             <div class="policy_item_3">
@@ -350,7 +365,8 @@
               </div>
               <h3 class="item_title">Chip Level Repair</h3>
               <p>
-              Get professional chip level repair services in Ranchi for reliable and efficient solutions for all electronic devices.
+                Get professional chip level repair services in Ranchi for reliable and efficient solutions for all
+                electronic devices.
               </p>
             </div>
             <div class="policy_item_3" style="background-color: #74c138; color: #ffffff;">
@@ -359,7 +375,8 @@
               </div>
               <h3 class="item_title">Repair at Home</h3>
               <p>
-              Efficient computer, laptop, and printer repair services brought to your doorstep for hassle-free and reliable solutions.
+                Efficient computer, laptop, and printer repair services brought to your doorstep for hassle-free and
+                reliable solutions.
               </p>
             </div>
 
@@ -402,7 +419,7 @@
                       <div class="item_content">
                         <h3 class="item_title">Skilled Technicians</h3>
                         <p class="mb-0" data-text-color="#828A9B">
-                        Rely on skilled technicians for proficient and reliable service solutions.
+                          Rely on skilled technicians for proficient and reliable service solutions.
                         </p>
                       </div>
                     </div>
@@ -415,7 +432,7 @@
                       <div class="item_content">
                         <h3 class="item_title">20+ Years Experiences</h3>
                         <p class="mb-0" data-text-color="#828A9B">
-                        Benefit from our unparalleled expertise with over 20 years of experience.
+                          Benefit from our unparalleled expertise with over 20 years of experience.
                         </p>
                       </div>
                     </div>
@@ -428,7 +445,7 @@
                       <div class="item_content">
                         <h3 class="item_title">Quality Guarantee</h3>
                         <p class="mb-0" data-text-color="#828A9B">
-                        Assure excellence with our quality guarantee, ensuring satisfaction and reliability.
+                          Assure excellence with our quality guarantee, ensuring satisfaction and reliability.
                         </p>
                       </div>
                     </div>
@@ -441,7 +458,7 @@
                       <div class="item_content">
                         <h3 class="item_title">Trusted &amp; Recommended</h3>
                         <p class="mb-0" data-text-color="#828A9B">
-                        Highly trusted and recommended for reliable solutions and exceptional service.
+                          Highly trusted and recommended for reliable solutions and exceptional service.
                         </p>
                       </div>
                     </div>
@@ -1169,8 +1186,7 @@
           <div class="testimonial_carousel_2 carousel_style_2">
             <div class="row common_carousel_2col">
               <div class="col carousel_item">
-                <div class="testimonial_item_2"
-                  style="background-image: url('resources/frontend/images/shape_4.png');">
+                <div class="testimonial_item_2" style="background-image: url('resources/frontend/images/shape_4.png');">
                   <div class="quote_icon text-end">
                     <span>
                       <i class="flaticon-quotation-right-mark"></i>
@@ -1179,7 +1195,10 @@
                   <div class="content_wrap">
                     <h3 class="hero_name">Amit Kumar Singh</h3>
                     <p>
-                    The computer repair service in Ranchi exceeded expectations. Their skilled technicians quickly diagnosed and resolved my issues, providing a seamless and cost-effective solution. Professionalism, efficiency, and reliability make them my go-to for all tech-related concerns. Highly recommended!
+                      The computer repair service in Ranchi exceeded expectations. Their skilled technicians quickly
+                      diagnosed and resolved my issues, providing a seamless and cost-effective solution.
+                      Professionalism, efficiency, and reliability make them my go-to for all tech-related concerns.
+                      Highly recommended!
                     </p>
                     <ul class="reting_star ul_li">
                       <li class="active"><i class="flaticon-star"></i></li>
@@ -1196,8 +1215,7 @@
               </div>
 
               <div class="col carousel_item">
-                <div class="testimonial_item_2"
-                  style="background-image: url('resources/frontend/images/shape_4.png');">
+                <div class="testimonial_item_2" style="background-image: url('resources/frontend/images/shape_4.png');">
                   <div class="quote_icon text-end">
                     <span>
                       <i class="flaticon-quotation-right-mark"></i>
@@ -1206,7 +1224,10 @@
                   <div class="content_wrap">
                     <h3 class="hero_name">Suman Shekhar</h3>
                     <p>
-                    I recently utilized a computer repair service in Ranchi, and I am highly impressed. The technicians were prompt, skilled, and efficiently resolved my issues. Excellent service, reasonable prices, and a seamless experience. Highly recommended for anyone in need of computer repairs in Ranchi!
+                      I recently utilized a computer repair service in Ranchi, and I am highly impressed. The
+                      technicians were prompt, skilled, and efficiently resolved my issues. Excellent service,
+                      reasonable prices, and a seamless experience. Highly recommended for anyone in need of computer
+                      repairs in Ranchi!
                     </p>
                     <ul class="reting_star ul_li">
                       <li class="active"><i class="flaticon-star"></i></li>
@@ -1223,8 +1244,7 @@
               </div>
 
               <div class="col carousel_item">
-                <div class="testimonial_item_2"
-                  style="background-image: url('resources/frontend/images/shape_4.png');">
+                <div class="testimonial_item_2" style="background-image: url('resources/frontend/images/shape_4.png');">
                   <div class="quote_icon text-end">
                     <span>
                       <i class="flaticon-quotation-right-mark"></i>
@@ -1233,7 +1253,9 @@
                   <div class="content_wrap">
                     <h3 class="hero_name">Abhishek Kushwaha</h3>
                     <p>
-                    Outstanding printer repair service in Ranchi! Prompt response, skilled technicians, and affordable prices. They swiftly diagnosed and fixed my printer issues, ensuring optimal performance. Highly recommended for reliable and efficient repairs.
+                      Outstanding printer repair service in Ranchi! Prompt response, skilled technicians, and affordable
+                      prices. They swiftly diagnosed and fixed my printer issues, ensuring optimal performance. Highly
+                      recommended for reliable and efficient repairs.
                     </p>
                     <ul class="reting_star ul_li">
                       <li class="active"><i class="flaticon-star"></i></li>
@@ -1250,8 +1272,7 @@
               </div>
 
               <div class="col carousel_item">
-                <div class="testimonial_item_2"
-                  style="background-image: url('resources/frontend/images/shape_4.png');">
+                <div class="testimonial_item_2" style="background-image: url('resources/frontend/images/shape_4.png');">
                   <div class="quote_icon text-end">
                     <span>
                       <i class="flaticon-quotation-right-mark"></i>
@@ -1260,7 +1281,9 @@
                   <div class="content_wrap">
                     <h3 class="hero_name">Rahul Pandit</h3>
                     <p>
-                    The printer repair service in Ranchi exceeded my expectations. The technicians were prompt, knowledgeable, and fixed my printer efficiently. I highly recommend their services for anyone facing printer issues in the area.
+                      The printer repair service in Ranchi exceeded my expectations. The technicians were prompt,
+                      knowledgeable, and fixed my printer efficiently. I highly recommend their services for anyone
+                      facing printer issues in the area.
                     </p>
                     <ul class="reting_star ul_li">
                       <li class="active"><i class="flaticon-star"></i></li>
@@ -1277,8 +1300,7 @@
               </div>
 
               <div class="col carousel_item">
-                <div class="testimonial_item_2"
-                  style="background-image: url('resources/frontend/images/shape_4.png');">
+                <div class="testimonial_item_2" style="background-image: url('resources/frontend/images/shape_4.png');">
                   <div class="quote_icon text-end">
                     <span>
                       <i class="flaticon-quotation-right-mark"></i>
@@ -1287,7 +1309,9 @@
                   <div class="content_wrap">
                     <h3 class="hero_name">Laxmi Kumari</h3>
                     <p>
-                    The laptop repair service in Ranchi exceeded my expectations. Quick turnaround, professional staff, and affordable prices. They diagnosed and fixed my laptop issues promptly, ensuring it functions like new. Highly recommended for reliable and efficient laptop repairs in the area.
+                      The laptop repair service in Ranchi exceeded my expectations. Quick turnaround, professional
+                      staff, and affordable prices. They diagnosed and fixed my laptop issues promptly, ensuring it
+                      functions like new. Highly recommended for reliable and efficient laptop repairs in the area.
                     </p>
                     <ul class="reting_star ul_li">
                       <li class="active"><i class="flaticon-star"></i></li>
@@ -1304,8 +1328,7 @@
               </div>
 
               <div class="col carousel_item">
-                <div class="testimonial_item_2"
-                  style="background-image: url('resources/frontend/images/shape_4.png');">
+                <div class="testimonial_item_2" style="background-image: url('resources/frontend/images/shape_4.png');">
                   <div class="quote_icon text-end">
                     <span>
                       <i class="flaticon-quotation-right-mark"></i>
@@ -1314,7 +1337,10 @@
                   <div class="content_wrap">
                     <h3 class="hero_name">Shivam Kumar Sahu</h3>
                     <p>
-                    I had an outstanding experience with the laptop repair service in Ranchi. The technicians were highly skilled, providing prompt and efficient solutions. My laptop works like new, and I appreciate the professionalism and expertise of the service. Highly recommended for reliable laptop repairs!
+                      I had an outstanding experience with the laptop repair service in Ranchi. The technicians were
+                      highly skilled, providing prompt and efficient solutions. My laptop works like new, and I
+                      appreciate the professionalism and expertise of the service. Highly recommended for reliable
+                      laptop repairs!
                     </p>
                     <ul class="reting_star ul_li">
                       <li class="active"><i class="flaticon-star"></i></li>
@@ -1586,15 +1612,18 @@
           <ul class="nav nav-tabs" role="tablist">
             <li class="nav-item col-sm-12 col-md-12 col-lg-4" role="presentation">
               <a class="nav-link active" id="icon-tab-0" data-bs-toggle="tab" href="#icon-tabpanel-0" role="tab"
-                aria-controls="icon-tabpanel-0" aria-selected="true"><i class="fa fa-laptop"></i> Best Laptop Repair in Ranchi</a>
+                aria-controls="icon-tabpanel-0" aria-selected="true"><i class="fa fa-laptop"></i> Best Laptop Repair in
+                Ranchi</a>
             </li>
             <li class="nav-item col-sm-12 col-md-12 col-lg-4" role="presentation">
               <a class="nav-link" id="icon-tab-1" data-bs-toggle="tab" href="#icon-tabpanel-1" role="tab"
-                aria-controls="icon-tabpanel-1" aria-selected="false"><i class="fa fa-desktop"></i> Best Computer Repair in Ranchi</a>
+                aria-controls="icon-tabpanel-1" aria-selected="false"><i class="fa fa-desktop"></i> Best Computer Repair
+                in Ranchi</a>
             </li>
             <li class="nav-item col-sm-12 col-md-12 col-lg-4" role="presentation">
               <a class="nav-link" id="icon-tab-2" data-bs-toggle="tab" href="#icon-tabpanel-2" role="tab"
-                aria-controls="icon-tabpanel-2" aria-selected="false"><i class="fa fa-print"></i> Best Printer Repair in Ranchi</a>
+                aria-controls="icon-tabpanel-2" aria-selected="false"><i class="fa fa-print"></i> Best Printer Repair in
+                Ranchi</a>
             </li>
           </ul>
           <div class="tab-content pt-2" id="tab-content">
@@ -1674,12 +1703,13 @@
               <div class="footer_widget footer_about">
                 <div class="site_logo">
                   <a class="site_link" href="/">
-                    <img src="resources/frontend/images/logo_3_white.png"
-                      srcset="resources/frontend/images/logo_3_white_2x.png 2x" alt="Site Logo">
+                    <img src="resources/frontend/images/logo_2_white.png"
+                      srcset="resources/frontend/images/logo_2_white_2x.png 2x" alt="Site Logo">
                   </a>
                 </div>
                 <p>
-                Device Refix offers exceptional tech solutions, specializing in efficient device repair and restoration for a seamless and reliable user experience.
+                  Device Refix offers exceptional tech solutions, specializing in efficient device repair and
+                  restoration for a seamless and reliable user experience.
                 </p>
                 <ul class="social_icon social_success social_round ul_li">
                   <li><a href="#!" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
@@ -1699,7 +1729,10 @@
                   <li><a href="computer-repair-in-ranchi">Printer Repair in Ranchi</a></li>
                   <li><a href="about-us">About Us</a></li>
                   <li><a href="contact-us">Contact Us</a></li>
+                  <li><a href="javascript:void(0)"><span class="cart_btn">Submit Your Problem</span></a></li>
+
                   
+
                 </ul>
               </div>
             </div>
@@ -1727,8 +1760,7 @@
                     </div>
                     <div class="item_content">
                       <span>
-                        <a href="mailto:mkshravan836@gmail.com"><span
-                            class="__cf_email__"
+                        <a href="mailto:mkshravan836@gmail.com"><span class="__cf_email__"
                             data-cfemail="">mkshravan836@gmail.com</span></a>
                       </span>
                     </div>

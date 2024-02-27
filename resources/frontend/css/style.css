@@ -1999,10 +1999,10 @@ blockquote .quote_icon {
   z-index: 99;
   position: fixed;
   padding: 10px 10px;
-  background-color: #e8ecf3;
+  /* background-color: #e8ecf3; */
   transform: translateY(-50%);
 }
-.fixed_cart_btns button {
+/* .fixed_cart_btns button {
   width: 40px;
   height: 40px;
   color: #ffffff;
@@ -2013,16 +2013,16 @@ blockquote .quote_icon {
 }
 .fixed_cart_btns button:hover {
   background-color: #74c138;
-}
+} */
 .fixed_cart_btns button span {
   top: -20px;
-  left: 7px;
-  width: 27px;
-  height: 27px;
+  left: 2px;
+  width: 50px;
+  height: 50px;
   color: #ffffff;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
-  line-height: 22px;
+  line-height: 41px;
   position: absolute;
   border-radius: 100%;
   border: 3px solid #e8ecf3;
@@ -2033,7 +2033,7 @@ blockquote .quote_icon {
 }
 .fixed_cart_btns > li:last-child button span {
   top: auto;
-  bottom: -20px;
+  bottom: -2px;
 }
 
 /* Fixed Cart Btns - End */
@@ -2224,7 +2224,7 @@ blockquote .quote_icon {
 .header_secondary .site_logo:after {
   right: 0;
   bottom: 0;
-  content: "";
+  /* content: ""; */
   width: 80px;
   height: 100%;
   position: absolute;
@@ -2238,8 +2238,8 @@ blockquote .quote_icon {
   position: relative;
   align-items: center;
   justify-content: center;
-  background-color: #74c138;
-  clip-path: polygon(0 0, 80% 0, 100% 100%, 20% 100%);
+  background-color: #FFFFFF;
+  clip-path: polygon(0 0, 90% 0, 100% 100%, 10% 100%);
 }
 .header_secondary.sticky .site_logo {
   margin-top: 0;
@@ -2249,7 +2249,7 @@ blockquote .quote_icon {
   opacity: 0;
 }
 .header_secondary.sticky .site_logo a {
-  height: 100px;
+  height: 80px;
 }
 .header_secondary .main_menu {
   flex: 1;
@@ -2994,7 +2994,7 @@ blockquote .quote_icon {
   align-items: center;
 }
 .banner_2 h1 {
-  font-size: 80px;
+  font-size: 60px;
   line-height: 1.1;
   margin-bottom: 35px;
 }
@@ -6594,8 +6594,8 @@ Responsive For Mobile & Tablet Devices
   }
 
   .header_secondary .site_logo a {
-    padding: 15px 70px;
-    clip-path: polygon(0 0, 78% 0, 100% 100%, 22% 100%);
+    padding: 0px 24px;
+    /* clip-path: polygon(0 0, 78% 0, 100% 100%, 22% 100%); */
   }
 }
 @media screen and (max-width: 1660px) {
@@ -6612,7 +6612,7 @@ Responsive For Mobile & Tablet Devices
   }
 
   .header_secondary .site_logo a {
-    height: 100px;
+    height: 80px;
   }
 
   .header_secondary .header_btns_group > li:not(:last-child) {
