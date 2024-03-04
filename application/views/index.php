@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <title> Home Refix - Best Computer Repair in Ranchi, Laptop Repair in Ranchi, Printer Repair in Ranchi</title>
+  <title> PC FIX PRO - Best Computer Repair in Ranchi, Laptop Repair in Ranchi, Printer Repair in Ranchi</title>
   <link rel="shortcut icon" href="resources/frontend/images/favourite_icon_2.png">
 
   <!-- Fraimwork - CSS Include -->
@@ -25,13 +25,13 @@
   <link rel="stylesheet" type="text/css" href="resources/frontend/css/slick-theme.css">
 
   <!-- Video & Image Popup - CSS Include -->
-  <link rel="stylesheet" type="text/css" href="resources/frontend/css/magnific-popup.css">
+  <!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/magnific-popup.css"> -->
 
   <!-- Select Option - CSS Include -->
-  <link rel="stylesheet" type="text/css" href="resources/frontend/css/nice-select.css">
+  <!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/nice-select.css"> -->
 
   <!-- Pricing Range - CSS Include -->
-  <link rel="stylesheet" type="text/css" href="resources/frontend/css/jquery-ui.css">
+  <!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/jquery-ui.css"> -->
 
   <!-- Custom - CSS Include -->
   <link rel="stylesheet" type="text/css" href="resources/frontend/css/style.css">
@@ -1802,39 +1802,39 @@
   <!-- Body Wrap - End -->
 
   <!-- Fraimwork - Jquery Include -->
-  <script data-cfasync="false" src="resources/frontend/js/email-decode.min.js"></script>
-  <script src="resources/frontend/js/jquery.min.js"></script>
-  <script src="resources/frontend/js/popper.min.js"></script>
-  <script src="resources/frontend/js/bootstrap.min.js"></script>
-  <script src="resources/frontend/js/bootstrap-dropdown-ml-hack.js"></script>
+  <!-- <script async data-cfasync="false" src="resources/frontend/js/email-decode.min.js"></script> -->
+  <script defer src="resources/frontend/js/jquery.min.js"></script>
+  <!-- <script defer src="resources/frontend/js/popper.min.js"></script> -->
+  <script defer src="resources/frontend/js/bootstrap.min.js"></script>
+  <!-- <script defer src="resources/frontend/js/bootstrap-dropdown-ml-hack.js"></script> -->
 
   <!-- Carousel - Jquery Include -->
-  <script src="resources/frontend/js/slick.min.js"></script>
+  <script defer src="resources/frontend/js/slick.min.js"></script>
 
   <!-- Video & Image Popup - Jquery Include -->
-  <script src="resources/frontend/js/magnific-popup.min.js"></script>
-  <script src="resources/frontend/js/beforeafter.jquery-1.0.0.min.js"></script>
+  <script defer src="resources/frontend/js/magnific-popup.min.js"></script>
+  <!-- <script defer src="resources/frontend/js/beforeafter.jquery-1.0.0.min.js"></script> -->
 
 
 
   <!-- Select Option - Jquery Include -->
-  <script src="resources/frontend/js/nice-select.min.js"></script>
+  <script defer src="resources/frontend/js/nice-select.min.js"></script>
 
   <!-- BG Parallax - Jquery Include -->
-  <script src="resources/frontend/js/parallaxie.js"></script>
+  <script defer src="resources/frontend/js/parallaxie.js"></script>
 
   <!-- Counter Up - Jquery Include -->
-  <script src="resources/frontend/js/waypoint.js"></script>
-  <script src="resources/frontend/js/counterup.min.js"></script>
+  <script defer src="resources/frontend/js/waypoint.js"></script>
+  <script defer src="resources/frontend/js/counterup.min.js"></script>
 
   <!-- Animation - Jquery Include -->
-  <script src="resources/frontend/js/wow.min.js"></script>
+  <script defer src="resources/frontend/js/wow.min.js"></script>
 
   <!-- Pricing Range - Jquery Include -->
-  <script src="resources/frontend/js/jquery-ui.js"></script>
+  <!-- <script defer src="resources/frontend/js/jquery-ui.js"></script> -->
 
   <!-- Custom - Jquery Include -->
-  <script src="resources/frontend/js/main.js"></script>
+  <script defer src="resources/frontend/js/main.js"></script>
 
 
 
