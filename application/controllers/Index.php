@@ -16,4 +16,19 @@ class Index extends CI_Controller{
         $this->load->view('index');
         
     }
+    function about(){
+        $this->load->view('about');
+    }
+    function contact(){
+        $this->load->view('contact');
+    }
+    function computer_repair(){
+        $this->load->view('computer_repair');
+    }
+    function laptop_repair(){
+        $this->load->view('laptop_repair');
+    }
+    function printer_repair(){
+        $this->load->view('printer_repair');
+    }
 }

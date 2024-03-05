@@ -6,6 +6,12 @@ $route['default_controller'] = 'index';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+$route['about-us'] = 'index/about';
+$route['contact-us'] = 'index/contact';
+$route['computer-repair-in-ranchi'] = 'index/computer_repair';
+$route['laptop-repair-in-ranchi'] = 'index/laptop_repair';
+$route['printer-repair-in-ranchi'] = 'index/printer_repair';
+
 $route['admin'] = 'login/index';
 $route['admin/logout'] = 'login/logout';
 
