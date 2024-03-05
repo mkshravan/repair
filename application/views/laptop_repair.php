@@ -51,10 +51,10 @@
     content="PCFIXPRO Ranchi - Your Trusted Source for Computer, Laptop, and Printer Repairs" />
   <meta property="article:publisher" content="https://www.facebook.com/PCFIXPROindia" />
   <meta property="article:author" content="PC FX PRO" />
-  <meta property="og:image" content="resources/frontend/images/logo_2_white.png" />
-  <meta property="og:image:secure_url" content="resources/frontend/images/logo_2_white.png" />
+  <meta property="og:image" content="resources/frontend/images/about_img_1.png" />
+  <meta property="og:image:secure_url" content="resources/frontend/images/about_img_1.png" />
   <meta property="og:image:width" content="700" />
-  <meta property="og:image:height" content="300" />
+  <meta property="og:image:height" content="600" />
   <meta property="og:image:alt" content="computer, laptop, printer repair in Ranch" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:description"
