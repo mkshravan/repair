@@ -32,71 +32,83 @@
   <meta name="theme-color" content="#258FC1">
 
   <meta name="keywords" content="Computer repair in Ranchi, Laptop repair in Ranchi, Printer repair in Ranchi " />
-  <meta name="description" content="Discover reliable computer, laptop, and printer repair services in Ranchi. Our expert technicians in Ranchi specialize in diagnosing and fixing a wide range of hardware and software issues. Fast and efficient solutions for your technology woes – choose us for top-notch computer, laptop, and printer repair services in Ranchi!" />
-  <meta name="fragment" content="Quality computer, laptop, and printer repair services in Ranchi. Our skilled technicians offer reliable solutions for hardware and software issues. Choose us for fast and efficient repairs in Ranchi – your trusted partner for technology troubleshooting!" />
-  <meta name="summary" content="Get expert computer, laptop, and printer repair services in Ranchi. Our skilled technicians provide reliable solutions for a variety of issues, ensuring fast and efficient repairs. Trust us for professional technology troubleshooting and top-notch service in Ranchi." />
+  <meta name="description"
+    content="Discover reliable computer, laptop, and printer repair services in Ranchi. Our expert technicians in Ranchi specialize in diagnosing and fixing a wide range of hardware and software issues. Fast and efficient solutions for your technology woes – choose us for top-notch computer, laptop, and printer repair services in Ranchi!" />
+  <meta name="fragment"
+    content="Quality computer, laptop, and printer repair services in Ranchi. Our skilled technicians offer reliable solutions for hardware and software issues. Choose us for fast and efficient repairs in Ranchi – your trusted partner for technology troubleshooting!" />
+  <meta name="summary"
+    content="Get expert computer, laptop, and printer repair services in Ranchi. Our skilled technicians provide reliable solutions for a variety of issues, ensuring fast and efficient repairs. Trust us for professional technology troubleshooting and top-notch service in Ranchi." />
 
   <meta property="fb:app_id" content="1913807505501923" />
 
   <!--<meta property="og:type" content="article"/> -->
   <meta property="og:type" content="website" />
-   <meta property="og:title" content="PCFIXPRO Ranchi - Your Trusted Source for Computer, Laptop, and Printer Repairs" />
-   <meta property="og:description" content="Discover reliable computer, laptop, and printer repair services in Ranchi. Our expert technicians in Ranchi specialize in diagnosing and fixing a wide range of hardware and software issues. Fast and efficient solutions for your technology woes – choose us for top-notch computer, laptop, and printer repair services in Ranchi!" />
-  <meta property="og:url" content="https://www.pcfixpro.in/" />
-   <meta property="og:site_name" content="PCFIXPRO Ranchi - Your Trusted Source for Computer, Laptop, and Printer Repairs" />
-   <meta property="article:publisher" content="https://www.facebook.com/pcfixproindia" />
-   <meta property="article:author" content="PC FX PRO" />
-   <meta property="og:image" content="resources/frontend/images/logo_2_white.png" />
-   <meta property="og:image:secure_url" content="resources/frontend/images/logo_2_white.png" />
-   <meta property="og:image:width" content="700" />
-   <meta property="og:image:height" content="300" />
-   <meta property="og:image:alt" content="computer, laptop, printer repair in Ranch" />
-   <meta name="twitter:card" content="summary_large_image" />
-   <meta name="twitter:description" content="Experience top-notch computer, laptop, and printer repair services in Ranchi. Our skilled technicians provide efficient solutions for hardware and software issues. Your go-to destination for reliable and fast technology troubleshooting. #RanchiTechRepair #ComputerService #LaptopFix" />
-   <meta name="twitter:title" content="PCFIXPRO Ranchi: Expert Computer, Laptop, and Printer Repair Services for Seamless Tech Solutions in Ranchi." />
-   <meta name="twitter:site" content="@pcfxproinda" />
-   <meta name="twitter:image" content="resources/frontend/images/logo_2_white.png" />
-   <meta name="twitter:creator" content="@pcfxproinda" />
-   <link rel='dns-prefetch' href='https://www/pcfixpro.in' />
-   <link rel='dns-prefetch' href='//maps.google.com' />
-   <link rel='dns-prefetch' href='//s.w.org' />
-   <!--<link rel="alternate" type="application/rss+xml" title="SOFTWARE COMPANY in Ranchi &raquo; Feed" href="https://webdadz.com/feed"/> 
+  <meta property="og:title" content="PCFIXPRO Ranchi - Your Trusted Source for Computer, Laptop, and Printer Repairs" />
+  <meta property="og:description"
+    content="Discover reliable computer, laptop, and printer repair services in Ranchi. Our expert technicians in Ranchi specialize in diagnosing and fixing a wide range of hardware and software issues. Fast and efficient solutions for your technology woes – choose us for top-notch computer, laptop, and printer repair services in Ranchi!" />
+  <meta property="og:url" content="https://www.PCFIXPRO.in/" />
+  <meta property="og:site_name"
+    content="PCFIXPRO Ranchi - Your Trusted Source for Computer, Laptop, and Printer Repairs" />
+  <meta property="article:publisher" content="https://www.facebook.com/PCFIXPROindia" />
+  <meta property="article:author" content="PC FX PRO" />
+  <meta property="og:image" content="resources/frontend/images/logo_2_white.png" />
+  <meta property="og:image:secure_url" content="resources/frontend/images/logo_2_white.png" />
+  <meta property="og:image:width" content="700" />
+  <meta property="og:image:height" content="300" />
+  <meta property="og:image:alt" content="computer, laptop, printer repair in Ranch" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:description"
+    content="Experience top-notch computer, laptop, and printer repair services in Ranchi. Our skilled technicians provide efficient solutions for hardware and software issues. Your go-to destination for reliable and fast technology troubleshooting. #RanchiTechRepair #ComputerService #LaptopFix" />
+  <meta name="twitter:title"
+    content="PCFIXPRO Ranchi: Expert Computer, Laptop, and Printer Repair Services for Seamless Tech Solutions in Ranchi." />
+  <meta name="twitter:site" content="@pcfxproinda" />
+  <meta name="twitter:image" content="resources/frontend/images/logo_2_white.png" />
+  <meta name="twitter:creator" content="@pcfxproinda" />
+  <link rel='dns-prefetch' href='https://www/PCFIXPRO.in' />
+  <link rel='dns-prefetch' href='//maps.google.com' />
+  <link rel='dns-prefetch' href='//s.w.org' />
+  <!--<link rel="alternate" type="application/rss+xml" title="SOFTWARE COMPANY in Ranchi &raquo; Feed" href="https://webdadz.com/feed"/> 
                   <link rel="alternate" type="application/rss+xml" title="SOFTWARE COMPANY in Ranchi &raquo; Comments Feed" href="https://webdadz.com/comments/feed"/> -->
-   <meta name="Author" content="PC FIX PRO" />
-   <meta name="Owner" content="PC FIX PRO" />
-   <meta name="email" content="info@pcfixpro.in" />
-   <meta name="page-topic" content="PC FIX PRO | Computer, Laptop, Printer repar servce n Ranchi" />
-   <meta name="copyright" content="PC FIX PRO" />
-   <meta name="abstract" content="Experience unparalleled computer, laptop, and printer repair services in Ranchi. Our skilled technicians provide swift and effective solutions for a spectrum of hardware and software issues. Trust us for reliable and professional technology repairs tailored to meet your needs in Ranchi." />
-   <meta name="p:domain_verify" content="" />
-   <meta name="author" content="PC FIX PRO">
-   <meta name="msvalidate.01" content="" />
-   <meta name="google-site-verification" content="" />
-   <meta name="yandex-verification" content="" />
-   <meta name="robots" content="index, follow" />
-   <meta name="rating" content="safe for kids" />
-   <meta name="googlebot" content=" index, follow " />
-   <meta name="yahooSeeker" content=" index, follow " />
-   <meta name="msnbot" content=" index, follow " />
-   <meta name="reply-to" content="info@pcfixpro.in" />
-   <meta name="allow-search" content="yes" />
-   <meta name="revisit-after" content="daily" />
-   <meta name="distribution" content="global" />
-   <meta name="Rating" content="General" />
-   <meta name="expires" content="never" />
-   <link rel="canonical" href="https://www.pcfixpro.n/" title="PC FIX PRO | Computer, Laptop, Printer repar servce n Ranchi" />
-  
-   
+  <meta name="Author" content="PC FIX PRO" />
+  <meta name="Owner" content="PC FIX PRO" />
+  <meta name="email" content="info@PCFIXPRO.in" />
+  <meta name="page-topic" content="PC FIX PRO | Computer, Laptop, Printer repar servce n Ranchi" />
+  <meta name="copyright" content="PC FIX PRO" />
+  <meta name="abstract"
+    content="Experience unparalleled computer, laptop, and printer repair services in Ranchi. Our skilled technicians provide swift and effective solutions for a spectrum of hardware and software issues. Trust us for reliable and professional technology repairs tailored to meet your needs in Ranchi." />
+  <meta name="p:domain_verify" content="" />
+  <meta name="author" content="PC FIX PRO">
+  <meta name="msvalidate.01" content="" />
+  <meta name="google-site-verification" content="" />
+  <meta name="yandex-verification" content="" />
+  <meta name="robots" content="index, follow" />
+  <meta name="rating" content="safe for kids" />
+  <meta name="googlebot" content=" index, follow " />
+  <meta name="yahooSeeker" content=" index, follow " />
+  <meta name="msnbot" content=" index, follow " />
+  <meta name="reply-to" content="info@PCFIXPRO.in" />
+  <meta name="allow-search" content="yes" />
+  <meta name="revisit-after" content="daily" />
+  <meta name="distribution" content="global" />
+  <meta name="Rating" content="General" />
+  <meta name="expires" content="never" />
+  <link rel="canonical" href="https://www.PCFIXPRO.n/"
+    title="PC FIX PRO | Computer, Laptop, Printer repar servce n Ranchi" />
+
+
 
   <!-- <title> PC FIX PRO - Best Computer Repair in Ranchi, Laptop Repair in Ranchi, Printer Repair in Ranchi</title> -->
-  <title>PCFixPro: Best Computer, Laptop, and Printer Repair Service in Ranchi</title>
+  <title>PCFIXPRO: Best Computer, Laptop, and Printer Repair Service in Ranchi</title>
 
   <!-- Fraimwork - CSS Include -->
   <link rel="stylesheet" type="text/css" href="resources/frontend/css/bootstrap.min.css">
 
   <!-- Icon Font - CSS Include -->
-  <link rel="stylesheet" type="text/css" href="resources/frontend/css/fontawesome.css">
-  <link rel="stylesheet" type="text/css" href="resources/frontend/css/flaticon.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="resources/frontend/css/flaticon.css"> -->
 
   <!-- Animation - CSS Include -->
   <link rel="stylesheet" type="text/css" href="resources/frontend/css/animate.css">
@@ -128,7 +140,7 @@
     <!-- Back To Top - Start -->
     <div class="backtotop">
       <a href="#" class="scroll">
-        <i class="far fa-arrow-up"></i>
+        <i class="fa fa-arrow-up"></i>
       </a>
     </div>
     <!-- Back To Top - End -->
@@ -170,7 +182,7 @@
           <button class="mobile_menu_btn navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#main_menu_dropdown" aria-controls="main_menu_dropdown" aria-expanded="false"
             aria-label="Toggle navigation">
-            <i class="fal fa-bars"></i>
+            <i class="fa fa-bars"></i>
           </button>
           <div class="main_menu_inner collapse navbar-collapse" id="main_menu_dropdown">
             <ul class="main_menu_list ul_li text-uppercase">
@@ -179,9 +191,14 @@
               </li>
               <li><a href="about-us">About</a></li>
               <li class="dropdown">
-                <a class="nav-link" href="javascript:void(0)" id="service_submenu" role="button" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="service_submenu" role="button" aria-expanded="false">
                   Services
                 </a>
+                <!-- <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown button
+                </button> -->
+
                 <ul class="submenu dropdown-menu" aria-labelledby="service_submenu">
                   <li><a href="computer-repair-in-ranchi">Computer Repair</a></li>
                   <li><a href="laptop-repair-in-ranchi">Laptop Repair</a></li>
@@ -190,7 +207,7 @@
               </li>
               <li><a href="contact-us">Contact Us</a></li>
               <li class="cart_btn" style="background: #DB4437; padding:0px 5px; border-radius: 25px"><a
-                  href="javascript:void(0)">submit your problem</a></li>
+                  href="javascript:void(0)">Book Your Service</a></li>
             </ul>
           </div>
 
@@ -228,7 +245,7 @@
 
       <div class="search_body">
         <button type="button" class="search_close">
-          <i class="fal fa-times"></i>
+          <i class="fa fa-times"></i>
         </button>
         <div class="container">
           <form action="#">
@@ -297,7 +314,7 @@
         <div class="about_sidebar_overlay"></div> -->
 
         <div class="cart_sidebar">
-          <button type="button" class="cart_close_btn"><i class="fal fa-times"></i></button>
+          <button type="button" class="cart_close_btn"><i class="fa fa-times"></i></button>
           <h3 class="heading_title text-uppercase">Send Your Problems</h3>
 
           <div class="cart_items_list">
@@ -345,7 +362,7 @@
                   Best Laptop Service Center in Ranchi, Computer Repairing Center in Ranchi, Printer Service Center in
                   Ranchi, Jharkhand
                 </h1>
-                <!-- <span class="cart_btn" style="padding: 7px;color: #ffffff; background: #74c138; border-radius: 10px; font-weight: normal; font-size: 15px">submit your query</span> -->
+                <!-- <span class="cart_btn" style="padding: 7px;color: #ffffff; background: #DB4437; border-radius: 10px; font-weight: normal; font-size: 15px">submit your query</span> -->
 
                 <!-- <a class="btn btn_success btn_rounded" href="service.html">Repair Computer</a> -->
               </div>
@@ -378,9 +395,19 @@
       <div class="policy_section">
         <div class="container">
           <div class="policy_wrap m-0">
+            <div class="policy_item_3" style="background-color: #DB4437; color: #ffffff;">
+              <div class="item_icon">
+                <i class="fa fa-screwdriver-wrench"></i>
+              </div>
+              <h3 class="item_title">Repair at Home</h3>
+              <p>
+                Efficient computer, laptop, and printer repair services brought to your doorstep for hassle-free and
+                reliable solutions.
+              </p>
+            </div>
             <div class="policy_item_3">
               <div class="item_icon">
-                <i class="flaticon-support"></i>
+                <i class="fa fa-laptop"></i>
               </div>
               <h3 class="item_title">Laptop Repair in Ranchi</h3>
               <p>
@@ -391,7 +418,7 @@
 
             <div class="policy_item_3">
               <div class="item_icon">
-                <i class="flaticon-sales"></i>
+                <i class="fa fa-desktop"></i>
               </div>
               <h3 class="item_title">Computer Repair in Ranchi</h3>
               <p>
@@ -402,7 +429,7 @@
 
             <div class="policy_item_3">
               <div class="item_icon">
-                <i class="flaticon-customer-support"></i>
+                <i class="fa fa-print"></i>
               </div>
               <h3 class="item_title">Printer Repair in Ranchi</h3>
               <p>
@@ -413,7 +440,7 @@
 
             <div class="policy_item_3">
               <div class="item_icon">
-                <i class="flaticon-protection-shield-with-a-check-mark"></i>
+                <i class="fa fa-code"></i>
               </div>
               <h3 class="item_title">Software Installation</h3>
               <p>
@@ -423,7 +450,7 @@
             </div>
             <div class="policy_item_3">
               <div class="item_icon">
-                <i class="flaticon-protection-shield-with-a-check-mark"></i>
+                <i class="fa fa-file-zipper"></i>
               </div>
               <h3 class="item_title">Data Recovery</h3>
               <p>
@@ -433,7 +460,7 @@
             </div>
             <div class="policy_item_3">
               <div class="item_icon">
-                <i class="flaticon-protection-shield-with-a-check-mark"></i>
+                <i class="fa fa-virus"></i>
               </div>
               <h3 class="item_title">Virus Removal</h3>
               <p>
@@ -443,7 +470,7 @@
             </div>
             <div class="policy_item_3">
               <div class="item_icon">
-                <i class="flaticon-protection-shield-with-a-check-mark"></i>
+                <i class="fa fa-microchip"></i>
               </div>
               <h3 class="item_title">Chip Level Repair</h3>
               <p>
@@ -451,16 +478,7 @@
                 electronic devices.
               </p>
             </div>
-            <div class="policy_item_3" style="background-color: #74c138; color: #ffffff;">
-              <div class="item_icon">
-                <i class="flaticon-protection-shield-with-a-check-mark"></i>
-              </div>
-              <h3 class="item_title">Repair at Home</h3>
-              <p>
-                Efficient computer, laptop, and printer repair services brought to your doorstep for hassle-free and
-                reliable solutions.
-              </p>
-            </div>
+
 
           </div>
         </div>
@@ -482,7 +500,7 @@
             <div class="col col-lg-6">
               <div class="about_content">
                 <div class="section_title mb-2">
-                  <h2 class="sub_title" data-text-color="#74C138">
+                  <h2 class="sub_title" data-text-color="#DB4437">
                     Why Choose Us
                     <!-- <span class="icon">
                       <img src="resources/frontend/images/favourite_icon_2.png" alt="Logo Icon">
@@ -495,8 +513,8 @@
                 <div class="row">
                   <div class="col col-lg-6">
                     <div class="policy_item_2">
-                      <div class="item_icon" data-text-color="#74C138">
-                        <i class="flaticon-skills"></i>
+                      <div class="item_icon" data-text-color="#DB4437">
+                        <i class="fa fa-users"></i>
                       </div>
                       <div class="item_content">
                         <h3 class="item_title">Skilled Technicians</h3>
@@ -508,8 +526,8 @@
                   </div>
                   <div class="col col-lg-6">
                     <div class="policy_item_2">
-                      <div class="item_icon" data-text-color="#74C138">
-                        <i class="flaticon-chemical-reaction"></i>
+                      <div class="item_icon" data-text-color="#DB4437">
+                        <i class="fa fa-circle-check"></i>
                       </div>
                       <div class="item_content">
                         <h3 class="item_title">20+ Years Experiences</h3>
@@ -521,8 +539,8 @@
                   </div>
                   <div class="col col-lg-6">
                     <div class="policy_item_2">
-                      <div class="item_icon" data-text-color="#74C138">
-                        <i class="flaticon-padlock"></i>
+                      <div class="item_icon" data-text-color="#DB4437">
+                        <i class="fa fa-shield-halved"></i>
                       </div>
                       <div class="item_content">
                         <h3 class="item_title">Quality Guarantee</h3>
@@ -534,8 +552,8 @@
                   </div>
                   <div class="col col-lg-6">
                     <div class="policy_item_2">
-                      <div class="item_icon" data-text-color="#74C138">
-                        <i class="flaticon-holding-hands"></i>
+                      <div class="item_icon" data-text-color="#DB4437">
+                        <i class="fa fa-handshake"></i>
                       </div>
                       <div class="item_content">
                         <h3 class="item_title">Trusted &amp; Recommended</h3>
@@ -549,7 +567,7 @@
               </div>
             </div>
           </div>
-          <p>We, at Device Refix, have been exclusively dedicated to laptop repairing since our inception, establishing
+          <p>We, at PCFIXPRO, have been exclusively dedicated to laptop repairing since our inception, establishing
             a stellar reputation for providing top-notch laptop repair services to our clients. Whether you're dealing
             with a sluggish laptop or a sudden breakdown, our laptop repair at home service is here to cater to your
             needs. Our onboard team of experts boasts several years of experience in repairing laptops, making them
@@ -609,24 +627,24 @@
             <div class="col col-lg-8">
               <div class="about_content">
                 <div class="section_title">
-                  <h2 class="sub_title" data-text-color="#74C138">
+                  <h2 class="sub_title" data-text-color="#DB4437">
                     About Company
                     <!-- <span class="icon">
                       <img src="resources/frontend/images/favourite_icon_2.png" alt="Logo Icon">
                     </span> -->
                   </h2>
                   <h3>
-                    Welcome to Device Refix – Your Trusted Technology Partner in Ranchi, Jharkhand!
+                    Welcome to PCFIXPRO – Your Trusted Technology Partner in Ranchi, Jharkhand!
                   </h3>
                   <p class="mb-0">
-                    At Device Refix, we take pride in being the premier destination for comprehensive computer repair,
+                    At PCFIXPRO, we take pride in being the premier destination for comprehensive computer repair,
                     laptop repair, and printer repair services in Ranchi, Jharkhand. With a commitment to excellence and
                     a team of highly skilled technicians, we strive to deliver top-notch solutions to meet all your
                     technology needs.
                   </p>
 
                   <h6>Our Mission:</h6>
-                  Our mission at Device Refix is to provide reliable and efficient repair services that empower our
+                  Our mission at PCFIXPRO is to provide reliable and efficient repair services that empower our
                   clients to make the most of their technology investments. We understand the critical role that
                   computers, laptops, and printers play in your personal and professional life, and we are dedicated to
                   ensuring they function seamlessly.
@@ -638,7 +656,7 @@
                   diagnose and resolve issues promptly.
 
                   <h6>Client-Centric Approach:</h6>
-                  At Device Refix, we prioritize our clients' satisfaction. Our client-centric approach is reflected in
+                  At PCFIXPRO, we prioritize our clients' satisfaction. Our client-centric approach is reflected in
                   our commitment to delivering timely, cost-effective, and reliable solutions. We understand the urgency
                   of your repair needs and work diligently to minimize downtime, ensuring that your devices are back in
                   optimal condition as quickly as possible.
@@ -649,12 +667,12 @@
                   added convenience, bringing our expertise directly to your doorstep.
 
                   <h6>Transparent and Affordable Pricing:</h6>
-                  Device Refix believes in transparency when it comes to pricing. Our upfront and affordable pricing
+                  PCFIXPRO believes in transparency when it comes to pricing. Our upfront and affordable pricing
                   ensures that you know exactly what to expect, with no hidden costs. We offer competitive rates for our
                   computer repair, laptop repair, and printer repair services without compromising on quality.
 
                   <h6>Get in Touch:</h6>
-                  Whether you're a business professional, a student, or a home user, Device Refix is here to address all
+                  Whether you're a business professional, a student, or a home user, PCFIXPRO is here to address all
                   your technology-related concerns. Trust us for reliable, efficient, and affordable computer, laptop,
                   and printer repair services in Ranchi, Jharkhand.
                 </div>
@@ -663,7 +681,7 @@
           </div>
           <div class="h-100 d-flex align-items-center justify-content-center">
             <div class="btn btn_success btn_rounded" style="margin: 0;">
-              <h4 class="">Choose Device Refix – Where Technology Meets Expertise!</h4>
+              <h4 class="">Choose PCFIXPRO – Where Technology Meets Expertise!</h4>
             </div>
           </div>
         </div>
@@ -728,7 +746,7 @@
           <div class="row">
             <div class="col col-lg-5">
               <div class="section_title">
-                <h2 class="sub_title" data-text-color="#74C138">
+                <h2 class="sub_title" data-text-color="#DB4437">
                   Our Products
                   <span class="icon">
                     <img src="resources/frontend/images/favourite_icon_2.png" alt="Logo Icon">
@@ -787,11 +805,11 @@
                           </a>
                         </h3>
                         <ul class="reting_star ul_li">
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
                         </ul>
                         <div class="item_price">
                           <span>$25.00</span>
@@ -815,11 +833,11 @@
                           </a>
                         </h3>
                         <ul class="reting_star ul_li">
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
                         </ul>
                         <div class="item_price">
                           <span>$25.00</span>
@@ -844,11 +862,11 @@
                           </a>
                         </h3>
                         <ul class="reting_star ul_li">
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
                         </ul>
                         <div class="item_price">
                           <span>$25.00</span>
@@ -871,11 +889,11 @@
                           </a>
                         </h3>
                         <ul class="reting_star ul_li">
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
                         </ul>
                         <div class="item_price">
                           <span>$25.00</span>
@@ -901,11 +919,11 @@
                           </a>
                         </h3>
                         <ul class="reting_star ul_li">
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
                         </ul>
                         <div class="item_price">
                           <span>$25.00</span>
@@ -929,11 +947,11 @@
                           </a>
                         </h3>
                         <ul class="reting_star ul_li">
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
                         </ul>
                         <div class="item_price">
                           <span>$25.00</span>
@@ -958,11 +976,11 @@
                           </a>
                         </h3>
                         <ul class="reting_star ul_li">
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
                         </ul>
                         <div class="item_price">
                           <span>$25.00</span>
@@ -985,11 +1003,11 @@
                           </a>
                         </h3>
                         <ul class="reting_star ul_li">
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
                         </ul>
                         <div class="item_price">
                           <span>$25.00</span>
@@ -1015,11 +1033,11 @@
                           </a>
                         </h3>
                         <ul class="reting_star ul_li">
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
                         </ul>
                         <div class="item_price">
                           <span>$25.00</span>
@@ -1043,11 +1061,11 @@
                           </a>
                         </h3>
                         <ul class="reting_star ul_li">
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
                         </ul>
                         <div class="item_price">
                           <span>$25.00</span>
@@ -1072,11 +1090,11 @@
                           </a>
                         </h3>
                         <ul class="reting_star ul_li">
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
                         </ul>
                         <div class="item_price">
                           <span>$25.00</span>
@@ -1099,11 +1117,11 @@
                           </a>
                         </h3>
                         <ul class="reting_star ul_li">
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
                         </ul>
                         <div class="item_price">
                           <span>$25.00</span>
@@ -1129,11 +1147,11 @@
                           </a>
                         </h3>
                         <ul class="reting_star ul_li">
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
                         </ul>
                         <div class="item_price">
                           <span>$25.00</span>
@@ -1157,11 +1175,11 @@
                           </a>
                         </h3>
                         <ul class="reting_star ul_li">
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
                         </ul>
                         <div class="item_price">
                           <span>$25.00</span>
@@ -1186,11 +1204,11 @@
                           </a>
                         </h3>
                         <ul class="reting_star ul_li">
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
                         </ul>
                         <div class="item_price">
                           <span>$25.00</span>
@@ -1213,11 +1231,11 @@
                           </a>
                         </h3>
                         <ul class="reting_star ul_li">
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
-                          <li class="active"><i class="flaticon-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
+                          <li class="active"><i class="fa fa-star"></i></li>
                         </ul>
                         <div class="item_price">
                           <span>$25.00</span>
@@ -1252,7 +1270,7 @@
           <div class="row justify-content-center">
             <div class="col col-lg-6">
               <div class="section_title text-center">
-                <h2 class="sub_title" data-text-color="#74C138">
+                <h2 class="sub_title" data-text-color="#DB4437">
                   Testimonials
                   <!-- <span class="icon">
                     <img src="resources/frontend/images/favourite_icon_2.png" alt="Logo Icon">
@@ -1271,7 +1289,7 @@
                 <div class="testimonial_item_2" style="background-image: url('resources/frontend/images/shape_4.png');">
                   <div class="quote_icon text-end">
                     <span>
-                      <i class="flaticon-quotation-right-mark"></i>
+                      <i class="fa fa-quote-right"></i>
                     </span>
                   </div>
                   <div class="content_wrap">
@@ -1283,11 +1301,11 @@
                       Highly recommended!
                     </p>
                     <ul class="reting_star ul_li">
-                      <li class="active"><i class="flaticon-star"></i></li>
-                      <li class="active"><i class="flaticon-star"></i></li>
-                      <li class="active"><i class="flaticon-star"></i></li>
-                      <li class="active"><i class="flaticon-star"></i></li>
-                      <li class="active"><i class="flaticon-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
                     </ul>
                   </div>
                   <div class="thumbnail_wrap">
@@ -1300,7 +1318,7 @@
                 <div class="testimonial_item_2" style="background-image: url('resources/frontend/images/shape_4.png');">
                   <div class="quote_icon text-end">
                     <span>
-                      <i class="flaticon-quotation-right-mark"></i>
+                      <i class="fa fa-quote-right"></i>
                     </span>
                   </div>
                   <div class="content_wrap">
@@ -1312,11 +1330,11 @@
                       repairs in Ranchi!
                     </p>
                     <ul class="reting_star ul_li">
-                      <li class="active"><i class="flaticon-star"></i></li>
-                      <li class="active"><i class="flaticon-star"></i></li>
-                      <li class="active"><i class="flaticon-star"></i></li>
-                      <li class="active"><i class="flaticon-star"></i></li>
-                      <li class="active"><i class="flaticon-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
                     </ul>
                   </div>
                   <div class="thumbnail_wrap">
@@ -1329,7 +1347,7 @@
                 <div class="testimonial_item_2" style="background-image: url('resources/frontend/images/shape_4.png');">
                   <div class="quote_icon text-end">
                     <span>
-                      <i class="flaticon-quotation-right-mark"></i>
+                      <i class="fa fa-quote-right"></i>
                     </span>
                   </div>
                   <div class="content_wrap">
@@ -1340,11 +1358,11 @@
                       recommended for reliable and efficient repairs.
                     </p>
                     <ul class="reting_star ul_li">
-                      <li class="active"><i class="flaticon-star"></i></li>
-                      <li class="active"><i class="flaticon-star"></i></li>
-                      <li class="active"><i class="flaticon-star"></i></li>
-                      <li class="active"><i class="flaticon-star"></i></li>
-                      <li class="active"><i class="flaticon-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
                     </ul>
                   </div>
                   <div class="thumbnail_wrap">
@@ -1357,7 +1375,7 @@
                 <div class="testimonial_item_2" style="background-image: url('resources/frontend/images/shape_4.png');">
                   <div class="quote_icon text-end">
                     <span>
-                      <i class="flaticon-quotation-right-mark"></i>
+                      <i class="fa fa-quote-right"></i>
                     </span>
                   </div>
                   <div class="content_wrap">
@@ -1368,11 +1386,11 @@
                       facing printer issues in the area.
                     </p>
                     <ul class="reting_star ul_li">
-                      <li class="active"><i class="flaticon-star"></i></li>
-                      <li class="active"><i class="flaticon-star"></i></li>
-                      <li class="active"><i class="flaticon-star"></i></li>
-                      <li class="active"><i class="flaticon-star"></i></li>
-                      <li class="active"><i class="flaticon-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
                     </ul>
                   </div>
                   <div class="thumbnail_wrap">
@@ -1385,7 +1403,7 @@
                 <div class="testimonial_item_2" style="background-image: url('resources/frontend/images/shape_4.png');">
                   <div class="quote_icon text-end">
                     <span>
-                      <i class="flaticon-quotation-right-mark"></i>
+                      <i class="fa fa-quote-right"></i>
                     </span>
                   </div>
                   <div class="content_wrap">
@@ -1396,11 +1414,11 @@
                       functions like new. Highly recommended for reliable and efficient laptop repairs in the area.
                     </p>
                     <ul class="reting_star ul_li">
-                      <li class="active"><i class="flaticon-star"></i></li>
-                      <li class="active"><i class="flaticon-star"></i></li>
-                      <li class="active"><i class="flaticon-star"></i></li>
-                      <li class="active"><i class="flaticon-star"></i></li>
-                      <li class="active"><i class="flaticon-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
                     </ul>
                   </div>
                   <div class="thumbnail_wrap">
@@ -1413,7 +1431,7 @@
                 <div class="testimonial_item_2" style="background-image: url('resources/frontend/images/shape_4.png');">
                   <div class="quote_icon text-end">
                     <span>
-                      <i class="flaticon-quotation-right-mark"></i>
+                      <i class="fa fa-quote-right"></i>
                     </span>
                   </div>
                   <div class="content_wrap">
@@ -1425,11 +1443,11 @@
                       laptop repairs!
                     </p>
                     <ul class="reting_star ul_li">
-                      <li class="active"><i class="flaticon-star"></i></li>
-                      <li class="active"><i class="flaticon-star"></i></li>
-                      <li class="active"><i class="flaticon-star"></i></li>
-                      <li class="active"><i class="flaticon-star"></i></li>
-                      <li class="active"><i class="flaticon-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
                     </ul>
                   </div>
                   <div class="thumbnail_wrap">
@@ -1454,7 +1472,7 @@
           <div class="counter_items_wrap">
             <div class="counter_item">
               <div class="item_icon text-white">
-                <i class="flaticon-support"></i>
+                <i class="fa fa-screwdriver-wrench"></i>
               </div>
               <div class="counter_text text-white"><span class="counter">12000</span>+</div>
               <h3 class="item_title text-white">Repairing Cases Solved</h3>
@@ -1462,7 +1480,7 @@
 
             <div class="counter_item">
               <div class="item_icon text-white">
-                <i class="flaticon-customer-satisfaction"></i>
+                <i class="fa fa-face-smile"></i>
               </div>
               <div class="counter_text text-white"><span class="counter">1000</span>+</div>
               <h3 class="item_title text-white">Happy Customers</h3>
@@ -1470,7 +1488,7 @@
 
             <div class="counter_item">
               <div class="item_icon text-white">
-                <i class="flaticon-businessman"></i>
+                <i class="fa fa-user-tie"></i>
               </div>
               <div class="counter_text text-white"><span class="counter">25</span></div>
               <h3 class="item_title text-white">Experienced Engineers</h3>
@@ -1478,7 +1496,7 @@
 
             <div class="counter_item">
               <div class="item_icon text-white">
-                <i class="flaticon-star-1"></i>
+                <i class="fa fa-thumbs-up"></i>
               </div>
               <div class="counter_text text-white"><span class="counter">99</span>%</div>
               <h3 class="item_title text-white">Successful Ratings</h3>
@@ -1497,7 +1515,7 @@
 
             <div class="col col-lg-4">
               <div class="section_title mb-0">
-                <h2 class="sub_title" data-text-color="#74C138">
+                <h2 class="sub_title" data-text-color="#DB4437">
                   Recent Blog Post
                   <span class="icon">
                     <img src="resources/frontend/images/favourite_icon_2.png" alt="Logo Icon">
@@ -1678,9 +1696,9 @@
         ================================================== -->
       <!-- <section class="advertisement_section section_space pb-0">
         <div class="container">
-          <div class="advertisement_layout_1 decoration_wrap" data-bg-color="#74C138"
+          <div class="advertisement_layout_1 decoration_wrap" data-bg-color="#DB4437"
             style="background-image: url('resources/frontend/images/pattern_3.png');">
-            <div class="overlay" data-bg-color="#74C138"></div>
+            <div class="overlay" data-bg-color="#DB4437"></div>
             <h2 class="text-white">Sale Second Hand Computer Through Repairon</h2>
             <img src="resources/frontend/images/advertisement_img_1.png" alt="Computer Image">
             <a class="btn btn_white btn_rounded" href="product_upload.html">Sale Computer</a>
@@ -1790,15 +1808,20 @@
                   </a>
                 </div>
                 <p>
-                  Device Refix offers exceptional tech solutions, specializing in efficient device repair and
+                  PCFIXPRO offers exceptional tech solutions, specializing in efficient device repair and
                   restoration for a seamless and reliable user experience.
                 </p>
                 <ul class="social_icon social_success social_round ul_li">
-                  <li><a href="https://www.facebook.com/pcfixproindia/" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                  <li><a href="https://twitter.com/pcfixproindia/" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                  <li><a href="https://www.instagram.com/pcfixproindia/" class="instagram"><i class="fab fa-instagram"></i></a></li>
-                  <li><a href="https://www.linkedin.com/in/pcfixproindia/" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-                  <li><a href="https://www.youtube.com/@pcfixproindia" class="youtube"><i class="fab fa-youtube"></i></a></li>
+                  <li><a href="https://www.facebook.com/PCFIXPROindia/" class="facebook"><i
+                        class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="https://twitter.com/PCFIXPROindia/" class="twitter"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li><a href="https://www.instagram.com/PCFIXPROindia/" class="instagram"><i
+                        class="fab fa-instagram"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/PCFIXPROindia/" class="linkedin"><i
+                        class="fab fa-linkedin-in"></i></a></li>
+                  <li><a href="https://www.youtube.com/@PCFIXPROindia" class="youtube"><i
+                        class="fab fa-youtube"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -1812,7 +1835,7 @@
                   <li><a href="printer-repair-in-ranchi">Printer Repair in Ranchi</a></li>
                   <li><a href="about-us">About Us</a></li>
                   <li><a href="contact-us">Contact Us</a></li>
-                  <li><a href="javascript:void(0)"><span class="cart_btn">Submit Your Problem</span></a></li>
+                  <li><a href="javascript:void(0)"><span class="cart_btn">Book Your Service</span></a></li>
 
 
 
@@ -1826,7 +1849,7 @@
                 <ul class="ul_li_block">
                   <li class="item-support">
                     <div class="item_icon">
-                      <i class="flaticon-headphones"></i>
+                      <i class="fa fa-headset"></i>
                     </div>
                     <div class="item_content">
                       <span>
@@ -1839,7 +1862,7 @@
                   </li>
                   <li>
                     <div class="item_icon">
-                      <i class="flaticon-email"></i>
+                      <i class="fa fa-envelope"></i>
                     </div>
                     <div class="item_content">
                       <span>
@@ -1850,7 +1873,7 @@
                   </li>
                   <li>
                     <div class="item_icon">
-                      <i class="flaticon-location"></i>
+                      <i class="fa fa-location-dot"></i>
                     </div>
                     <div class="item_content">
                       <span>
@@ -1896,7 +1919,7 @@
 
   <!-- Video & Image Popup - Jquery Include -->
   <script defer src="resources/frontend/js/magnific-popup.min.js"></script>
-  <!-- <script defer src="resources/frontend/js/beforeafter.jquery-1.0.0.min.js"></script> -->
+  <script defer src="resources/frontend/js/beforeafter.jquery-1.0.0.min.js"></script>
 
 
 

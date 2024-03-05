@@ -1,12 +1,3 @@
-// ==================================================
-// * Project Name   :  Repairon - Multi Repair Services HTML Template
-// * File           :  CSS Base
-// * Version        :  1.0.0
-// * Last change    :  14 January 2022
-// * Author         :  
-// * Developer      :  Rakibul Islam Dewan
-// ==================================================
-
 (function($) {
   "use strict";
 
