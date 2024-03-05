@@ -89,7 +89,7 @@
    
 
   <!-- <title> PC FIX PRO - Best Computer Repair in Ranchi, Laptop Repair in Ranchi, Printer Repair in Ranchi</title> -->
-  <title>PC Fix Pro: Best Computer, Laptop, and Printer Repair Service in Ranchi</title>
+  <title>PCFixPro: Best Computer, Laptop, and Printer Repair Service in Ranchi</title>
 
   <!-- Fraimwork - CSS Include -->
   <link rel="stylesheet" type="text/css" href="resources/frontend/css/bootstrap.min.css">
@@ -1794,10 +1794,11 @@
                   restoration for a seamless and reliable user experience.
                 </p>
                 <ul class="social_icon social_success social_round ul_li">
-                  <li><a href="#!" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                  <li><a href="#!" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                  <li><a href="#!" class="instagram"><i class="fab fa-instagram"></i></a></li>
-                  <li><a href="#!" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                  <li><a href="https://www.facebook.com/pcfixproindia/" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="https://twitter.com/pcfixproindia/" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="https://www.instagram.com/pcfixproindia/" class="instagram"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/pcfixproindia/" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                  <li><a href="https://www.youtube.com/@pcfixproindia" class="youtube"><i class="fab fa-youtube"></i></a></li>
                 </ul>
               </div>
             </div>

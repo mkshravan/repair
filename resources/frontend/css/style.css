@@ -1204,10 +1204,13 @@ blockquote .quote_icon {
   background-color: #1DA1F2;
 }
 .social_round.social_success li a.instagram:hover{
-  background-color: #4c68d7;
+  background-color: #cd486b;
 }
 .social_round.social_success li a.linkedin:hover{
   background-color: #0077b5;
+}
+.social_round.social_success li a.youtube:hover{
+  background-color: #CD201F;
 }
 
 /* Social Round - End */
