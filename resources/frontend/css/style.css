@@ -3199,16 +3199,20 @@ blockquote .quote_icon {
   transition: 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
 .policy_item_3:hover {
-  color: #ffffff;
-  background-color: #DB4437;
+  /* color: #ffffff; */
+  color: #DB4437;
+  /* background-color: #DB4437; */
 }
 .policy_item_3:hover:after {
-  background-color: #DB4437;
+  /* background-color: #DB4437; */
 }
 .policy_item_3:hover p,
 .policy_item_3:hover .item_icon,
 .policy_item_3:hover .item_title {
-  color: #ffffff;
+  color: #000000;
+}
+.policy_item_3:hover .item_icon{
+  color:#DB4437;
 }
 
 .policy_item_3.style_2 {

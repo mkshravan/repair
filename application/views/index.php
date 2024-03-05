@@ -395,7 +395,8 @@
       <div class="policy_section">
         <div class="container">
           <div class="policy_wrap m-0">
-            <div class="policy_item_3" style="background-color: #DB4437; color: #ffffff;">
+            <!-- <div class="policy_item_3" style="background-color: #DB4437; color: #ffffff;"> -->
+            <div class="policy_item_3">
               <div class="item_icon">
                 <i class="fa fa-screwdriver-wrench"></i>
               </div>
