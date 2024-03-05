@@ -105,6 +105,8 @@
   <link rel="stylesheet" type="text/css" href="resources/frontend/css/slick.css">
   <link rel="stylesheet" type="text/css" href="resources/frontend/css/slick-theme.css">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
   <!-- Video & Image Popup - CSS Include -->
   <!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/magnific-popup.css"> -->
 
@@ -128,7 +130,7 @@
     <!-- Back To Top - Start -->
     <div class="backtotop">
       <a href="#" class="scroll">
-        <i class="far fa-arrow-up"></i>
+        <i class="fa fa-arrow-up"></i>
       </a>
     </div>
     <!-- Back To Top - End -->
@@ -170,7 +172,7 @@
           <button class="mobile_menu_btn navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#main_menu_dropdown" aria-controls="main_menu_dropdown" aria-expanded="false"
             aria-label="Toggle navigation">
-            <i class="fal fa-bars"></i>
+            <i class="fa fa-bars"></i>
           </button>
           <div class="main_menu_inner collapse navbar-collapse" id="main_menu_dropdown">
             <ul class="main_menu_list ul_li text-uppercase">
@@ -228,7 +230,7 @@
 
       <div class="search_body">
         <button type="button" class="search_close">
-          <i class="fal fa-times"></i>
+          <i class="fa fa-times"></i>
         </button>
         <div class="container">
           <form action="#">
@@ -297,7 +299,7 @@
         <div class="about_sidebar_overlay"></div> -->
 
         <div class="cart_sidebar">
-          <button type="button" class="cart_close_btn"><i class="fal fa-times"></i></button>
+          <button type="button" class="cart_close_btn"><i class="fa fa-times"></i></button>
           <h3 class="heading_title text-uppercase">Send Your Problems</h3>
 
           <div class="cart_items_list">
