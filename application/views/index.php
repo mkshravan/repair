@@ -6,9 +6,90 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="robots" content="noydir" />
+  <meta name="robots" content="noodp " />
 
-  <title> PC FIX PRO - Best Computer Repair in Ranchi, Laptop Repair in Ranchi, Printer Repair in Ranchi</title>
+  <!-- FAVICON -->
   <link rel="shortcut icon" href="resources/frontend/images/favourite_icon_2.png">
+  <link rel="icon" type="image/ico" href="resources/frontend/images/favourite_icon_2.png" />
+  <link rel="icon" type="image/x-icon" href="resources/frontend/images/favourite_icon_2.png" />
+  <link rel="apple-touch-icon" sizes="57x57" href="resources/frontend/images/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="resources/frontend/images/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="resources/frontend/images/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="resources/frontend/images/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="resources/frontend/images/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="resources/frontend/images/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="resources/frontend/images/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="resources/frontend/images/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="resources/frontend/images/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="resources/frontend/images/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="resources/frontend/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="resources/frontend/images/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="resources/frontend/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="resources/frontend/images/favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#258FC1">
+
+  <meta name="keywords" content="Computer repair in Ranchi, Laptop repair in Ranchi, Printer repair in Ranchi " />
+  <meta name="description" content="Discover reliable computer, laptop, and printer repair services in Ranchi. Our expert technicians in Ranchi specialize in diagnosing and fixing a wide range of hardware and software issues. Fast and efficient solutions for your technology woes – choose us for top-notch computer, laptop, and printer repair services in Ranchi!" />
+  <meta name="fragment" content="Quality computer, laptop, and printer repair services in Ranchi. Our skilled technicians offer reliable solutions for hardware and software issues. Choose us for fast and efficient repairs in Ranchi – your trusted partner for technology troubleshooting!" />
+  <meta name="summary" content="Get expert computer, laptop, and printer repair services in Ranchi. Our skilled technicians provide reliable solutions for a variety of issues, ensuring fast and efficient repairs. Trust us for professional technology troubleshooting and top-notch service in Ranchi." />
+
+  <meta property="fb:app_id" content="1913807505501923" />
+
+  <!--<meta property="og:type" content="article"/> -->
+  <meta property="og:type" content="website" />
+   <meta property="og:title" content="PCFIXPRO Ranchi - Your Trusted Source for Computer, Laptop, and Printer Repairs" />
+   <meta property="og:description" content="Discover reliable computer, laptop, and printer repair services in Ranchi. Our expert technicians in Ranchi specialize in diagnosing and fixing a wide range of hardware and software issues. Fast and efficient solutions for your technology woes – choose us for top-notch computer, laptop, and printer repair services in Ranchi!" />
+  <meta property="og:url" content="https://www.pcfixpro.in/" />
+   <meta property="og:site_name" content="PCFIXPRO Ranchi - Your Trusted Source for Computer, Laptop, and Printer Repairs" />
+   <meta property="article:publisher" content="https://www.facebook.com/pcfixproindia" />
+   <meta property="article:author" content="PC FX PRO" />
+   <meta property="og:image" content="resources/frontend/images/logo_2_white.png" />
+   <meta property="og:image:secure_url" content="resources/frontend/images/logo_2_white.png" />
+   <meta property="og:image:width" content="700" />
+   <meta property="og:image:height" content="300" />
+   <meta property="og:image:alt" content="computer, laptop, printer repair in Ranch" />
+   <meta name="twitter:card" content="summary_large_image" />
+   <meta name="twitter:description" content="Experience top-notch computer, laptop, and printer repair services in Ranchi. Our skilled technicians provide efficient solutions for hardware and software issues. Your go-to destination for reliable and fast technology troubleshooting. #RanchiTechRepair #ComputerService #LaptopFix" />
+   <meta name="twitter:title" content="PCFIXPRO Ranchi: Expert Computer, Laptop, and Printer Repair Services for Seamless Tech Solutions in Ranchi." />
+   <meta name="twitter:site" content="@pcfxproinda" />
+   <meta name="twitter:image" content="resources/frontend/images/logo_2_white.png" />
+   <meta name="twitter:creator" content="@pcfxproinda" />
+   <link rel='dns-prefetch' href='https://www/pcfixpro.in' />
+   <link rel='dns-prefetch' href='//maps.google.com' />
+   <link rel='dns-prefetch' href='//s.w.org' />
+   <!--<link rel="alternate" type="application/rss+xml" title="SOFTWARE COMPANY in Ranchi &raquo; Feed" href="https://webdadz.com/feed"/> 
+                  <link rel="alternate" type="application/rss+xml" title="SOFTWARE COMPANY in Ranchi &raquo; Comments Feed" href="https://webdadz.com/comments/feed"/> -->
+   <meta name="Author" content="PC FIX PRO" />
+   <meta name="Owner" content="PC FIX PRO" />
+   <meta name="email" content="info@pcfixpro.in" />
+   <meta name="page-topic" content="PC FIX PRO | Computer, Laptop, Printer repar servce n Ranchi" />
+   <meta name="copyright" content="PC FIX PRO" />
+   <meta name="abstract" content="Experience unparalleled computer, laptop, and printer repair services in Ranchi. Our skilled technicians provide swift and effective solutions for a spectrum of hardware and software issues. Trust us for reliable and professional technology repairs tailored to meet your needs in Ranchi." />
+   <meta name="p:domain_verify" content="" />
+   <meta name="author" content="PC FIX PRO">
+   <meta name="msvalidate.01" content="" />
+   <meta name="google-site-verification" content="" />
+   <meta name="yandex-verification" content="" />
+   <meta name="robots" content="index, follow" />
+   <meta name="rating" content="safe for kids" />
+   <meta name="googlebot" content=" index, follow " />
+   <meta name="yahooSeeker" content=" index, follow " />
+   <meta name="msnbot" content=" index, follow " />
+   <meta name="reply-to" content="info@pcfixpro.in" />
+   <meta name="allow-search" content="yes" />
+   <meta name="revisit-after" content="daily" />
+   <meta name="distribution" content="global" />
+   <meta name="Rating" content="General" />
+   <meta name="expires" content="never" />
+   <link rel="canonical" href="https://www.pcfixpro.n/" title="PC FIX PRO | Computer, Laptop, Printer repar servce n Ranchi" />
+  
+   
+
+  <!-- <title> PC FIX PRO - Best Computer Repair in Ranchi, Laptop Repair in Ranchi, Printer Repair in Ranchi</title> -->
+  <title>PC Fix Pro: Best Computer, Laptop, and Printer Repair Service in Ranchi</title>
 
   <!-- Fraimwork - CSS Include -->
   <link rel="stylesheet" type="text/css" href="resources/frontend/css/bootstrap.min.css">
@@ -80,8 +161,8 @@
       <div class="header_bottom">
         <div class="site_logo">
           <a href="/">
-            <img src="resources/frontend/images/logo_2_white.png"
-              srcset="resources/frontend/images/logo_2_white.png 2x" alt="logo_not_found">
+            <img src="resources/frontend/images/logo_2_white.png" srcset="resources/frontend/images/logo_2_white.png 2x"
+              alt="logo_not_found">
           </a>
         </div>
 
@@ -108,7 +189,8 @@
                 </ul>
               </li>
               <li><a href="contact-us">Contact Us</a></li>
-              <li class="cart_btn" style="background: #DB4437; padding:0px 5px; border-radius: 25px"><a href="javascript:void(0)">submit your problem</a></li>
+              <li class="cart_btn" style="background: #DB4437; padding:0px 5px; border-radius: 25px"><a
+                  href="javascript:void(0)">submit your problem</a></li>
             </ul>
           </div>
 
@@ -259,12 +341,12 @@
           <div class="row">
             <div class="col col-lg-10 col-md-10">
               <div class="banner_content">
-                <h1 class="first_text" >
+                <h1 class="first_text">
                   Best Laptop Service Center in Ranchi, Computer Repairing Center in Ranchi, Printer Service Center in
                   Ranchi, Jharkhand
                 </h1>
                 <!-- <span class="cart_btn" style="padding: 7px;color: #ffffff; background: #74c138; border-radius: 10px; font-weight: normal; font-size: 15px">submit your query</span> -->
-                
+
                 <!-- <a class="btn btn_success btn_rounded" href="service.html">Repair Computer</a> -->
               </div>
             </div>
@@ -274,20 +356,20 @@
       <!-- Banner Section - End
         ================================================== -->
 
-        <div class="policy_section">
+      <div class="policy_section">
         <div class="container">
           <p class="text-dark mt-5">
-                  Unlock unparalleled convenience and expertise with the Best Laptop Service Center in Ranchi, where
-                  cutting-edge solutions meet affordability. Our commitment extends to being the Best Computer Repairing
-                  Center in Ranchi, ensuring your devices receive top-notch care without breaking the bank. Experience
-                  the epitome of reliability at our center, renowned as the Best Printer Service Center in Ranchi, where
-                  quality meets affordability seamlessly. What sets us apart is our dedication to providing hassle-free
-                  home services at an affordable cost, bringing expert technicians right to your doorstep. Embrace a new
-                  era of technology support that prioritizes both excellence and your budget. Trust us to deliver not
-                  just repairs, but a seamless experience that reflects our commitment to unmatched service without
-                  compromising affordability. Your devices, your convenience, our expertise – experience it all at the
-                  forefront of technology care in Ranchi.
-                </p>
+            Unlock unparalleled convenience and expertise with the Best Laptop Service Center in Ranchi, where
+            cutting-edge solutions meet affordability. Our commitment extends to being the Best Computer Repairing
+            Center in Ranchi, ensuring your devices receive top-notch care without breaking the bank. Experience
+            the epitome of reliability at our center, renowned as the Best Printer Service Center in Ranchi, where
+            quality meets affordability seamlessly. What sets us apart is our dedication to providing hassle-free
+            home services at an affordable cost, bringing expert technicians right to your doorstep. Embrace a new
+            era of technology support that prioritizes both excellence and your budget. Trust us to deliver not
+            just repairs, but a seamless experience that reflects our commitment to unmatched service without
+            compromising affordability. Your devices, your convenience, our expertise – experience it all at the
+            forefront of technology care in Ranchi.
+          </p>
         </div>
       </div>
 
@@ -1731,7 +1813,7 @@
                   <li><a href="contact-us">Contact Us</a></li>
                   <li><a href="javascript:void(0)"><span class="cart_btn">Submit Your Problem</span></a></li>
 
-                  
+
 
                 </ul>
               </div>
