@@ -13,6 +13,7 @@ $route['laptop-repair-in-ranchi'] = 'index/laptop_repair';
 $route['printer-repair-in-ranchi'] = 'index/printer_repair';
 
 $route['admin'] = 'login/index';
+$route['admin/login'] = 'login/login';
 $route['admin/logout'] = 'login/logout';
 
 $route['admin/dashboard'] = 'dashboard';

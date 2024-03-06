@@ -117,7 +117,7 @@
                         <p>Login & Explore alot</p>
                     </div>
                     <div class="col-md-9 register-right">
-                    <form action="<?php echo site_url('login/login'); ?>" method="post" >
+                    <form action="<?php echo site_url('admin/login'); ?>" method="post" >
                         <div class="tab-content" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                 <h3 class="register-heading"><span class="logo-mini"><img src="<?php echo site_url('resources/img/logo.png');?>" style="width:160px; height:50px" /></span></h3>
