@@ -2987,9 +2987,9 @@ blockquote .quote_icon {
   align-items: center;
 }
 .banner_2 h1 {
-  font-size: 60px;
-  line-height: 1.1;
-  margin-bottom: 35px;
+  font-size: 25px;
+  line-height: 1;
+  margin-bottom: 25px;
 }
 .banner_2 p {
   font-size: 16px;
@@ -6806,7 +6806,7 @@ Responsive For Mobile & Tablet Devices
   }
 
   .banner_2 h1 {
-    font-size: 60px;
+    font-size: 25px;
   }
 
   .testimonial_item_2 .thumbnail_wrap {
@@ -7208,8 +7208,8 @@ Responsive For Mobile & Tablet Devices
 ================================================== */
 @media screen and (max-width: 991px) {
   .banner_2 h1 {
-    font-size: 54px;
-    margin-bottom: 30px;
+    font-size: 25px;
+    margin-bottom: 25px;
   }
 
   .service_tab_content .heading_text {
@@ -8014,8 +8014,8 @@ Responsive For Mobile & Tablet Devices
   }
 
   .banner_2 h1 {
-    font-size: 32px;
-    margin-bottom: 30px;
+    font-size: 22px;
+    margin-bottom: 22px;
   }
 
   .banner_2 p {
