@@ -102,8 +102,8 @@
 
                 <!-- <a class="btn btn_success btn_rounded" href="service.html">Repair Computer</a> -->
               </div>
-              <p style="color: black">Welcome to the premier Computer, Printer, and Laptop Service Center in Ranchi, catering to all major brands including HP, DELL, LENOVO, SAMSUNG, COMPAQ, SONY, MSI, ASUS, IBM, ACER, APPLE, CANON, EPSON, BROTHER, XEROX, RICOH, KYOCERA, and more. At our state-of-the-art facility, we are committed to providing unparalleled technical support and repair services to ensure your devices run smoothly.</p>
-              <p style="color: black">Our team of certified technicians specializes in diagnosing and resolving issues with a wide range of computer peripherals, printers, and laptops. Whether you're facing hardware malfunctions, software glitches, or connectivity issues, we have the expertise to bring your devices back to peak performance.</p>
+              <!-- <p style="color: black">Welcome to the premier Computer, Printer, and Laptop Service Center in Ranchi, catering to all major brands including HP, DELL, LENOVO, SAMSUNG, COMPAQ, SONY, MSI, ASUS, IBM, ACER, APPLE, CANON, EPSON, BROTHER, XEROX, RICOH, KYOCERA, and more. At our state-of-the-art facility, we are committed to providing unparalleled technical support and repair services to ensure your devices run smoothly.</p>
+              <p style="color: black">Our team of certified technicians specializes in diagnosing and resolving issues with a wide range of computer peripherals, printers, and laptops. Whether you're facing hardware malfunctions, software glitches, or connectivity issues, we have the expertise to bring your devices back to peak performance.</p> -->
             </div>
           </div>
         </div>
