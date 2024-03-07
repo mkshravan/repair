@@ -21,7 +21,7 @@
   <meta name="theme-color" content="#258FC1">  
   <meta property="fb:app_id" content="1913807505501923" />  
   <!-- Fraimwork - CSS Include -->
-  <link rel="stylesheet" type="text/css" href="resources/frontend/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/bootstrap.min.css"> -->
 
   <!-- Icon Font - CSS Include -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -31,11 +31,11 @@
   <link rel="stylesheet" type="text/css" href="resources/frontend/css/flaticon.css"> -->
 
   <!-- Animation - CSS Include -->
-  <link rel="stylesheet" type="text/css" href="resources/frontend/css/animate.css">
+  <!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/animate.css"> -->
 
   <!-- Carousel - CSS Include -->
-  <link rel="stylesheet" type="text/css" href="resources/frontend/css/slick.css">
-  <link rel="stylesheet" type="text/css" href="resources/frontend/css/slick-theme.css">
+  <!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/slick.css"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/slick-theme.css"> -->
 
   <!-- Video & Image Popup - CSS Include -->
   <!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/magnific-popup.css"> -->
@@ -47,7 +47,16 @@
   <!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/jquery-ui.css"> -->
 
   <!-- Custom - CSS Include -->
-  <link rel="stylesheet" type="text/css" href="resources/frontend/css/style.css">
+  <!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/style.css"> -->
+
+  <?php // add css files
+		$this->minify->css(array('bootstrap.min.css', 'animate.css', 'slick.css', 'slick-theme.css', 'style.css'));
+		echo $this->minify->deploy_css();
+
+		// $this->minify->js(array('helpers.js', 'jqModal.js'));
+		// echo $this->minify->deploy_js(FALSE, 'custom_js_name.min.js');
+
+	?>
 
 </head>
 

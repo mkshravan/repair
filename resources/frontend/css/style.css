@@ -598,7 +598,7 @@ blockquote .quote_icon {
   z-index: 10000;
   position: fixed;
   overflow: visible;
-  background: #ffffff url("../images/preloader.svg") no-repeat center center;
+  background: #ffffff url("frontend/images/preloader.svg") no-repeat center center;
 }
 
 /* Preloader - End
