@@ -1,62 +1,69 @@
-  <!-- FAVICON -->
-  <link rel="shortcut icon" href="resources/frontend/images/favourite_icon_2.png">
-  <link rel="icon" type="image/ico" href="resources/frontend/images/favourite_icon_2.png" />
-  <link rel="icon" type="image/x-icon" href="resources/frontend/images/favourite_icon_2.png" />
-  <link rel="apple-touch-icon" sizes="57x57" href="resources/frontend/images/favicons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="resources/frontend/images/favicons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="resources/frontend/images/favicons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="resources/frontend/images/favicons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="resources/frontend/images/favicons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="resources/frontend/images/favicons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="resources/frontend/images/favicons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="resources/frontend/images/favicons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="resources/frontend/images/favicons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="resources/frontend/images/favicons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="resources/frontend/images/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="resources/frontend/images/favicons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="resources/frontend/images/favicons/favicon-16x16.png">
-  <link rel="manifest" href="resources/frontend/images/favicons/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="resources/frontend/images/favicons/ms-icon-144x144.png">
-  <meta name="theme-color" content="#258FC1">  
-  <meta property="fb:app_id" content="1913807505501923" />  
-  <!-- Fraimwork - CSS Include -->
-  <!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/bootstrap.min.css"> -->
+<!-- FAVICON -->
+<link rel="shortcut icon" href="resources/frontend/images/favourite_icon_2.png">
+<link rel="icon" type="image/ico" href="resources/frontend/images/favourite_icon_2.png" />
+<link rel="icon" type="image/x-icon" href="resources/frontend/images/favourite_icon_2.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="resources/frontend/images/favicons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="resources/frontend/images/favicons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="resources/frontend/images/favicons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="resources/frontend/images/favicons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="resources/frontend/images/favicons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="resources/frontend/images/favicons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="resources/frontend/images/favicons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="resources/frontend/images/favicons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="resources/frontend/images/favicons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="resources/frontend/images/favicons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="resources/frontend/images/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="resources/frontend/images/favicons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="resources/frontend/images/favicons/favicon-16x16.png">
+<link rel="manifest" href="resources/frontend/images/favicons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="resources/frontend/images/favicons/ms-icon-144x144.png">
+<meta name="theme-color" content="#258FC1">
+<meta property="fb:app_id" content="1913807505501923" />
+<!-- Fraimwork - CSS Include -->
+<!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/bootstrap.min.css"> -->
 
-  <!-- Icon Font - CSS Include -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/fontawesome.css">
+<!-- Google fonts poppins -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+  rel="stylesheet">
+
+<!-- Icon Font - CSS Include -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/fontawesome.css">
   <link rel="stylesheet" type="text/css" href="resources/frontend/css/flaticon.css"> -->
 
-  <!-- Animation - CSS Include -->
-  <!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/animate.css"> -->
+<!-- Animation - CSS Include -->
+<!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/animate.css"> -->
 
-  <!-- Carousel - CSS Include -->
-  <!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/slick.css"> -->
-  <!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/slick-theme.css"> -->
+<!-- Carousel - CSS Include -->
+<!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/slick.css"> -->
+<!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/slick-theme.css"> -->
 
-  <!-- Video & Image Popup - CSS Include -->
-  <!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/magnific-popup.css"> -->
+<!-- Video & Image Popup - CSS Include -->
+<!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/magnific-popup.css"> -->
 
-  <!-- Select Option - CSS Include -->
-  <!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/nice-select.css"> -->
+<!-- Select Option - CSS Include -->
+<!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/nice-select.css"> -->
 
-  <!-- Pricing Range - CSS Include -->
-  <!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/jquery-ui.css"> -->
+<!-- Pricing Range - CSS Include -->
+<!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/jquery-ui.css"> -->
 
-  <!-- Custom - CSS Include -->
-  <!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/style.css"> -->
+<!-- Custom - CSS Include -->
+<!-- <link rel="stylesheet" type="text/css" href="resources/frontend/css/style.css"> -->
 
-  <?php // add css files
-		$this->minify->css(array('bootstrap.min.css', 'animate.css', 'slick.css', 'slick-theme.css', 'style.css'));
-		echo $this->minify->deploy_css();
+<?php // add css files
+$this->minify->css(array('bootstrap.min.css', 'animate.css', 'slick.css', 'slick-theme.css', 'style.css'));
+echo $this->minify->deploy_css();
 
-		// $this->minify->js(array('helpers.js', 'jqModal.js'));
-		// echo $this->minify->deploy_js(FALSE, 'custom_js_name.min.js');
+// $this->minify->js(array('helpers.js', 'jqModal.js'));
+// echo $this->minify->deploy_js(FALSE, 'custom_js_name.min.js');
 
-	?>
+?>
 
 </head>
 

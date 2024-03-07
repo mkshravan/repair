@@ -2,7 +2,7 @@
 /* Slider */
 
 /* Icons */
-@font-face
+/* @font-face
 {
     font-family: 'slick';
     font-weight: normal;
@@ -10,7 +10,7 @@
 
     src: url('../fonts/slick.eot');
     src: url('../fonts/slick.eot#iefix') format('embedded-opentype'), url('../fonts/slick.woff') format('woff'), url('../fonts/slick.ttf') format('truetype'), url('../images/slick.svg#slick') format('svg');
-}
+} */
 /* Arrows */
 .slick-prev,
 .slick-next

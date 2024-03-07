@@ -342,7 +342,7 @@
             <div class="col col-lg-4 order-last col-md-8">
               <div class="about_image_2 decoration_wrap">
                 <div class="big_image">
-                  <img src="resources/frontend/images/about_img_2.jpg" alt="Worker Image">
+                  <img src="resources/frontend/images/about_img_2.jpg" alt="Worker Image" height="" width="">
                 </div>
                 <div class="small_image">
                   <img src="resources/frontend/images/about_img_3.jpg" alt="Worker Image">
