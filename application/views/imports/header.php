@@ -110,7 +110,7 @@ echo $this->minify->deploy_css();
         <div class="site_logo">
           <a href="/">
             <img src="resources/frontend/images/logo_2_white.png" srcset="resources/frontend/images/logo_2_white.png 2x"
-              alt="logo_not_found">
+              alt="logo" width="333" height="100">
           </a>
         </div>
 

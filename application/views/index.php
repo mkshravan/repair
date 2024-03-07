@@ -232,7 +232,7 @@
           <div class="row align-items-center">
             <div class="col col-lg-6 col-md-8">
               <div class="about_image">
-                <img src="resources/frontend/images/about_img_1.png" alt="Laptop Repair resources/frontend/images/">
+                <img src="resources/frontend/images/about_img_1.png" alt="Laptop Repair" width="750" height="617">
               </div>
             </div>
 
@@ -342,16 +342,16 @@
             <div class="col col-lg-4 order-last col-md-8">
               <div class="about_image_2 decoration_wrap">
                 <div class="big_image">
-                  <img src="resources/frontend/images/about_img_2.jpg" alt="Worker Image" height="" width="">
+                  <img src="resources/frontend/images/about_img_2.jpg" alt="Worker Image" width="908" height="1016">
                 </div>
                 <div class="small_image">
-                  <img src="resources/frontend/images/about_img_3.jpg" alt="Worker Image">
+                  <img src="resources/frontend/images/about_img_3.jpg" alt="Worker Image" width="520" height="866">
                 </div>
                 <div class="deco_item shape_1">
-                  <img src="resources/frontend/images/shape_2.png" alt="Dots Shape Image">
+                  <img src="resources/frontend/images/shape_2.png" alt="Dots Shape Image" width="84" height="82">
                 </div>
                 <div class="deco_item shape_2">
-                  <img src="resources/frontend/images/shape_3.png" alt="Border Circle Image">
+                  <img src="resources/frontend/images/shape_3.png" alt="Border Circle Image" width="186" height="186">
                 </div>
                 <div class="year_text">
                   <strong>10+</strong>
@@ -1048,7 +1048,7 @@
                     </ul>
                   </div>
                   <div class="thumbnail_wrap">
-                    <img src="resources/frontend/images/thumbnail_2.png" alt="Avatar Image">
+                    <img src="resources/frontend/images/thumbnail_2.png" alt="Avatar Image" width="89" height="89">
                   </div>
                 </div>
               </div>
@@ -1077,7 +1077,7 @@
                     </ul>
                   </div>
                   <div class="thumbnail_wrap">
-                    <img src="resources/frontend/images/thumbnail_3.png" alt="Avatar Image">
+                    <img src="resources/frontend/images/thumbnail_3.png" alt="Avatar Image" width="89" height="89">
                   </div>
                 </div>
               </div>
@@ -1105,7 +1105,7 @@
                     </ul>
                   </div>
                   <div class="thumbnail_wrap">
-                    <img src="resources/frontend/images/thumbnail_2.png" alt="Avatar Image">
+                    <img src="resources/frontend/images/thumbnail_2.png" alt="Avatar Image" width="89" height="89">
                   </div>
                 </div>
               </div>
@@ -1133,7 +1133,7 @@
                     </ul>
                   </div>
                   <div class="thumbnail_wrap">
-                    <img src="resources/frontend/images/thumbnail_3.png" alt="Avatar Image">
+                    <img src="resources/frontend/images/thumbnail_3.png" alt="Avatar Image" width="89" height="89">
                   </div>
                 </div>
               </div>
@@ -1161,7 +1161,7 @@
                     </ul>
                   </div>
                   <div class="thumbnail_wrap">
-                    <img src="resources/frontend/images/thumbnail_2.png" alt="Avatar Image">
+                    <img src="resources/frontend/images/thumbnail_2.png" alt="Avatar Image" width="89" height="89">
                   </div>
                 </div>
               </div>
@@ -1190,7 +1190,7 @@
                     </ul>
                   </div>
                   <div class="thumbnail_wrap">
-                    <img src="resources/frontend/images/thumbnail_3.png" alt="Avatar Image">
+                    <img src="resources/frontend/images/thumbnail_3.png" alt="Avatar Image" width="89" height="89">
                   </div>
                 </div>
               </div>

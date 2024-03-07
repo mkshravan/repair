@@ -11,7 +11,7 @@
                 <div class="site_logo">
                   <a class="site_link" href="/">
                     <img src="resources/frontend/images/logo_2_white.png"
-                      srcset="resources/frontend/images/logo_2_white.png 2x" alt="Site Logo">
+                      srcset="resources/frontend/images/logo_2_white.png 2x" alt="Site Logo" width="333" height="100">
                   </a>
                 </div>
                 <p>
@@ -96,10 +96,10 @@
       </div>
       <div class="footer_bottom">
         <div class="container content_wrap">
-          <p class="copyright_text">Copyright ©2022 | Desgned By: <a target="_blank" href="https://webdadz.com">Webdadz</a>. All
+          <p class="copyright_text">Copyright ©2022 | Designed By: <a target="_blank" href="https://webdadz.com">Webdadz</a>. All
             Rights Reserved</p>
           <div class="payment_method d-flex align-items-center">
-            <img src="resources/frontend/images/payment.png" alt="Payment Method">
+            <img src="resources/frontend/images/payment.png" alt="Payment Method" width="252" height="31">
             <div class="payment_getway bg_green">
               We Support
               <strong>Payment Gateway</strong>
