@@ -20,10 +20,13 @@ $route['admin/dashboard'] = 'dashboard';
 
 $route['admin/complaints/index'] = 'complaints/index';
 $route['admin/complaints/add'] = 'complaints/add';
+$route['admin/complaints/remove/(:num)'] = 'complaints/remove/$1';
 $route['admin/complaints/closed'] = 'complaints/closed';
 $route['admin/complaints/edit/(:num)'] = 'complaints/edit/$1';
 
+$route['admin/quotation'] = 'quotation/index';
 $route['admin/quotation/index'] = 'quotation/index';
+
 
 $route['admin/quotation/add'] = 'quotation/add';
 
@@ -60,3 +63,9 @@ $route['admin/user/add'] = 'user/add';
 $route['admin/user/edit/(:num)'] = 'user/edit/$1';
 
 $route['admin/user/remove/(:num)'] = 'user/remove/$1';
+
+$route['admin/accounts/index'] = 'accounts/index';
+$route['admin/accounts/add'] = 'accounts/add';
+$route['admin/accounts/remove/(:num)'] = 'accounts/remove/$1';
+$route['admin/accounts/closed'] = 'accounts/closed';
+$route['admin/accounts/edit/(:num)'] = 'accounts/edit/$1';

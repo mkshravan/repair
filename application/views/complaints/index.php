@@ -54,6 +54,12 @@
 						<td>
                             <a href="<?php echo site_url('admin/complaints/view/'.$q['id']); ?>" class="btn btn-info btn-xs" target=""><span class="fa fa-eye" ></span></a> 
 							<a href="<?php echo site_url('admin/complaints/edit/'.$q['id']); ?>" class="btn btn-info btn-xs" target=""><span class="fa fa-pencil" ></span></a> 
+							<?php
+							if($this->session->userdata('roles')==1){
+								echo "<a href='".site_url('admin/complaints/remove/'.$q['id'].'')."'
+								 class='btn btn-danger btn-xs' ><span class='fa fa-remove'></span></a>";
+							}
+							?>
                             
                         </td>
 					</tr>

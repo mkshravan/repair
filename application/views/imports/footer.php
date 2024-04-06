@@ -2,7 +2,7 @@
       ================================================== -->
     <footer class="footer_section footer_2">
       <div class="footer_widget_area section_space decoration_wrap parallaxie" data-bg-color="#000323"
-        style="background-image: url('resources/frontend/images/bg_5.jpg');">
+        style="background-image: url('resources/frontend/images/bg_5.avif');">
         <div class="overlay" data-bg-color="#000323"></div>
         <div class="container">
           <div class="row justify-content-lg-between">

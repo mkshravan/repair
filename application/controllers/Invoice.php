@@ -187,7 +187,7 @@ class Invoice extends CI_Controller{
      */
     function remove($id)
     {
-        if($this->isUserLoggedIn){ 
+        if($this->isUserLoggedIn && $this->session->userdata('roles')==1){ 
 
         $invoice = $this->Invoice_model->get_invoice($id);
 

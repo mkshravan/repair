@@ -37,6 +37,12 @@
 						<td>
                             <a href="<?php echo site_url('admin/quotation/edit/'.$q['id']); ?>" class="btn btn-info btn-xs" target=""><span class="fa fa-pencil" ></span></a> 
                             <a href="<?php echo site_url('admin/quotation/printQuotation/'.$q['quotation_no']); ?>" class="btn btn-default btn-xs"  target="_blank"><span class="fa fa-print"></span></a>
+							<?php
+							if($this->session->userdata('roles')==1){
+								echo "<a href='".site_url('admin/quotation/remove/'.$q['id'].'')."'
+								 class='btn btn-danger btn-xs' ><span class='fa fa-remove'></span></a>";
+							}
+							?>
                         </td>
 					</tr>
 					<?php $slno++; } ?>

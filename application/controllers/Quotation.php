@@ -63,7 +63,7 @@ class Quotation extends CI_Controller{
             $data['quotation'] = $this->Quotation_model->get_approved_quotation();
         
         $data['_view'] = 'quotation/approvalList';
-        $this->load->view('layouts/main',$data);
+        $this->load->view('layouts/main', $data);
         }else{
             redirect('admin/'); 
         }
@@ -501,7 +501,7 @@ class Quotation extends CI_Controller{
      */
     function remove($id)
     {
-        if($this->isUserLoggedIn){ 
+        if($this->isUserLoggedIn && $this->session->userdata('roles')==1){ 
             $quotation = $this->Quotation_model->get_quotation($id);
 
         // check if the quotation exists before trying to delete it
@@ -513,7 +513,7 @@ class Quotation extends CI_Controller{
         else
             show_error('The quotation you are trying to delete does not exist.');
         }else{
-            redirect('admin/'); 
+            redirect('admin/quotation/index'); 
         }
         
         

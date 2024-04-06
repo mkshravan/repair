@@ -485,7 +485,7 @@ class Complaints extends CI_Controller{
      */
     function remove($id)
     {
-        if($this->isUserLoggedIn){ 
+        if($this->isUserLoggedIn && $this->session->userdata('roles')==1){ 
             $complaints = $this->complaints_model->get_complaints($id);
 
         // check if the complaints exists before trying to delete it

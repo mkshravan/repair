@@ -27,8 +27,8 @@
     content="PCFIXPRO Ranchi - Your Trusted Source for Computer, Laptop, and Printer Repairs" />
   <meta property="article:publisher" content="https://www.facebook.com/PCFIXPROindia" />
   <meta property="article:author" content="PC FX PRO" />
-  <meta property="og:image" content="resources/frontend/images/about_img_1.png" />
-  <meta property="og:image:secure_url" content="resources/frontend/images/about_img_1.png" />
+  <meta property="og:image" content="resources/frontend/images/about_img_1.avif" />
+  <meta property="og:image:secure_url" content="resources/frontend/images/about_img_1.avif" />
   <meta property="og:image:width" content="700" />
   <meta property="og:image:height" content="600" />
   <meta property="og:image:alt" content="computer, laptop, printer repair in Ranch" />
@@ -84,10 +84,10 @@
       <!-- Banner Section - Start
         ================================================== -->
       <section class="banner_section banner_2 parallaxie"
-        style="background-image: url(resources/frontend/images/bg_3.jpg);">
+        style="background-image: url(resources/frontend/images/bg_3.avif);">
         <div class="container">
           <div class="row">
-            <div class="col col-lg-10 col-md-10">
+            <div class="col col-lg-10 col-md-10 mt-2">
               <div class="banner_content">
                 <h1 class="first_text">
                   Best Laptop Service Center in Ranchi
@@ -232,7 +232,7 @@
           <div class="row align-items-center">
             <div class="col col-lg-6 col-md-8">
               <div class="about_image">
-                <img src="resources/frontend/images/about_img_1.png" alt="Laptop Repair" width="750" height="617">
+                <img src="resources/frontend/images/about_img_1.avif" alt="Laptop Repair" width="750" height="617">
               </div>
             </div>
 
@@ -342,10 +342,10 @@
             <div class="col col-lg-4 order-last col-md-8">
               <div class="about_image_2 decoration_wrap">
                 <div class="big_image">
-                  <img src="resources/frontend/images/about_img_2.jpg" alt="Worker Image" width="908" height="1016">
+                  <img src="resources/frontend/images/about_img_2.avif" alt="Worker Image" width="908" height="1016">
                 </div>
                 <div class="small_image">
-                  <img src="resources/frontend/images/about_img_3.jpg" alt="Worker Image" width="520" height="866">
+                  <img src="resources/frontend/images/about_img_3.avif" alt="Worker Image" width="520" height="866">
                 </div>
                 <div class="deco_item shape_1">
                   <img src="resources/frontend/images/shape_2.png" alt="Dots Shape Image" width="84" height="82">
@@ -431,7 +431,7 @@
       <!-- Advance Section - Start
         ================================================== -->
       <div class="advance_search_section advance_search_2 section_space decoration_wrap parallaxie"
-        style="background-image: url(resources/frontend/images/bg_4.jpg);">
+        style="background-image: url(resources/frontend/images/bg_4.avif);">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col col-lg-8">

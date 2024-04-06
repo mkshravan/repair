@@ -25,8 +25,8 @@
 							<th>Actions</th>
 						</tr>
 					</thead>
-                    <?php $sl_no=1;foreach($quotation as $q){ ?>
                     <tbody id="approvlListTbodyId">
+						<?php $sl_no=1;foreach($quotation as $q){ ?>
 						<tr>
 						<td style="display: none"><?php echo $q['id']; ?></td>
 						<td><?php echo $sl_no; ?></td>
@@ -38,13 +38,18 @@
 						<td><?php echo $q['total']; ?></td>
 						<td style="display: none"><?php echo $q['invoice_generated']; ?></td>
 						<td>
-							<a href="<?php echo site_url('admin/quotation/editApproval/'.$q['id']); ?>" class="btn btn-primary btn-xs" target="_blank" style="display: none" ><span class="fa fa-edit"></span></a>
-                            <a href="<?php echo site_url('admin/quotation/printQuotationApproval/'.$q['quotation_no']); ?>" class="btn btn-default btn-xs" target="_blank" ><span class="fa fa-print"></span></a>
+							
                             <a href="<?php echo site_url('admin/invoice/printInvoice/'.$q['quotation_no'].'?tax_invoice=11xSweQwoiyuTY'); ?>" class="btn btn-default btn-xs" target="_blank"><span class="fa fa-print"></span></a>
+
+							<?php
+							if($this->session->userdata('roles')==1){
+								echo "<a href='".site_url('admin/invoice/remove/'.$q['id'].'')."' class='btn btn-danger btn-xs' ><span class='fa fa-remove'></span></a>";
+							}
+							?>
                         </td>
 					</tr>
-					<tbody>
                     <?php $sl_no++; } ?>
+					<tbody>
                 </table>
                                 
             </div>
@@ -70,17 +75,17 @@
 			}
 		});*/
 
-		$("#approvlListTbodyId tr").each(function(){
+		// $("#approvlListTbodyId tr").each(function(){
 
-			if($(this).find("td:eq(5)").text()=="Tax Invoice"){
-				$(this).find("td:last").find("a:eq(1)").hide();
-				$(this).find("td:last").find("a:eq(2)").show();
-			}
-			else{
-				$(this).find("td:last").find("a:eq(1)").show();
-				$(this).find("td:last").find("a:eq(2)").hide();
-			}
-		});
+		// 	if($(this).find("td:eq(5)").text()=="Tax Invoice"){
+		// 		$(this).find("td:last").find("a:eq(1)").hide();
+		// 		$(this).find("td:last").find("a:eq(2)").show();
+		// 	}
+		// 	else{
+		// 		$(this).find("td:last").find("a:eq(1)").show();
+		// 		$(this).find("td:last").find("a:eq(2)").hide();
+		// 	}
+		// });
 
 		
 
