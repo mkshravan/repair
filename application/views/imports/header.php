@@ -140,7 +140,9 @@ echo $this->minify->deploy_css();
                   <li><a href="computer-repair-in-ranchi">Computer Repair</a></li>
                   <li><a href="laptop-repair-in-ranchi">Laptop Repair</a></li>
                   <li><a href="printer-repair-in-ranchi">Printer Repair</a></li>
+                  <li><a href="computer-laptop-printer-on-rent-in-ranchi">Rent Gadgets </a></li>
                 </ul>
+              <li><a href="custom-pc-build-in-ranchi">PC BUILD</a></li>
               </li>
               <li><a href="contact-us">Contact Us</a></li>
               <li class="cart_btn"><a href="javascript:void(0)">Book Your Service</a></li>

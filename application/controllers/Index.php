@@ -31,4 +31,10 @@ class Index extends CI_Controller{
     function printer_repair(){
         $this->load->view('printer_repair');
     }
+    function rent_gadgets(){
+        $this->load->view('rent');
+    }
+    function pc_build(){
+        $this->load->view('pcbuild');
+    }
 }

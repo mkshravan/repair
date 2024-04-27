@@ -11,6 +11,9 @@ $route['contact-us'] = 'index/contact';
 $route['computer-repair-in-ranchi'] = 'index/computer_repair';
 $route['laptop-repair-in-ranchi'] = 'index/laptop_repair';
 $route['printer-repair-in-ranchi'] = 'index/printer_repair';
+$route['computer-laptop-printer-on-rent-in-ranchi'] = 'index/rent_gadgets';
+$route['custom-pc-build-in-ranchi'] = 'index/pc_build';
+
 
 $route['admin'] = 'login/index';
 $route['admin/login'] = 'login/login';
