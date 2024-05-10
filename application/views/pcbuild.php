@@ -124,94 +124,30 @@
         ================================================== -->
       <div class="policy_section">
         <div class="container">
-          <div class="policy_wrap m-0">
-            <!-- <div class="policy_item_3" style="background-color: #DB4437; color: #ffffff;"> -->
-            <div class="policy_item_3">
-              <div class="item_icon">
-                <i class="fa fa-screwdriver-wrench"></i>
-              </div>
-              <h3 class="item_title">Repair at Home</h3>
-              <p>
-                Efficient computer, laptop, and printer repair services brought to your doorstep for hassle-free and
-                reliable solutions.
-              </p>
+          <div class="row align-items-center">
+            <div class="col col-lg-8">
+                <div class="m-2" style="border-radius:5px; box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3)">
+                  <p>Select Processor</p>
+                  <span class="d-flex justify-content-between">
+                  <i class="fa-solid fa-microchip align-left"></i>
+                  <i class="fa-solid fa-plus align-right"></i>
+                  </span>
+                </div>
+                <div class="m-2" style="border-radius:5px; box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3)">
+                  <p>Select Motherboard</p>
+                  <span class="d-flex justify-content-between">
+                  <i class="fa-solid fa-microchip align-left"></i>
+                  <i class="fa-solid fa-plus align-right"></i>
+                  </span>
+                </div>
             </div>
-            <div class="policy_item_3">
-              <div class="item_icon">
-                <i class="fa fa-laptop"></i>
-              </div>
-              <h3 class="item_title">Laptop Repair in Ranchi</h3>
-              <p>
-                Discover top-notch laptop repair services in Ranchi with skilled technicians ensuring swift and reliable
-                solutions for you.
-              </p>
+            <div class="col col-lg-4">
+             <p>Total: 0.00</p>
+             <button class="btn btn-primary">Add to cart</button>
+             <button class="btn btn-danger">Remove all</button>
             </div>
-
-            <div class="policy_item_3">
-              <div class="item_icon">
-                <i class="fa fa-desktop"></i>
-              </div>
-              <h3 class="item_title">Computer Repair in Ranchi</h3>
-              <p>
-                Experience top-notch computer repair services in Ranchi with our skilled technicians, ensuring swift and
-                reliable solutions.
-              </p>
-            </div>
-
-            <div class="policy_item_3">
-              <div class="item_icon">
-                <i class="fa fa-print"></i>
-              </div>
-              <h3 class="item_title">Printer Repair in Ranchi</h3>
-              <p>
-                Expert printer repair services in Ranchi: Fast, reliable solutions for all printer issues, enhancing
-                performance seamlessly.
-              </p>
-            </div>
-
-            <div class="policy_item_3">
-              <div class="item_icon">
-                <i class="fa fa-code"></i>
-              </div>
-              <h3 class="item_title">Software Installation</h3>
-              <p>
-                For top-notch software repair services in Ranchi, trust our expert technicians to swiftly diagnose and
-                resolve issues.
-              </p>
-            </div>
-            <div class="policy_item_3">
-              <div class="item_icon">
-                <i class="fa fa-file-zipper"></i>
-              </div>
-              <h3 class="item_title">Data Recovery</h3>
-              <p>
-                Efficient data recovery services in Ranchi, ensuring swift and secure retrieval of lost information.
-                Contact us now!
-              </p>
-            </div>
-            <div class="policy_item_3">
-              <div class="item_icon">
-                <i class="fa fa-virus"></i>
-              </div>
-              <h3 class="item_title">Virus Removal</h3>
-              <p>
-                For expert virus removal in Ranchi, trust our professional services to safeguard your devices and data
-                in your own city.
-              </p>
-            </div>
-            <div class="policy_item_3">
-              <div class="item_icon">
-                <i class="fa fa-microchip"></i>
-              </div>
-              <h3 class="item_title">Chip Level Repair</h3>
-              <p>
-                Get professional chip level repair services in Ranchi for reliable and efficient solutions for all
-                electronic devices.
-              </p>
-            </div>
-
-
           </div>
+          
         </div>
       </div>
       <!-- Policy Section - End
