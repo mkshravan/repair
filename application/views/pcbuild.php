@@ -120,31 +120,73 @@
         </div>
       </div>
 
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div>
+          <img src="" alt="">
+          <p>processor 1</p>
+        </div>
+        <div class="d-flex justify-content-between">
+        <div class="d-flex align-items-start">
+          <input type="number" value="1" style="height:30px; width:100px;margin:2px">
+          <button class="tn-sm" style="height:30px; width:100px;background:red;margin:2px">Select</button>
+        </div>          
+        <div class="d-flex align-items-end">
+            <p style="text-decoration: line-through;">&#8377;7500</p>
+            <p class="ms-2">&#8377;5000</p>
+        </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <nav aria-label="">
+          <ul class="pagination pagination-sm justify-content-start">
+            <li class="page-item active" aria-current="page">
+              <span class="page-link">1</span>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
       <!-- Policy Section - Start
         ================================================== -->
       <div class="policy_section">
         <div class="container">
           <div class="row align-items-center">
             <div class="col col-lg-8">
-                <div class="m-2" style="border-radius:5px; box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3)">
-                  <p>Select Processor</p>
+                <div class="m-2" style="border-radius:2px; box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3)">
+                  <p class="m-1">Select Processor</p>
                   <span class="d-flex justify-content-between">
-                  <i class="fa-solid fa-microchip align-left"></i>
-                  <i class="fa-solid fa-plus align-right"></i>
+                  <i class="m-2 fa-solid fa-microchip align-left"></i>
+                  <i style="padding:7px; background:red;color:#fff; cursor:pointer" class="m-2 fa-solid fa-plus align-right" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                  
                   </span>
                 </div>
-                <div class="m-2" style="border-radius:5px; box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3)">
-                  <p>Select Motherboard</p>
+                <div class="m-2" style="border-radius:2px; box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3)">
+                  <p class="m-1">Select Motherboard</p>
                   <span class="d-flex justify-content-between">
-                  <i class="fa-solid fa-microchip align-left"></i>
-                  <i class="fa-solid fa-plus align-right"></i>
+                  <i class="m-2 fa-solid fa-microchip align-left"></i>
+                  <i style="padding:7px; background:red;color:#fff; cursor:pointer" class="m-2 fa-solid fa-plus align-right" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                  
                   </span>
                 </div>
             </div>
             <div class="col col-lg-4">
              <p>Total: 0.00</p>
-             <button class="btn btn-primary">Add to cart</button>
              <button class="btn btn-danger">Remove all</button>
+             <button class="btn btn-primary">Buy Now</button>
             </div>
           </div>
           
