@@ -117,7 +117,7 @@
   <!-- Fraimwork - Jquery Include -->
   <!-- <script async data-cfasync="false" src="resources/frontend/js/email-decode.min.js"></script> -->
   <script defer src="resources/frontend/js/jquery.min.js"></script>
-  <!-- <script defer src="resources/frontend/js/popper.min.js"></script> -->
+  <script defer src="resources/frontend/js/popper.min.js"></script>
   <script defer src="resources/frontend/js/bootstrap.min.js"></script>
   <!-- <script defer src="resources/frontend/js/bootstrap-dropdown-ml-hack.js"></script> -->
 

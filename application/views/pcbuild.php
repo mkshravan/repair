@@ -96,16 +96,10 @@
   <div class="policy_section">
     <div class="container">
       <p class="text-dark mt-5">
-        Unlock unparalleled convenience and expertise with the Best Laptop Service Center in Ranchi, where
-        cutting-edge solutions meet affordability. Our commitment extends to being the Best Computer Repairing
-        Center in Ranchi, ensuring your devices receive top-notch care without breaking the bank. Experience
-        the epitome of reliability at our center, renowned as the Best Printer Service Center in Ranchi, where
-        quality meets affordability seamlessly. What sets us apart is our dedication to providing hassle-free
-        home services at an affordable cost, bringing expert technicians right to your doorstep. Embrace a new
-        era of technology support that prioritizes both excellence and your budget. Trust us to deliver not
-        just repairs, but a seamless experience that reflects our commitment to unmatched service without
-        compromising affordability. Your devices, your convenience, our expertise – experience it all at the
-        forefront of technology care in Ranchi.
+        Looking for top-notch custom PC builds in Ranchi, Jharkhand? Look no further! Our expert team crafts bespoke computers tailored to your exact needs and preferences. Whether you're a hardcore gamer, a professional content creator, or simply seeking a powerful workstation, we've got you covered.</p>
+      <p>Why settle for a generic off-the-shelf PC when you can have a customized masterpiece? With our personalized approach, we ensure that every component is handpicked to deliver optimal performance, reliability, and value for money.</p>
+      <p class="text-dark mt-5">
+        Located in Ranchi, Jharkhand, we take pride in serving the local community with exceptional custom PC solutions. Our commitment to quality craftsmanship and customer satisfaction sets us apart from the rest. Get in touch today to discuss your custom PC build requirements. Let us bring your dream rig to life!
       </p>
     </div>
   </div>
@@ -113,28 +107,59 @@
 
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <h5 class="modal-title" id="exampleModalLabel"></h5>
+          <input type="search" name="" id="" placeholder="Search...">
+          <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown button
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+</div>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <div>
-            <img src="" alt="">
-            <p>processor 1</p>
-          </div>
-          <div class="d-flex justify-content-between">
-            <div class="d-flex align-items-start">
-              <input type="number" value="1" style="height:30px; width:100px;margin:2px">
-              <button class="tn-sm" style="height:30px; width:100px;background:red;margin:2px">Select</button>
+          <form action="">
+            <div>
+              <img src="" alt="">
+              <p>INTEL CORE I9 14900KS 14TH GEN DESKTOP PROCESSOR (I9-14900KS)</p>
             </div>
-            <div class="d-flex align-items-end">
-              <p style="text-decoration: line-through;">&#8377;7500</p>
-              <p class="ms-2">&#8377;5000</p>
+            <div class="d-flex justify-content-between">
+              <div class="d-flex align-items-start">
+                <input type="number" value="1" style="height:30px; width:100px;margin:2px">
+                <button type="submit" value="1000" class="tn-sm" style="height:30px; width:100px;background:red;margin:2px">Select</button>
+              </div>
+              <div class="d-flex align-items-end">
+                <p style="text-decoration: line-through;">&#8377;7500</p>
+                <p class="ms-2">&#8377;5000</p>
+              </div>
             </div>
-          </div>
+          </form>
+          <hr>
+          <form action="">
+            <div>
+              <img src="" alt="">
+              <p>INTEL CORE I9 14900KS 14TH GEN DESKTOP PROCESSOR (I9-14900KS)</p>
+            </div>
+            <div class="d-flex justify-content-between">
+              <div class="d-flex align-items-start">
+                <input type="number" value="1" style="height:30px; width:100px;margin:2px">
+                <button type="submit" value="2000" class="tn-sm" style="height:30px; width:100px;background:red;margin:2px">Select</button>
+              </div>
+              <div class="d-flex align-items-end">
+                <p style="text-decoration: line-through;">&#8377;7500</p>
+                <p class="ms-2">&#8377;5000</p>
+              </div>
+            </div>
+          </form>
         </div>
+
         <div class="modal-footer">
           <nav aria-label="">
             <ul class="pagination pagination-sm justify-content-start">
@@ -175,8 +200,8 @@
         </div>
         <div class="col col-lg-4">
           <p>Total: 0.00</p>
-          <button class="btn btn-danger">Remove all</button>
-          <button class="btn btn-primary">Buy Now</button>
+          <button class="btn btn-danger" style="padding:5px">Remove all</button>
+          <button class="btn btn-primary" style="padding:5px">Buy Now</button>
         </div>
       </div>
 
