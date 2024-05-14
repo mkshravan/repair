@@ -235,6 +235,38 @@
                             </a>
                         </li>
                     <?php } ?>
+				
+				 <?php
+                    if ($this->session->userdata('roles') == ADMIN) { ?>
+				<li>
+                        <a href="#">
+                            <i class="fa fa-file-archive-o"></i> <span>Accounts</span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="<?php echo site_url('admin/accounts/index'); ?>"><i class="fa fa-list-ul"></i>
+                                    Payment List</a>
+                            </li>
+							<li>
+                                <a href="<?php echo site_url('admin/accounts/closed'); ?>"><i class="fa fa-close"></i>
+                                    Expense List</a>
+                            </li>
+							<li>
+                                <a href="<?php echo site_url('admin/accounts/closed'); ?>"><i class="fa fa-close"></i>
+                                    Balance Sheet</a>
+                            </li>
+							<li>
+                                <a href="<?php echo site_url('admin/accounts/closed'); ?>"><i class="fa fa-close"></i>
+                                    Trial Balance</a>
+                            </li>
+							<li>
+                                <a href="<?php echo site_url('admin/accounts/closed'); ?>"><i class="fa fa-close"></i>
+                                    Cash Flow</a>
+                            </li>
+
+                        </ul>
+                    </li>
+				<?php } ?>
 
                 </ul>
             </section>

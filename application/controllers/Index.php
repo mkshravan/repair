@@ -37,4 +37,9 @@ class Index extends CI_Controller{
     function pc_build(){
         $this->load->view('pcbuild');
     }
+    function prebuilt(){
+        $this->load->view('prebuilt');
+    }
+
+    
 }

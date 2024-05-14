@@ -125,7 +125,7 @@ echo $this->minify->deploy_css();
               <li class="">
                 <a class="nav-link" href="/" id="home_submenu" role="button" aria-expanded="false">Home</a>
               </li>
-              <li><a href="about-us">About</a></li>
+              <li><a href="custom-pc-build-in-ranchi">PC BUILD</a></li>
               <li class="dropdown">
                 <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="service_submenu" role="button"
                   aria-expanded="false">
@@ -142,8 +142,8 @@ echo $this->minify->deploy_css();
                   <li><a href="printer-repair-in-ranchi">Printer Repair</a></li>
                   <li><a href="computer-laptop-printer-on-rent-in-ranchi">Rent Gadgets </a></li>
                 </ul>
-              <li><a href="custom-pc-build-in-ranchi">PC BUILD</a></li>
-              </li>
+                <li><a href="pre-built-pc-in-ranchi">Pre Built PC</a></li>
+                <li><a href="about-us">About</a></li>
               <li><a href="contact-us">Contact Us</a></li>
               <li class="cart_btn"><a href="javascript:void(0)">Book Your Service</a></li>
             </ul>
