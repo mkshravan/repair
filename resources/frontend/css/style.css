@@ -35,7 +35,7 @@ body {
   font-weight: 400;
   line-height: 1.85;
   font-style: normal;
-  color: #9199ac;
+  /* color: #9199ac; */
   font-family: "Roboto", sans-serif;
   text-rendering: optimizelegibility;
   -moz-osx-font-smoothing: grayscale;
@@ -127,7 +127,7 @@ h6 {
 
 hr {
   opacity: 1;
-  margin: 25px 0;
+  /* margin: 25px 0; */
   background-color: #e8ebf2;
 }
 

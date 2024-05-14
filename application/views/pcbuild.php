@@ -10,16 +10,21 @@
   <meta name="robots" content="noodp " />
 
   <meta name="keywords" content="computer rent in Ranchi, laptop rent in Ranchi, printer rent in Ranchi " />
-  <meta name="description" content="Discover reliable computer, laptop, and printer repair services in Ranchi. Our expert technicians in Ranchi specialize in diagnosing and fixing a wide range of hardware and software issues. Fast and efficient solutions for your technology woes – choose us for top-notch computer, laptop, and printer repair services in Ranchi!" />
-  <meta name="fragment" content="Quality computer, laptop, and printer repair services in Ranchi. Our skilled technicians offer reliable solutions for hardware and software issues. Choose us for fast and efficient repairs in Ranchi – your trusted partner for technology troubleshooting!" />
-  <meta name="summary" content="Get expert computer, laptop, and printer repair services in Ranchi. Our skilled technicians provide reliable solutions for a variety of issues, ensuring fast and efficient repairs. Trust us for professional technology troubleshooting and top-notch service in Ranchi." />
+  <meta name="description"
+    content="Discover reliable computer, laptop, and printer repair services in Ranchi. Our expert technicians in Ranchi specialize in diagnosing and fixing a wide range of hardware and software issues. Fast and efficient solutions for your technology woes – choose us for top-notch computer, laptop, and printer repair services in Ranchi!" />
+  <meta name="fragment"
+    content="Quality computer, laptop, and printer repair services in Ranchi. Our skilled technicians offer reliable solutions for hardware and software issues. Choose us for fast and efficient repairs in Ranchi – your trusted partner for technology troubleshooting!" />
+  <meta name="summary"
+    content="Get expert computer, laptop, and printer repair services in Ranchi. Our skilled technicians provide reliable solutions for a variety of issues, ensuring fast and efficient repairs. Trust us for professional technology troubleshooting and top-notch service in Ranchi." />
 
   <!--<meta property="og:type" content="article"/> -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="PCFIXPRO Ranchi - Your Trusted Source for Computer, Laptop, and Printer Repairs" />
-  <meta property="og:description" content="Discover reliable computer, laptop, and printer repair services in Ranchi. Our expert technicians in Ranchi specialize in diagnosing and fixing a wide range of hardware and software issues. Fast and efficient solutions for your technology woes – choose us for top-notch computer, laptop, and printer repair services in Ranchi!" />
+  <meta property="og:description"
+    content="Discover reliable computer, laptop, and printer repair services in Ranchi. Our expert technicians in Ranchi specialize in diagnosing and fixing a wide range of hardware and software issues. Fast and efficient solutions for your technology woes – choose us for top-notch computer, laptop, and printer repair services in Ranchi!" />
   <meta property="og:url" content="https://www.PCFIXPRO.in/" />
-  <meta property="og:site_name" content="PCFIXPRO Ranchi - Your Trusted Source for Computer, Laptop, and Printer Repairs" />
+  <meta property="og:site_name"
+    content="PCFIXPRO Ranchi - Your Trusted Source for Computer, Laptop, and Printer Repairs" />
   <meta property="article:publisher" content="https://www.facebook.com/PCFIXPROindia" />
   <meta property="article:author" content="PC FX PRO" />
   <meta property="og:image" content="resources/frontend/images/about_img_1.avif" />
@@ -28,8 +33,10 @@
   <meta property="og:image:height" content="600" />
   <meta property="og:image:alt" content="computer, laptop, printer repair in Ranch" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:description" content="Experience top-notch computer, laptop, and printer repair services in Ranchi. Our skilled technicians provide efficient solutions for hardware and software issues. Your go-to destination for reliable and fast technology troubleshooting. #RanchiTechRepair #ComputerService #LaptopFix" />
-  <meta name="twitter:title" content="PCFIXPRO Ranchi: Expert Computer, Laptop, and Printer Repair Services for Seamless Tech Solutions in Ranchi." />
+  <meta name="twitter:description"
+    content="Experience top-notch computer, laptop, and printer repair services in Ranchi. Our skilled technicians provide efficient solutions for hardware and software issues. Your go-to destination for reliable and fast technology troubleshooting. #RanchiTechRepair #ComputerService #LaptopFix" />
+  <meta name="twitter:title"
+    content="PCFIXPRO Ranchi: Expert Computer, Laptop, and Printer Repair Services for Seamless Tech Solutions in Ranchi." />
   <meta name="twitter:site" content="@pcfxproinda" />
   <meta name="twitter:image" content="resources/frontend/images/logo_2_white.png" />
   <meta name="twitter:creator" content="@pcfxproinda" />
@@ -43,7 +50,8 @@
   <meta name="email" content="info@PCFIXPRO.in" />
   <meta name="page-topic" content="PC FIX PRO | Computer, Laptop, Printer repar servce n Ranchi" />
   <meta name="copyright" content="PC FIX PRO" />
-  <meta name="abstract" content="Experience unparalleled computer, laptop, and printer repair services in Ranchi. Our skilled technicians provide swift and effective solutions for a spectrum of hardware and software issues. Trust us for reliable and professional technology repairs tailored to meet your needs in Ranchi." />
+  <meta name="abstract"
+    content="Experience unparalleled computer, laptop, and printer repair services in Ranchi. Our skilled technicians provide swift and effective solutions for a spectrum of hardware and software issues. Trust us for reliable and professional technology repairs tailored to meet your needs in Ranchi." />
   <meta name="p:domain_verify" content="" />
   <meta name="author" content="PC FIX PRO">
   <meta name="msvalidate.01" content="" />
@@ -60,21 +68,29 @@
   <meta name="distribution" content="global" />
   <meta name="Rating" content="General" />
   <meta name="expires" content="never" />
-  <link rel="canonical" href="https://www.PCFIXPRO.n/" title="PC FIX PRO | Computer, Laptop, Printer on Rent in Ranchi" />
+  <link rel="canonical" href="https://www.PCFIXPRO.n/"
+    title="PC FIX PRO | Computer, Laptop, Printer on Rent in Ranchi" />
+  <style>
+    hr{
+      margin: 0px;
+    }
+  </style>
 
 
 
   <!-- <title> PC FIX PRO - Best Computer Repair in Ranchi, Laptop Repair in Ranchi, Printer Repair in Ranchi</title> -->
-  <title>PCFIXPRO: Custom PC Build in Ranchi | Craft Your Dream Machine: Custom PC Build Service for Ultimate Performance | PC Build Near Me</title>
+  <title>PCFIXPRO: Custom PC Build in Ranchi | Craft Your Dream Machine: Custom PC Build Service for Ultimate
+    Performance | PC Build Near Me</title>
 
-  <?php include_once('imports/header.php') ?>
+  <?php include_once ('imports/header.php') ?>
 
   <!-- Off Canvas Sidebar - End
         ================================================== -->
 
   <!-- Banner Section - Start
         ================================================== -->
-  <section class="banner_section banner_2 parallaxie" style="background-image: url(resources/frontend/images/bg_3.avif);">
+  <section class="banner_section banner_2 parallaxie"
+    style="background-image: url(resources/frontend/images/bg_3.avif);">
     <div class="container">
       <div class="row">
         <div class="col col-lg-10 col-md-10">
@@ -96,75 +112,71 @@
   <div class="policy_section">
     <div class="container">
       <p class="text-dark mt-5">
-        Looking for top-notch custom PC builds in Ranchi, Jharkhand? Look no further! Our expert team crafts bespoke computers tailored to your exact needs and preferences. Whether you're a hardcore gamer, a professional content creator, or simply seeking a powerful workstation, we've got you covered.</p>
-      <p>Why settle for a generic off-the-shelf PC when you can have a customized masterpiece? With our personalized approach, we ensure that every component is handpicked to deliver optimal performance, reliability, and value for money.</p>
+        Looking for top-notch custom PC builds in Ranchi, Jharkhand? Look no further! Our expert team crafts bespoke
+        computers tailored to your exact needs and preferences. Whether you're a hardcore gamer, a professional content
+        creator, or simply seeking a powerful workstation, we've got you covered.</p>
+      <p>Why settle for a generic off-the-shelf PC when you can have a customized masterpiece? With our personalized
+        approach, we ensure that every component is handpicked to deliver optimal performance, reliability, and value
+        for money.</p>
       <p class="text-dark mt-5">
-        Located in Ranchi, Jharkhand, we take pride in serving the local community with exceptional custom PC solutions. Our commitment to quality craftsmanship and customer satisfaction sets us apart from the rest. Get in touch today to discuss your custom PC build requirements. Let us bring your dream rig to life!
+        Located in Ranchi, Jharkhand, we take pride in serving the local community with exceptional custom PC solutions.
+        Our commitment to quality craftsmanship and customer satisfaction sets us apart from the rest. Get in touch
+        today to discuss your custom PC build requirements. Let us bring your dream rig to life!
       </p>
     </div>
   </div>
 
 
   <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
+  <div class="modal fade h-100" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
       <div class="modal-content">
-        <div class="modal-header">
-          <input type="search" name="" id="" placeholder="Search...">
+        <div class="modal-header mx-2">
 
-            <select class="form-select">
-              <option selected>Open this select menu</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
+          <input class="p-1" type="search" name="" id="" placeholder="Search..." style="width: 50%;">
+
+
+          <div class="box">
+            <select class="p-2">
+              <option selected="selected">Title A-Z</option>
+              <option value="1">Price low to high</option>
+              <option value="2">Price high to low</option>
             </select>
-            <!-- <select class="form-select" aria-label="Default select example">
+
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+              style="padding: 15px;"></button>
+          </div>
+          <!-- <select class="form-select" aria-label="Default select example">
               <option value="title_az" selected="selected">Title A-Z</option>
               <option>Price low to high</option>
               <option>Price high to low</option>
             </select> -->
 
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="padding: 15px;"></button>
+
         </div>
         <div class="modal-body">
           <form action="">
             <div>
-              <img src="" alt="">
-              <p>INTEL CORE I9 14900KS 14TH GEN DESKTOP PROCESSOR (I9-14900KS)</p>
+              <p>INTEL CORE I9 14900KS 14TH GEN DESKTOP PROCESSOR (I9-14900KS) </p>
             </div>
-            <div class="d-flex justify-content-between">
-              <div class="d-flex align-items-start">
-                <input type="number" value="1" style="height:30px; width:100px;margin:2px">
-                <button type="submit" value="1000" class="tn-sm" style="height:30px; width:100px;background:red;margin:2px">Select</button>
-              </div>
-              <div class="d-flex align-items-end">
+            <div class="d-flex justify-content-center">
+              <div class="d-flex align-items-end me-3">
                 <p style="text-decoration: line-through;">&#8377;7500</p>
                 <p class="ms-2">&#8377;5000</p>
+              </div>
+              <div class="d-flex align-items-start">
+                <input type="number" value="1" style="height:30px; width:100px;margin:2px">
+                <button type="submit" value="1000" class="tn-sm"
+                  style="height:30px; width:100px;background:red;margin:2px">Select</button>
               </div>
             </div>
           </form>
           <hr>
-          <form action="">
-            <div>
-              <img src="" alt="">
-              <p>INTEL CORE I9 14900KS 14TH GEN DESKTOP PROCESSOR (I9-14900KS)</p>
-            </div>
-            <div class="d-flex justify-content-between">
-              <div class="d-flex align-items-start">
-                <input type="number" value="1" style="height:30px; width:100px;margin:2px">
-                <button type="submit" value="2000" class="tn-sm" style="height:30px; width:100px;background:red;margin:2px">Select</button>
-              </div>
-              <div class="d-flex align-items-end">
-                <p style="text-decoration: line-through;">&#8377;7500</p>
-                <p class="ms-2">&#8377;5000</p>
-              </div>
-            </div>
-          </form>
         </div>
 
-        <div class="modal-footer">
+        <div class="modal-footer justify-content-center">
           <nav aria-label="">
-            <ul class="pagination pagination-sm justify-content-start">
+            <ul class="pagination pagination justify-content-start">
               <li class="page-item active" aria-current="page">
                 <span class="page-link">1</span>
               </li>
@@ -187,7 +199,8 @@
             <p class="m-1">Select Processor</p>
             <span class="d-flex justify-content-between">
               <i class="m-2 fa-solid fa-microchip align-left"></i>
-              <i style="padding:7px; background:red;color:#fff; cursor:pointer" class="m-2 fa-solid fa-plus align-right" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+              <i style="padding:7px; background:#f47625;color:#fff; cursor:pointer" class="m-2 fa-solid fa-plus align-right"
+                data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
 
             </span>
           </div>
@@ -195,7 +208,8 @@
             <p class="m-1">Select Motherboard</p>
             <span class="d-flex justify-content-between">
               <i class="m-2 fa-solid fa-microchip align-left"></i>
-              <i style="padding:7px; background:red;color:#fff; cursor:pointer" class="m-2 fa-solid fa-plus align-right" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+              <i style="padding:7px; background:#f47625;color:#fff; cursor:pointer" class="m-2 fa-solid fa-plus align-right"
+                data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
 
             </span>
           </div>
@@ -417,7 +431,8 @@
 
   <!-- Advance Section - Start
         ================================================== -->
-  <div class="advance_search_section advance_search_2 section_space decoration_wrap parallaxie" style="background-image: url(resources/frontend/images/bg_4.avif);">
+  <div class="advance_search_section advance_search_2 section_space decoration_wrap parallaxie"
+    style="background-image: url(resources/frontend/images/bg_4.avif);">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col col-lg-8">
@@ -1190,7 +1205,8 @@
 
   <!-- Counter Section - Start
         ================================================== -->
-  <section class="counter_section_2 section_space decoration_wrap" data-bg-color="#000323" style="background-image: url('resources/frontend/images/pattern_2.png');">
+  <section class="counter_section_2 section_space decoration_wrap" data-bg-color="#000323"
+    style="background-image: url('resources/frontend/images/pattern_2.png');">
     <div class="overlay" data-bg-color="#000323"></div>
     <div class="container">
       <div class="counter_items_wrap">
@@ -1430,7 +1446,7 @@
         </div>
       </section> -->
 
-  <?php include_once('imports/keywords.php') ?>
+  <?php include_once ('imports/keywords.php') ?>
   <!-- Advertisement Section - End
         ================================================== -->
 
@@ -1440,4 +1456,4 @@
 
   <!-- Footer Section - Start
       ================================================== -->
-  <?php include_once('imports/footer.php') ?>
+  <?php include_once ('imports/footer.php') ?>

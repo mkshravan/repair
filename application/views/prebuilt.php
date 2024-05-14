@@ -80,7 +80,7 @@
         <div class="col col-lg-10 col-md-10">
           <div class="banner_content">
             <h1 class="first_text">
-              Craft Your Dream Machine: Custom PC Build Service for Ultimate Performance in Ranchi
+            Discover the Best Pre Built PC Options in Ranchi
             </h1>
             <!-- <span class="cart_btn" style="padding: 7px;color: #ffffff; background: #DB4437; border-radius: 10px; font-weight: normal; font-size: 15px">submit your query</span> -->
 
@@ -96,37 +96,47 @@
   <div class="policy_section">
     <div class="container">
       <p class="text-dark mt-5">
-        Unlock unparalleled convenience and expertise with the Best Laptop Service Center in Ranchi, where
-        cutting-edge solutions meet affordability. Our commitment extends to being the Best Computer Repairing
-        Center in Ranchi, ensuring your devices receive top-notch care without breaking the bank. Experience
-        the epitome of reliability at our center, renowned as the Best Printer Service Center in Ranchi, where
-        quality meets affordability seamlessly. What sets us apart is our dedication to providing hassle-free
-        home services at an affordable cost, bringing expert technicians right to your doorstep. Embrace a new
-        era of technology support that prioritizes both excellence and your budget. Trust us to deliver not
-        just repairs, but a seamless experience that reflects our commitment to unmatched service without
-        compromising affordability. Your devices, your convenience, our expertise – experience it all at the
-        forefront of technology care in Ranchi.
+      Looking for the best pre-built PC options in Ranchi? Look no further! Our range of pre-built PCs in Ranchi offers top-tier performance, reliability, and affordability, tailored to meet your computing needs. Whether you're a gamer, content creator, or business professional, our pre-built PC solutions in Ranchi deliver cutting-edge technology and unmatched value. With customizable configurations and expert guidance, finding the perfect pre-built PC in Ranchi has never been easier. Explore our selection today and elevate your computing experience with ease and efficiency.
       </p>
+      <p class="text-dark">Searching for pre-built PCs in Ranchi? Look to us for the ultimate in performance and convenience. Our selection of pre-built PCs in Ranchi caters to gamers, professionals, and everyone in between. With customizable options and top-of-the-line components, our pre-built PCs ensure a seamless computing experience. From blazing-fast processors to high-end graphics cards, we have the perfect solution for your needs. Don't settle for less when it comes to your computing power – choose our pre-built PCs in Ranchi for unparalleled performance and reliability.</p>
     </div>
   </div>
 
 
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
   <!-- Policy Section - Start
         ================================================== -->
   <div class="policy_section">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col col-md-3">
+        <div class="col col-md-3" data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor: pointer;">         
           <div class="card text-center" style="">
-            <img src="https://www.pcstudio.in/wp-content/uploads/2024/04/Intel-RNUC13ANKI70000-Nuc-13-Pro-i7-Barebone-Kit-1.jpg" class="card-img-top" alt="...">
+            <img src="https://www.pcstudio.in/wp-content/uploads/2024/04/Intel-RNUC13ANKI70000-Nuc-13-Pro-i7-Barebone-Kit-1.jpg" class="card-img-top" alt="">
             <div class="card-body">
               <h6 class="card-title">Intel RNUC13ANKI70000 Nuc 13 Pro I7 Barebone Kit (RNUC13ANKI70000)</h6>
               <div class="d-flex justify-content-center">
                 <p style="text-decoration: line-through;">&#8377;7500</p>
                 <p class="ms-2">&#8377;5000</p>
               </div>
-              <a href="#" class="btn btn-primary" style="padding:5px">Buy Now</a>
+              <a href="buy-now" class="btn btn-primary" style="padding:5px">Buy Now</a>
             </div>
           </div>
         </div>
