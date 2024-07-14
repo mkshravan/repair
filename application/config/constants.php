@@ -90,3 +90,11 @@ define('RECORDS_PER_PAGE', 5);
 defined('ADMIN')        OR define('ADMIN', 1);
 defined('USER')        OR define('USER', 2);
 
+// Test Credentias
+define('RAZOR_KEY','rzp_test_dCwp3m6X1eBeet');
+define('RAZOR_SECRET_KEY','O7iQgs5pl6uuivZ6MEUriHr8');
+
+// Live Credentias
+// define('RAZOR_KEY','rzp_live_xzautxs5aMSQGR');
+// define('RAZOR_SECRET_KEY','uC6CyRVdOJUhRz7t7j6MSHa1');
+

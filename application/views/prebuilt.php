@@ -60,12 +60,12 @@
   <meta name="distribution" content="global" />
   <meta name="Rating" content="General" />
   <meta name="expires" content="never" />
-  <link rel="canonical" href="https://www.PCFIXPRO.n/" title="PC FIX PRO | Computer, Laptop, Printer on Rent in Ranchi" />
+  <link rel="canonical" href="https://www.pcfixpro.in/" title="PC FIX PRO | Computer, Laptop, Printer on Rent in Ranchi" />
 
 
 
   <!-- <title> PC FIX PRO - Best Computer Repair in Ranchi, Laptop Repair in Ranchi, Printer Repair in Ranchi</title> -->
-  <title>PCFIXPRO: Custom PC Build in Ranchi | Craft Your Dream Machine: Custom PC Build Service for Ultimate Performance | PC Build Near Me</title>
+  <title>Top Pre-Built PC in Ranchi: Your Guide to the Best Ready-to-Use Computers | Pre Built PC Near Me</title>
 
   <?php include_once('imports/header.php') ?>
 
@@ -103,6 +103,35 @@
   </div>
 
 
+<!-- Payment -->
+<?php
+$callback_url       = base_url().'Razorpay/callback';
+$surl               = base_url().'Razorpay/success';
+$furl               = base_url().'Razorpay/failed';
+$description        = "Product Description";
+$txnid              = date("YmdHis");     
+$key_id             = "rzp_live_xzautxs5aMSQGR";
+$currency_code      = "INR";            
+$total              = (2* 100); // 100 = 1 indian rupees
+$amount             = 1;
+$merchant_order_id  = "ABC-".date("YmdHis");
+$card_holder_name   = '';
+$email              = '';
+$phone              = '';
+$name               = "PCFIXPRO";
+?>
+
+    <form name="razorpay-form" id="razorpay-form" action="<?php echo $callback_url; ?>" method="POST">
+        <input type="hidden" name="razorpay_payment_id" id="razorpay_payment_id" />
+        <input type="hidden" name="merchant_order_id" id="merchant_order_id" value="<?php echo $merchant_order_id; ?>"/>
+        <input type="hidden" name="merchant_trans_id" id="merchant_trans_id" value="<?php echo $txnid; ?>"/>
+        <input type="hidden" name="merchant_product_info_id" id="merchant_product_info_id" value="<?php echo $description; ?>"/>
+        <input type="hidden" name="merchant_surl_id" id="merchant_surl_id" value="<?php echo $surl; ?>"/>
+        <input type="hidden" name="merchant_furl_id" id="merchant_furl_id" value="<?php echo $furl; ?>"/>
+        <input type="hidden" name="card_holder_name_id" id="card_holder_name_id" value="<?php echo $card_holder_name; ?>"/>
+        <input type="hidden" name="merchant_total" id="merchant_total" value="<?php echo $total; ?>"/>
+        <input type="hidden" name="merchant_amount" id="merchant_amount" value="<?php echo $amount; ?>"/>
+    </form>
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -116,8 +145,8 @@
         ...
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary p-2" data-bs-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary p-2" onclick="razorpaySubmit(this);">Buy Now</button>
       </div>
     </div>
   </div>
@@ -127,17 +156,38 @@
   <div class="policy_section">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col col-md-3" data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor: pointer;">         
+
+    <?php
+      foreach ($results as $result) { ?>
+    
+        <div class="col col-md-3">         
           <div class="card text-center" style="">
-            <img src="https://www.pcstudio.in/wp-content/uploads/2024/04/Intel-RNUC13ANKI70000-Nuc-13-Pro-i7-Barebone-Kit-1.jpg" class="card-img-top" alt="">
-            <div class="card-body">
-              <h6 class="card-title">Intel RNUC13ANKI70000 Nuc 13 Pro I7 Barebone Kit (RNUC13ANKI70000)</h6>
+            <div class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor: pointer;">
+              <img src="https://www.pcstudio.in/wp-content/uploads/2024/04/Intel-RNUC13ANKI70000-Nuc-13-Pro-i7-Barebone-Kit-1.jpg" class="card-img-top" alt="">
+              <h6 class="card-title"> <?= $result["name"]; ?> </h6>
+              <div class="d-flex justify-content-center">
+                <p style="text-decoration: line-through;">&#8377;7500</p>
+                <p class="ms-2">&#8377; <?= $result["amount"]; ?> </p>
+              </div>
+            </div>
+            <a href="<?= site_url("payment/pay/"). $result["id"] ?>" class="btn btn-primary p-2">Buy Now</a>
+            <!-- <button type="submit" class="btn btn-primary p-2" onclick="razorpaySubmit(this);">Buy Now</button> -->
+          </div>
+        </div>
+<?php } ?>
+        
+        <div class="col col-md-3">         
+          <div class="card text-center" style="">
+            <div class="card-body" data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor: pointer;">
+              <img src="https://www.pcstudio.in/wp-content/uploads/2024/04/Intel-RNUC13ANKI70000-Nuc-13-Pro-i7-Barebone-Kit-1.jpg" class="card-img-top" alt="">
+              <h6 class="card-title">Server PC</h6>
               <div class="d-flex justify-content-center">
                 <p style="text-decoration: line-through;">&#8377;7500</p>
                 <p class="ms-2">&#8377;5000</p>
               </div>
-              <a href="buy-now" class="btn btn-primary" style="padding:5px">Buy Now</a>
+              <!-- <a href="buy-now" class="btn btn-primary" style="padding:5px">Buy Now</a> -->
             </div>
+            <button type="submit" class="btn btn-primary p-2" onclick="razorpaySubmit(this);">Buy Now</button>
           </div>
         </div>
       </div>
@@ -228,28 +278,16 @@
           </div>
         </div>
       </div>
-      <p>We, at PCFIXPRO, have been exclusively dedicated to laptop repairing since our inception, establishing
-        a stellar reputation for providing top-notch laptop repair services to our clients. Whether you're dealing
-        with a sluggish laptop or a sudden breakdown, our laptop repair at home service is here to cater to your
-        needs. Our onboard team of experts boasts several years of experience in repairing laptops, making them
-        proficient in handling issues for all laptop brands.
+      <p>If you're searching for top-notch pre-built PCs in Ranchi, PCFIXPRO is your ultimate destination. At PCFIXPRO, we specialize in providing high-performance pre-built PCs tailored to meet the diverse needs of our customers. Whether you're a gaming enthusiast, a professional seeking robust computing power, or a casual user in need of a reliable system, we have the perfect solution for you. Our pre-built PCs are meticulously assembled using premium components, ensuring optimal performance and longevity. With a strong focus on customer satisfaction, PCFIXPRO offers unparalleled after-sales support and warranty services, giving you peace of mind with every purchase. Located conveniently in Ranchi, we invite you to visit our store and experience the best in pre-built PCs. Choose PCFIXPRO for unmatched quality, service, and value in the realm of pre-built PCs in Ranchi.</p>
+      <p>
+      At PCFIXPRO, we understand that every user has unique requirements when it comes to their computing needs. That’s why we offer a wide range of pre-built PCs, each designed to cater to specific purposes. For gamers, our gaming rigs feature the latest NVIDIA and AMD graphics cards, powerful processors like Intel i7 and AMD Ryzen 7, and high-speed SSD storage to ensure you get the ultimate gaming experience with no lag and stunning visuals. Professionals will appreciate our workstations, equipped with high-performance CPUs, ample RAM, and reliable storage solutions, perfect for handling demanding software and multitasking with ease. <br>
 
-        In many cases, individuals either lack the time or neglect laptop maintenance, leading to slowdowns and
-        frequent technical problems. Instead of investing a substantial amount in a replacement, we recommend opting
-        for our laptop repair at home service, backed by a three-month warranty. Even if you consider yourself a
-        tech-savvy user, having technical laptop repair experts is crucial to enhancing performance and extending
-        the lifespan of your device.
+Our team at PCFIXPRO is composed of tech enthusiasts and experts who are always ready to assist you in finding the perfect pre-built PC that matches your needs and budget. We take pride in our customer-centric approach, providing personalized recommendations and detailed product explanations to ensure you make an informed decision. Moreover, our pre-built PCs come with comprehensive warranties and dedicated after-sales support, so you can trust that we’ll be there for you long after your purchase. <br>
 
-        A notable advantage of our laptop repair service at home is the 24/7 accessibility we offer. For busy
-        professionals with limited time for secondary activities, our 'laptop repair near me' service is available
-        round the clock. In terms of repair costs, we follow a policy of not charging until the laptop is properly
-        repaired, with only a reasonable home visit fee.
+In addition to our impressive selection of pre-built PCs, PCFIXPRO also offers customization options for those who have specific requirements. Whether you need additional storage, more RAM, or a specific type of GPU, our experts can modify and upgrade your pre-built PC to meet your exact specifications. This flexibility ensures that you get a system tailored precisely to your needs without the hassle of building a PC from scratch. <br>
 
-        Upon contacting us, our representatives will record your query, along with your name and address.
-        Subsequently, they will confirm a convenient time for our laptop experts to visit and address your issue.
-        Our laptop experts are flexible and can accommodate visits at any time of the day. Once a suitable time is
-        confirmed, we will dispatch the laptop expert nearest to your location. Prior to the visit, our experts will
-        give you a call to confirm your address and ensure a seamless repair experience.</p>
+Conveniently located in the heart of Ranchi, PCFIXPRO is easily accessible and offers a welcoming environment where you can explore our products firsthand. We invite you to visit our store, experience our exceptional service, and see why so many in Ranchi trust PCFIXPRO for their computing needs. Our commitment to quality, customer satisfaction, and competitive pricing sets us apart as the leading provider of pre-built PCs in Ranchi. Whether you’re upgrading your current system or investing in a new one, make PCFIXPRO your first choice for reliable and high-performance pre-built PCs.
+      </p>
     </div>
   </div>
   <!-- About Section - End
@@ -1375,4 +1413,54 @@
 
   <!-- Footer Section - Start
       ================================================== -->
+  <!-- Payment -->
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script>
+        var options = {
+            key:            "<?php echo $key_id; ?>",
+            amount:         "<?php echo $total; ?>",
+            name:           "<?php echo $name; ?>",
+            description:    "Order # <?php echo $merchant_order_id; ?>",
+            netbanking:     true,
+            currency:       "<?php echo $currency_code; ?>", // INR
+            prefill: {
+                name:       "<?php echo $card_holder_name; ?>",
+                email:      "<?php echo $email; ?>",
+                contact:    "<?php echo $phone; ?>"
+            },
+            notes: {
+                soolegal_order_id: "<?php echo $merchant_order_id; ?>",
+            },
+            handler: function (transaction) {
+                document.getElementById('razorpay_payment_id').value = transaction.razorpay_payment_id;
+                document.getElementById('razorpay-form').submit();
+            },
+            "modal": {
+                "ondismiss": function(){
+                    location.reload()
+                }
+            }
+        };
+
+        var razorpay_pay_btn, instance;
+        function razorpaySubmit(el) {
+            if(typeof Razorpay == 'undefined') {
+                setTimeout(razorpaySubmit, 200);
+                if(!razorpay_pay_btn && el) {
+                    razorpay_pay_btn    = el;
+                    el.disabled         = true;
+                    el.value            = 'Please wait...';  
+                }
+            } else {
+                if(!instance) {
+                    instance = new Razorpay(options);
+                    if(razorpay_pay_btn) {
+                    razorpay_pay_btn.disabled   = false;
+                    razorpay_pay_btn.value      = "Pay Now";
+                    }
+                }
+                instance.open();
+            }
+        }  
+    </script>
   <?php include_once('imports/footer.php') ?>

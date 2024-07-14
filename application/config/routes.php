@@ -3,6 +3,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 $route['default_controller'] = 'index';
 
+$route['payment'] = 'Payment';
+$route['payment-success'] = 'PaymentSuccess';
+$route['payment-failed'] = 'PaymentFailed';
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 

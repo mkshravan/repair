@@ -68,13 +68,13 @@
   <meta name="distribution" content="global" />
   <meta name="Rating" content="General" />
   <meta name="expires" content="never" />
-  <link rel="canonical" href="https://www.PCFIXPRO.n/"
+  <link rel="canonical" href="https://www.pcfixpro.in/"
     title="PC FIX PRO | Computer, Laptop, Printer repar servce n Ranchi" />
 
 
 
   <!-- <title> PC FIX PRO - Best Computer Repair in Ranchi, Laptop Repair in Ranchi, Printer Repair in Ranchi</title> -->
-  <title>PCFIXPRO: Best Computer, Laptop, and Printer Repair Service in Ranchi</title>
+  <title>Best Computer, Laptop, and Printer Repair Service in Ranchi</title>
 
   <?php  include_once('imports/header.php') ?>
 
@@ -90,7 +90,7 @@
             <div class="col col-lg-10 col-md-10 mt-2">
               <div class="banner_content">
                 <h1 class="first_text">
-                  Best Laptop Service Center in Ranchi
+                  Best Laptop Service Center in Ranchi 
                 </h1>
                 <h1 class="first_text">
                  Computer Repairing Center in Ranchi

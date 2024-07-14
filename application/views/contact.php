@@ -11,17 +11,17 @@
   
   <meta name="keywords" content="Computer repair in Ranchi, Laptop repair in Ranchi, Printer repair in Ranchi " />
   <meta name="description"
-    content="Discover reliable computer, laptop, and printer repair services in Ranchi. Our expert technicians in Ranchi specialize in diagnosing and fixing a wide range of hardware and software issues. Fast and efficient solutions for your technology woes – choose us for top-notch computer, laptop, and printer repair services in Ranchi!" />
+    content="Contact Us - Discover reliable computer, laptop, and printer repair services in Ranchi. Our expert technicians in Ranchi specialize in diagnosing and fixing a wide range of hardware and software issues. Fast and efficient solutions for your technology woes – choose us for top-notch computer, laptop, and printer repair services in Ranchi!" />
   <meta name="fragment"
-    content="Quality computer, laptop, and printer repair services in Ranchi. Our skilled technicians offer reliable solutions for hardware and software issues. Choose us for fast and efficient repairs in Ranchi – your trusted partner for technology troubleshooting!" />
+    content="Contact Us - Quality computer, laptop, and printer repair services in Ranchi. Our skilled technicians offer reliable solutions for hardware and software issues. Choose us for fast and efficient repairs in Ranchi – your trusted partner for technology troubleshooting!" />
   <meta name="summary"
-    content="Get expert computer, laptop, and printer repair services in Ranchi. Our skilled technicians provide reliable solutions for a variety of issues, ensuring fast and efficient repairs. Trust us for professional technology troubleshooting and top-notch service in Ranchi." />
+    content="Contact Us - Get expert computer, laptop, and printer repair services in Ranchi. Our skilled technicians provide reliable solutions for a variety of issues, ensuring fast and efficient repairs. Trust us for professional technology troubleshooting and top-notch service in Ranchi." />
 
   <!--<meta property="og:type" content="article"/> -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="PCFIXPRO Ranchi - Your Trusted Source for Computer, Laptop, and Printer Repairs" />
   <meta property="og:description"
-    content="Discover reliable computer, laptop, and printer repair services in Ranchi. Our expert technicians in Ranchi specialize in diagnosing and fixing a wide range of hardware and software issues. Fast and efficient solutions for your technology woes – choose us for top-notch computer, laptop, and printer repair services in Ranchi!" />
+    content="Contact Us - Discover reliable computer, laptop, and printer repair services in Ranchi. Our expert technicians in Ranchi specialize in diagnosing and fixing a wide range of hardware and software issues. Fast and efficient solutions for your technology woes – choose us for top-notch computer, laptop, and printer repair services in Ranchi!" />
   <meta property="og:url" content="https://www.PCFIXPRO.in/" />
   <meta property="og:site_name"
     content="PCFIXPRO Ranchi - Your Trusted Source for Computer, Laptop, and Printer Repairs" />
@@ -34,7 +34,7 @@
   <meta property="og:image:alt" content="computer, laptop, printer repair in Ranch" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:description"
-    content="Experience top-notch computer, laptop, and printer repair services in Ranchi. Our skilled technicians provide efficient solutions for hardware and software issues. Your go-to destination for reliable and fast technology troubleshooting. #RanchiTechRepair #ComputerService #LaptopFix" />
+    content="Contact Us - Experience top-notch computer, laptop, and printer repair services in Ranchi. Our skilled technicians provide efficient solutions for hardware and software issues. Your go-to destination for reliable and fast technology troubleshooting. #RanchiTechRepair #ComputerService #LaptopFix" />
   <meta name="twitter:title"
     content="PCFIXPRO Ranchi: Expert Computer, Laptop, and Printer Repair Services for Seamless Tech Solutions in Ranchi." />
   <meta name="twitter:site" content="@pcfxproinda" />
@@ -51,7 +51,7 @@
   <meta name="page-topic" content="PC FIX PRO | Computer, Laptop, Printer repar servce n Ranchi" />
   <meta name="copyright" content="PC FIX PRO" />
   <meta name="abstract"
-    content="Experience unparalleled computer, laptop, and printer repair services in Ranchi. Our skilled technicians provide swift and effective solutions for a spectrum of hardware and software issues. Trust us for reliable and professional technology repairs tailored to meet your needs in Ranchi." />
+    content="Contact Us - Experience unparalleled computer, laptop, and printer repair services in Ranchi. Our skilled technicians provide swift and effective solutions for a spectrum of hardware and software issues. Trust us for reliable and professional technology repairs tailored to meet your needs in Ranchi." />
   <meta name="p:domain_verify" content="" />
   <meta name="author" content="PC FIX PRO">
   <meta name="msvalidate.01" content="" />
@@ -68,7 +68,7 @@
   <meta name="distribution" content="global" />
   <meta name="Rating" content="General" />
   <meta name="expires" content="never" />
-  <link rel="canonical" href="https://www.PCFIXPRO.n/"
+  <link rel="canonical" href="https://www.pcfixpro.in/"
     title="PC FIX PRO | Computer, Laptop, Printer repar servce n Ranchi" />
 
 

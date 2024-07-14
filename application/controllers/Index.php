@@ -8,11 +8,13 @@ class Index extends CI_Controller{
     function __construct()
     {
         parent::__construct();
+        $this->config->load('razorpay_config');
 
     }
 
     function index()
     {
+        // echo $this->config->item('api_secret', 'razorpay_config');
         $this->load->view('index');
         
     }
@@ -38,7 +40,9 @@ class Index extends CI_Controller{
         $this->load->view('pcbuild');
     }
     function prebuilt(){
-        $this->load->view('prebuilt');
+        $this->load->model('Prebuilt_model');
+        $data['results']=$this->Prebuilt_model->get_all_pcs();
+        $this->load->view('prebuilt', $data);
     }
 
     
